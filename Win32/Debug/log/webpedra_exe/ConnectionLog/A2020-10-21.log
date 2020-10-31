@@ -1,0 +1,3 @@
+WebPedra.exe: 00006434: 08:35:17 [127.0.0.1]:Failed Sequence Recovery: SeqId: 22, Event: click
+WebPedra.exe: 00006434: 08:35:24 [127.0.0.1]:Sequence sent from cache:  SeqId: 22
+WebPedra.exe: 00006434: 08:35:24 [127.0.0.1]:Processed: Id: 22, Evt: click, [EvFAehi2tk10701F3AA]

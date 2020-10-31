@@ -1,0 +1,4 @@
+WebPedra.exe: 00006680: 14:16:36 [127.0.0.1]:Sequence Error Timeout : TDiff:10031, Event: maximize, Expected: 3, Received: 6, [iMc4INw7zb106FF4332]
+WebPedra.exe: 00006680: 14:16:36 [127.0.0.1]:Failed Sequence Reset to: 3
+WebPedra.exe: 0000613C: 14:16:36 [127.0.0.1]:Sequence Error Timeout : TDiff:10031, Event: resize, Expected: 3, Received: 4, [iMc4INw7zb106FF4332]
+WebPedra.exe: 00001030: 14:16:36 [127.0.0.1]:Sequence Error Timeout : TDiff:10031, Event: move, Expected: 3, Received: 5, [iMc4INw7zb106FF4332]

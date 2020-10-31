@@ -1,0 +1,82 @@
+Estoque_TI.exe: 00001428: 09:23:41 []:>--------------------------------------------------------------<
+Estoque_TI.exe: 00001428: 09:23:41 [TUniServerModule]:Server First Init.
+Estoque_TI.exe: 00001428: 09:23:41 [TUniServerModule]:Global Cache Folder Erased. <70> Files deleted.
+Estoque_TI.exe: 00001428: 09:23:41 [TUniServerModule]:Starting HTTP Server on Port: 8050...
+Estoque_TI.exe: 00001428: 09:23:41 [TUniServerModule]:HTTP Server Started on Port: 8050
+Estoque_TI.exe: 0000599C: 09:24:02 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 00002010: 09:24:02 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 000010EC: 09:25:16 []:>--------------------------------------------------------------<
+Estoque_TI.exe: 000010EC: 09:25:16 [TUniServerModule]:Server First Init.
+Estoque_TI.exe: 000010EC: 09:25:16 [TUniServerModule]:Global Cache Folder Erased. <16> Files deleted.
+Estoque_TI.exe: 000010EC: 09:25:16 [TUniServerModule]:Starting HTTP Server on Port: 8070...
+Estoque_TI.exe: 000010EC: 09:25:16 [TUniServerModule]:HTTP Server Started on Port: 8070
+Estoque_TI.exe: 00006B98: 09:25:23 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 00005B50: 09:25:23 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 0000387C: 09:25:47 [Pooler not found-127.0.0.1]:Exception : Pooler not found : Addr: $00BBA5D6
+Estoque_TI.exe: 000048C8: 09:27:26 []:>--------------------------------------------------------------<
+Estoque_TI.exe: 000048C8: 09:27:26 [TUniServerModule]:Server First Init.
+Estoque_TI.exe: 000048C8: 09:27:26 [TUniServerModule]:Global Cache Folder Erased. <35> Files deleted.
+Estoque_TI.exe: 000048C8: 09:27:26 [TUniServerModule]:Starting HTTP Server on Port: 8070...
+Estoque_TI.exe: 000048C8: 09:27:26 [TUniServerModule]:HTTP Server Started on Port: 8070
+Estoque_TI.exe: 00000F34: 09:27:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: MWYErfX8Zf106FEF43F ) : Addr: $0080C66A
+Estoque_TI.exe: 00006FF0: 09:27:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2020\WebPedra\Win32\Debug\cache\estoque_ti_exe\res\__377DA7BA83A8B696BB26540F.png
+Estoque_TI.exe: 00000F34: 09:27:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2020\WebPedra\Win32\Debug\cache\estoque_ti_exe\res\__B176963BE18EA589930533A3.png
+Estoque_TI.exe: 0000375C: 09:27:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: MWYErfX8Zf106FEF43F ) : Addr: $0080C66A
+Estoque_TI.exe: 00002E98: 09:27:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: MWYErfX8Zf106FEF43F ) : Addr: $0080C66A
+Estoque_TI.exe: 00002618: 09:27:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: MWYErfX8Zf106FEF43F ) : Addr: $0080C66A
+Estoque_TI.exe: 00006DF4: 09:27:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2020\WebPedra\Win32\Debug\cache\estoque_ti_exe\res\__63B080C285DCE118E98D53F5.png
+Estoque_TI.exe: 00002E98: 09:27:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2020\WebPedra\Win32\Debug\cache\estoque_ti_exe\res\__17B3F33D151B57F62CCF3E2D.png
+Estoque_TI.exe: 0000375C: 09:27:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2020\WebPedra\Win32\Debug\cache\estoque_ti_exe\res\__453D57B97251D77AB78F23F1.png
+Estoque_TI.exe: 00002618: 09:27:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2020\WebPedra\Win32\Debug\cache\estoque_ti_exe\res\__C54023110DE0CCCFD320E30C.png
+Estoque_TI.exe: 00007264: 09:27:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2020\WebPedra\Win32\Debug\cache\estoque_ti_exe\res\__9D6B72164DCF4B41EB3AB138.png
+Estoque_TI.exe: 00005FB4: 09:27:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: MWYErfX8Zf106FEF43F ) : Addr: $0080C66A
+Estoque_TI.exe: 00001D88: 09:27:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2020\WebPedra\Win32\Debug\cache\estoque_ti_exe\res\__FD3EE3324C3E355B497D0DB6.png
+Estoque_TI.exe: 000059B8: 09:27:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2020\WebPedra\Win32\Debug\cache\estoque_ti_exe\res\__42514CD6C2AD61A404FEA406.png
+Estoque_TI.exe: 00002DF4: 09:27:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2020\WebPedra\Win32\Debug\cache\estoque_ti_exe\res\__E52FCDA7287642EE0DA60524.png
+Estoque_TI.exe: 00005200: 09:27:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: MWYErfX8Zf106FEF43F ) : Addr: $0080C66A
+Estoque_TI.exe: 00005FB4: 09:27:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2020\WebPedra\Win32\Debug\cache\estoque_ti_exe\res\__E08D543D00246E30E0B8E120.jpg
+Estoque_TI.exe: 00005200: 09:27:34 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 00001A90: 09:27:35 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 00006494: 09:28:13 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 00003064: 09:28:28 [Pooler not found-127.0.0.1]:Exception : Pooler not found : Addr: $00BBA5D6
+Estoque_TI.exe: 000026B8: 09:29:02 []:>--------------------------------------------------------------<
+Estoque_TI.exe: 000026B8: 09:29:02 [TUniServerModule]:Server First Init.
+Estoque_TI.exe: 000026B8: 09:29:02 [TUniServerModule]:Global Cache Folder Erased. <16> Files deleted.
+Estoque_TI.exe: 000026B8: 09:29:02 [TUniServerModule]:Starting HTTP Server on Port: 8070...
+Estoque_TI.exe: 000026B8: 09:29:02 [TUniServerModule]:HTTP Server Started on Port: 8070
+Estoque_TI.exe: 00004E40: 09:29:14 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 00006398: 09:29:14 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 00003A1C: 09:29:59 []:>--------------------------------------------------------------<
+Estoque_TI.exe: 00003A1C: 09:29:59 [TUniServerModule]:Server First Init.
+Estoque_TI.exe: 00003A1C: 09:29:59 [TUniServerModule]:Global Cache Folder Erased. <42> Files deleted.
+Estoque_TI.exe: 00003A1C: 09:29:59 [TUniServerModule]:Starting HTTP Server on Port: 8070...
+Estoque_TI.exe: 00003A1C: 09:29:59 [TUniServerModule]:HTTP Server Started on Port: 8070
+Estoque_TI.exe: 00006F38: 09:30:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: qzVVWxBTbQ106FEF54B ) : Addr: $0080C66A
+Estoque_TI.exe: 0000671C: 09:30:01 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 000008A0: 09:30:01 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 00001920: 09:30:25 []:>--------------------------------------------------------------<
+Estoque_TI.exe: 00001920: 09:30:25 [TUniServerModule]:Server First Init.
+Estoque_TI.exe: 00001920: 09:30:25 [TUniServerModule]:Global Cache Folder Erased. <12> Files deleted.
+Estoque_TI.exe: 00001920: 09:30:25 [TUniServerModule]:Starting HTTP Server on Port: 8070...
+Estoque_TI.exe: 00001920: 09:30:25 [TUniServerModule]:HTTP Server Started on Port: 8070
+Estoque_TI.exe: 00000914: 09:30:25 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: GnzmVQqjsj106FEF580 ) : Addr: $0080C66A
+Estoque_TI.exe: 000060B8: 09:30:25 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 00004490: 09:31:07 []:>--------------------------------------------------------------<
+Estoque_TI.exe: 00004490: 09:31:07 [TUniServerModule]:Server First Init.
+Estoque_TI.exe: 00004490: 09:31:07 [TUniServerModule]:Global Cache Folder Erased. <12> Files deleted.
+Estoque_TI.exe: 00004490: 09:31:07 [TUniServerModule]:Starting HTTP Server on Port: 8070...
+Estoque_TI.exe: 00004490: 09:31:07 [TUniServerModule]:HTTP Server Started on Port: 8070
+Estoque_TI.exe: 00007278: 09:31:09 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: vZLHZucSfI106FEF59D ) : Addr: $0080C66A
+Estoque_TI.exe: 00007078: 09:31:09 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 0000676C: 09:31:09 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-7.0.0\build\classic\locale\locale-.js
+Estoque_TI.exe: 00004490: 09:31:45 [TUniServerModule]:Shutting Down Server.
+Estoque_TI.exe: 00004490: 09:31:45 [TUniServerModule]:Stopping HTTP Server.
+Estoque_TI.exe: 00004490: 09:31:46 [TUniServerModule]:HTTP Server Stopped.
+Estoque_TI.exe: 00004490: 09:31:46 [TUniGUISessionManager]:Terminating Session manager.
+Estoque_TI.exe: 00004490: 09:31:46 [TUniGUISessionManager]:Stopping Cache Eraser...
+Estoque_TI.exe: 00004490: 09:31:46 [TUniGUISessionManager]:Cache Eraser Stopped.
+Estoque_TI.exe: 00004490: 09:31:46 [TUniGUISessionManager]:Destroying Worker Threads.
+Estoque_TI.exe: 00004490: 09:31:46 [TUniGUISessionManager]:Session manager terminated.
+Estoque_TI.exe: 00004490: 09:31:46 [TUniServerModule]:Server Shutdown Completed.
+Estoque_TI.exe: 00004490: 09:31:46 []:<-------------------------------------------------------------->
+Estoque_TI.exe: 00004490: 09:31:46 [Terminated]:Exit Code: 0

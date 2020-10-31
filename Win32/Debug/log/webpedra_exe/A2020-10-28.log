@@ -1,0 +1,268 @@
+WebPedra.exe: 00001988: 00:06:12 []:>--------------------------------------------------------------<
+WebPedra.exe: 00001988: 00:06:12 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00001988: 00:06:12 [TUniServerModule]:Starting HTTP Server on Port: 8070...
+WebPedra.exe: 00001988: 00:06:12 [TUniServerModule]:HTTP Server Started on Port: 8070
+WebPedra.exe: 00001AC4: 00:07:59 []:>--------------------------------------------------------------<
+WebPedra.exe: 00001AC4: 00:07:59 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00001AC4: 00:07:59 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+WebPedra.exe: 00001AC4: 00:07:59 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00001AC4: 00:07:59 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 000017A4: 00:08:34 []:>--------------------------------------------------------------<
+WebPedra.exe: 000017A4: 00:08:34 [TUniServerModule]:Server First Init.
+WebPedra.exe: 000017A4: 00:08:34 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+WebPedra.exe: 000017A4: 00:08:34 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 000017A4: 00:08:34 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00000368: 00:10:15 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 00002190: 00:10:16 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 00001E1C: 00:11:26 []:>--------------------------------------------------------------<
+WebPedra.exe: 00001E1C: 00:11:26 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00001E1C: 00:11:26 [TUniServerModule]:Global Cache Folder Erased. <148> Files deleted.
+WebPedra.exe: 00001E1C: 00:11:26 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00001E1C: 00:11:26 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 000029BC: 00:11:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: dFxVnqdvLl1070C1947 ) : Addr: $0080BE2A
+WebPedra.exe: 000029BC: 00:11:36 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000029BC: 00:11:37 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000024A8: 00:12:34 []:>--------------------------------------------------------------<
+WebPedra.exe: 000024A8: 00:12:34 [TUniServerModule]:Server First Init.
+WebPedra.exe: 000024A8: 00:12:35 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+WebPedra.exe: 000024A8: 00:12:35 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 000024A8: 00:12:35 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 0000223C: 00:12:36 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: pc6CeNPvWP1070C19A6 ) : Addr: $0080BE2A
+WebPedra.exe: 000005E4: 00:12:36 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000005E4: 00:12:37 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000005E4: 00:12:58 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000005E4: 00:12:58 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000008DC: 00:14:39 []:>--------------------------------------------------------------<
+WebPedra.exe: 000008DC: 00:14:39 [TUniServerModule]:Server First Init.
+WebPedra.exe: 000008DC: 00:14:39 [TUniServerModule]:Global Cache Folder Erased. <153> Files deleted.
+WebPedra.exe: 000008DC: 00:14:39 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 000008DC: 00:14:39 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00002ADC: 00:14:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 7D7sKePqH71070C1A05 ) : Addr: $0080BE2A
+WebPedra.exe: 000011EC: 00:14:43 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000011EC: 00:14:43 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 00000F30: 00:16:26 []:>--------------------------------------------------------------<
+WebPedra.exe: 00000F30: 00:16:26 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00000F30: 00:16:26 [TUniServerModule]:Global Cache Folder Erased. <169> Files deleted.
+WebPedra.exe: 00000F30: 00:16:26 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00000F30: 00:16:26 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 000008E4: 00:17:13 []:>--------------------------------------------------------------<
+WebPedra.exe: 000008E4: 00:17:13 [TUniServerModule]:Server First Init.
+WebPedra.exe: 000008E4: 00:17:13 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+WebPedra.exe: 000008E4: 00:17:13 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 000008E4: 00:17:13 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00002A6C: 00:17:30 []:>--------------------------------------------------------------<
+WebPedra.exe: 00002A6C: 00:17:30 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00002A6C: 00:17:30 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+WebPedra.exe: 00002A6C: 00:17:30 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00002A6C: 00:17:30 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00002AF8: 00:17:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: HLpCjZ7Ofc1070C1A7E ) : Addr: $0080BE2A
+WebPedra.exe: 000021E4: 00:17:33 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000021E4: 00:17:34 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 0000232C: 00:20:07 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 0000232C: 00:20:07 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 00001018: 00:29:42 []:>--------------------------------------------------------------<
+WebPedra.exe: 00001018: 00:29:42 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00001018: 00:29:42 [TUniServerModule]:Global Cache Folder Erased. <162> Files deleted.
+WebPedra.exe: 00001018: 00:29:42 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00001018: 00:29:42 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 000024AC: 00:29:47 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: TsZvLTeHZo1070C1BF5 ) : Addr: $0080BE2A
+WebPedra.exe: 000016E8: 00:29:47 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000016E8: 00:29:47 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 00001CC4: 00:32:26 []:>--------------------------------------------------------------<
+WebPedra.exe: 00001CC4: 00:32:26 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00001CC4: 00:32:26 [TUniServerModule]:Global Cache Folder Erased. <164> Files deleted.
+WebPedra.exe: 00001CC4: 00:32:26 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00001CC4: 00:32:26 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 0000197C: 00:32:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: azHeEe1jvj1070C1E94 ) : Addr: $0080BE2A
+WebPedra.exe: 00001C68: 00:32:30 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 00001C68: 00:32:30 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000015A0: 00:54:59 []:>--------------------------------------------------------------<
+WebPedra.exe: 000015A0: 00:54:59 [TUniServerModule]:Server First Init.
+WebPedra.exe: 000015A0: 00:54:59 [TUniServerModule]:Global Cache Folder Erased. <151> Files deleted.
+WebPedra.exe: 000015A0: 00:54:59 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 000015A0: 00:54:59 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 0000184C: 00:55:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: fBcCYF5EXk1070C1F51 ) : Addr: $0080BE2A
+WebPedra.exe: 0000184C: 00:55:06 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 0000184C: 00:55:07 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 00001F98: 00:56:00 []:>--------------------------------------------------------------<
+WebPedra.exe: 00001F98: 00:56:00 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00001F98: 00:56:00 [TUniServerModule]:Global Cache Folder Erased. <147> Files deleted.
+WebPedra.exe: 00001F98: 00:56:00 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00001F98: 00:56:00 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00000C50: 00:56:11 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: lz7kEiT9pa1070C2573 ) : Addr: $0080BE2A
+WebPedra.exe: 00000C50: 00:56:13 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 00000C50: 00:56:13 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000004BC: 00:56:59 []:>--------------------------------------------------------------<
+WebPedra.exe: 000004BC: 00:56:59 [TUniServerModule]:Server First Init.
+WebPedra.exe: 000004BC: 00:56:59 [TUniServerModule]:Global Cache Folder Erased. <147> Files deleted.
+WebPedra.exe: 000004BC: 00:56:59 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 000004BC: 00:56:59 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00000ABC: 00:57:00 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: cTYUuPOLeC1070C25C0 ) : Addr: $0080BE2A
+WebPedra.exe: 000019D8: 00:57:00 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000019D8: 00:57:00 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 00000E0C: 00:58:01 []:>--------------------------------------------------------------<
+WebPedra.exe: 00000E0C: 00:58:01 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00000E0C: 00:58:01 [TUniServerModule]:Global Cache Folder Erased. <147> Files deleted.
+WebPedra.exe: 00000E0C: 00:58:01 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00000E0C: 00:58:01 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 0000290C: 00:58:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: oKxazjufhZ1070C25F6 ) : Addr: $0080BE2A
+WebPedra.exe: 000013D8: 00:58:03 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 000013D8: 00:58:03 [HandleFileRequest[127.0.0.1]]:Access denied: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\login-form.cssxxx.
+WebPedra.exe: 00002090: 01:04:56 []:>--------------------------------------------------------------<
+WebPedra.exe: 00002090: 01:04:56 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00002090: 01:04:56 [TUniServerModule]:Global Cache Folder Erased. <148> Files deleted.
+WebPedra.exe: 00002090: 01:04:56 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00002090: 01:04:56 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00000A68: 01:04:59 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: pbGT7y2tFh1070C263F ) : Addr: $0080BE2A
+WebPedra.exe: 00002284: 01:04:59 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\estyle.css
+WebPedra.exe: 00001E5C: 01:05:00 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\estyle.css
+WebPedra.exe: 00002B54: 01:05:16 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\estyle.css
+WebPedra.exe: 00000D94: 01:05:17 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\estyle.css
+WebPedra.exe: 00002A10: 01:06:44 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\estyle.css
+WebPedra.exe: 00000D98: 01:06:44 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\estyle.css
+WebPedra.exe: 0000175C: 01:07:09 []:>--------------------------------------------------------------<
+WebPedra.exe: 0000175C: 01:07:09 [TUniServerModule]:Server First Init.
+WebPedra.exe: 0000175C: 01:07:09 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+WebPedra.exe: 0000175C: 01:07:09 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 0000175C: 01:07:09 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00000BB0: 01:08:08 []:>--------------------------------------------------------------<
+WebPedra.exe: 00000BB0: 01:08:08 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00000BB0: 01:08:08 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+WebPedra.exe: 00000BB0: 01:08:08 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00000BB0: 01:08:08 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00000FA8: 01:08:10 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: qT9kJSPgRT1070C289A ) : Addr: $0080BE2A
+WebPedra.exe: 0000055C: 01:08:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00001B14: 01:10:53 []:>--------------------------------------------------------------<
+WebPedra.exe: 00001B14: 01:10:53 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00001B14: 01:10:53 [TUniServerModule]:Global Cache Folder Erased. <165> Files deleted.
+WebPedra.exe: 00001B14: 01:10:53 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00001B14: 01:10:53 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00001F34: 01:10:53 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: L9qfRugIz61070C28FE ) : Addr: $0080BE2A
+WebPedra.exe: 00001F34: 01:10:55 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00000C9C: 01:11:29 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 000017A8: 01:12:54 []:>--------------------------------------------------------------<
+WebPedra.exe: 000017A8: 01:12:54 [TUniServerModule]:Server First Init.
+WebPedra.exe: 000017A8: 01:12:54 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+WebPedra.exe: 000017A8: 01:12:54 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 000017A8: 01:12:54 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00000E04: 01:21:07 []:>--------------------------------------------------------------<
+WebPedra.exe: 00000E04: 01:21:07 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00000E04: 01:21:07 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+WebPedra.exe: 00000E04: 01:21:07 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00000E04: 01:21:07 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 0000024C: 01:21:17 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 5WxIOry3q61070C29E3 ) : Addr: $0080BE2A
+WebPedra.exe: 00001EC4: 01:21:18 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00000FB0: 01:23:32 []:>--------------------------------------------------------------<
+WebPedra.exe: 00000FB0: 01:23:32 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00000FB0: 01:23:32 [TUniServerModule]:Global Cache Folder Erased. <162> Files deleted.
+WebPedra.exe: 00000FB0: 01:23:32 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00000FB0: 01:23:32 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 000028F8: 01:23:41 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: yBYacUqDdO1070C2C8D ) : Addr: $0080BE2A
+WebPedra.exe: 000025A4: 01:23:42 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00002BEC: 01:25:26 []:>--------------------------------------------------------------<
+WebPedra.exe: 00002BEC: 01:25:26 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00002BEC: 01:25:26 [TUniServerModule]:Global Cache Folder Erased. <164> Files deleted.
+WebPedra.exe: 00002BEC: 01:25:26 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00002BEC: 01:25:26 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 0000268C: 01:25:27 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: jWmagyaheh1070C2D34 ) : Addr: $0080BE2A
+WebPedra.exe: 0000279C: 01:25:27 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00002410: 01:27:53 []:>--------------------------------------------------------------<
+WebPedra.exe: 00002410: 01:27:53 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00002410: 01:27:54 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+WebPedra.exe: 00002410: 01:27:54 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00002410: 01:27:54 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00001914: 01:27:55 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: y4BQAMutIb1070C2DAD ) : Addr: $0080BE2A
+WebPedra.exe: 00001DFC: 01:27:56 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00000C18: 01:37:19 []:>--------------------------------------------------------------<
+WebPedra.exe: 00000C18: 01:37:19 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00000C18: 01:37:19 [TUniServerModule]:Global Cache Folder Erased. <178> Files deleted.
+WebPedra.exe: 00000C18: 01:37:19 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00000C18: 01:37:19 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 000025F8: 01:37:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: L8lKSWFbs31070C2E5A ) : Addr: $0080BE2A
+WebPedra.exe: 00002378: 01:37:39 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00001104: 01:39:07 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 000027D0: 01:42:37 []:>--------------------------------------------------------------<
+WebPedra.exe: 000027D0: 01:42:37 [TUniServerModule]:Server First Init.
+WebPedra.exe: 000027D0: 01:42:37 [TUniServerModule]:Global Cache Folder Erased. <166> Files deleted.
+WebPedra.exe: 000027D0: 01:42:37 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 000027D0: 01:42:37 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00000F9C: 01:42:41 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: XNwYHjRJ7k1070C3162 ) : Addr: $0080BE2A
+WebPedra.exe: 000003EC: 01:42:42 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00002190: 01:43:31 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 0000065C: 01:44:16 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00002A68: 01:45:12 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 000024A4: 01:45:34 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00002008: 01:52:18 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00001D94: 01:53:37 []:>--------------------------------------------------------------<
+WebPedra.exe: 00001D94: 01:53:37 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00001D94: 01:53:37 [TUniServerModule]:Global Cache Folder Erased. <153> Files deleted.
+WebPedra.exe: 00001D94: 01:53:37 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00001D94: 01:53:37 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00001064: 01:53:38 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: RXLdUBhdOk1070C34F6 ) : Addr: $0080BE2A
+WebPedra.exe: 00000918: 01:53:39 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00000740: 01:54:08 []:>--------------------------------------------------------------<
+WebPedra.exe: 00000740: 01:54:08 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00000740: 01:54:08 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+WebPedra.exe: 00000740: 01:54:08 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00000740: 01:54:08 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00002148: 01:54:11 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: OYLH3mkCjy1070C3553 ) : Addr: $0080BE2A
+WebPedra.exe: 000008B0: 01:54:12 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00002168: 01:55:37 []:>--------------------------------------------------------------<
+WebPedra.exe: 00002168: 01:55:37 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00002168: 01:55:37 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+WebPedra.exe: 00002168: 01:55:37 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00002168: 01:55:37 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00002408: 01:55:41 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: KfEhKZqrIC1070C357A ) : Addr: $0080BE2A
+WebPedra.exe: 000014DC: 01:55:41 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 0000120C: 01:57:49 []:>--------------------------------------------------------------<
+WebPedra.exe: 0000120C: 01:57:49 [TUniServerModule]:Server First Init.
+WebPedra.exe: 0000120C: 01:57:49 [TUniServerModule]:Global Cache Folder Erased. <162> Files deleted.
+WebPedra.exe: 0000120C: 01:57:49 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 0000120C: 01:57:49 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 0000120C: 01:58:20 [TUniServerModule]:Shutting Down Server.
+WebPedra.exe: 0000120C: 01:58:20 [TUniServerModule]:Stopping HTTP Server.
+WebPedra.exe: 0000120C: 01:58:20 [TUniServerModule]:HTTP Server Stopped.
+WebPedra.exe: 0000120C: 01:58:20 [TUniGUISessionManager]:Terminating Session manager.
+WebPedra.exe: 0000120C: 01:58:20 [TUniGUISessionManager]:Stopping Cache Eraser...
+WebPedra.exe: 0000120C: 01:58:20 [TUniGUISessionManager]:Cache Eraser Stopped.
+WebPedra.exe: 0000120C: 01:58:20 [TUniGUISessionManager]:Destroying Worker Threads.
+WebPedra.exe: 0000120C: 01:58:20 [TUniGUISessionManager]:Session manager terminated.
+WebPedra.exe: 0000120C: 01:58:20 [TUniServerModule]:Server Shutdown Completed.
+WebPedra.exe: 0000120C: 01:58:20 []:<-------------------------------------------------------------->
+WebPedra.exe: 0000120C: 01:58:20 [Terminated]:Exit Code: 0
+WebPedra.exe: 00002030: 01:58:40 []:>--------------------------------------------------------------<
+WebPedra.exe: 00002030: 01:58:40 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00002030: 01:58:40 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00002030: 01:58:40 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00000FB4: 01:58:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: FpfpTRBrCo1070C35E1 ) : Addr: $0080BE2A
+WebPedra.exe: 00000918: 01:58:44 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00002488: 01:59:57 []:>--------------------------------------------------------------<
+WebPedra.exe: 00002488: 01:59:57 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00002488: 01:59:57 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+WebPedra.exe: 00002488: 01:59:57 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00002488: 01:59:57 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00000050: 01:59:57 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: l9MyHO6vHs1070C36B4 ) : Addr: $0080BE2A
+WebPedra.exe: 000021E4: 01:59:58 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00000B44: 02:09:07 []:>--------------------------------------------------------------<
+WebPedra.exe: 00000B44: 02:09:07 [TUniServerModule]:Server First Init.
+WebPedra.exe: 00000B44: 02:09:07 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+WebPedra.exe: 00000B44: 02:09:07 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 00000B44: 02:09:07 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 000023F8: 02:09:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: OfZI4C84vY1070C370A ) : Addr: $0080BE2A
+WebPedra.exe: 000007A8: 02:09:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 000002E8: 02:11:20 []:>--------------------------------------------------------------<
+WebPedra.exe: 000002E8: 02:11:20 [TUniServerModule]:Server First Init.
+WebPedra.exe: 000002E8: 02:11:20 [TUniServerModule]:Global Cache Folder Erased. <164> Files deleted.
+WebPedra.exe: 000002E8: 02:11:20 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 000002E8: 02:11:20 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00002A34: 02:11:21 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SHxkVMfImx1070C3989 ) : Addr: $0080BE2A
+WebPedra.exe: 00001584: 02:11:22 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00001C10: 02:12:19 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 00002A34: 02:12:48 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 000026E0: 02:15:57 []:>--------------------------------------------------------------<
+WebPedra.exe: 000026E0: 02:15:57 [TUniServerModule]:Server First Init.
+WebPedra.exe: 000026E0: 02:15:57 [TUniServerModule]:Global Cache Folder Erased. <151> Files deleted.
+WebPedra.exe: 000026E0: 02:15:57 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 000026E0: 02:15:57 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 00000B58: 02:16:13 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 000026E0: 02:16:55 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

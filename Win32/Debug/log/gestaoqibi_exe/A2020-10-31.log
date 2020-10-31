@@ -1,0 +1,927 @@
+GestaoQIBI.exe: 00002B94: 00:03:08 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002B94: 00:03:08 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002B94: 00:03:09 [TUniServerModule]:Global Cache Folder Erased. <151> Files deleted.
+GestaoQIBI.exe: 00002B94: 00:03:09 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002B94: 00:03:09 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00002BFC: 00:03:22 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001D90: 00:05:32 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001D90: 00:05:32 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001D90: 00:05:32 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+GestaoQIBI.exe: 00001D90: 00:05:32 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001D90: 00:05:32 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000016F0: 00:05:38 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: MT3SJVd1JZ10710AB48 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001654: 00:05:43 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000006D0: 00:10:28 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000006D0: 00:10:28 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000006D0: 00:10:28 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+GestaoQIBI.exe: 000006D0: 00:10:28 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000006D0: 00:10:28 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000016D0: 00:10:31 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: nGy64xngUm10710ABEC ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001D80: 00:10:31 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001AC0: 00:17:54 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001AC0: 00:17:54 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001AC0: 00:17:54 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+GestaoQIBI.exe: 00001AC0: 00:17:54 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001AC0: 00:17:54 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001D98: 00:18:31 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001D98: 00:18:31 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001D98: 00:18:31 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 00001D98: 00:18:31 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001D98: 00:18:31 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000007F8: 00:18:35 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: KcGRkXaXEP10710AD3A ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00002374: 00:18:36 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001D98: 00:20:42 [TUniServerModule]:Shutting Down Server.
+GestaoQIBI.exe: 00001D98: 00:20:42 [TUniServerModule]:Stopping HTTP Server.
+GestaoQIBI.exe: 00001D98: 00:20:43 [TUniServerModule]:HTTP Server Stopped.
+GestaoQIBI.exe: 00001D98: 00:20:43 [TUniGUISessionManager]:Terminating Session manager.
+GestaoQIBI.exe: 00001D98: 00:20:43 [TUniGUISessionManager]:Stopping Cache Eraser...
+GestaoQIBI.exe: 00001D98: 00:20:43 [TUniGUISessionManager]:Cache Eraser Stopped.
+GestaoQIBI.exe: 00001D98: 00:20:43 [TUniGUISessionManager]:Destroying Worker Threads.
+GestaoQIBI.exe: 00001D98: 00:20:43 [TUniGUISessionManager]:Session manager terminated.
+GestaoQIBI.exe: 00001D98: 00:20:43 [TUniServerModule]:Server Shutdown Completed.
+GestaoQIBI.exe: 00001D98: 00:20:43 []:<-------------------------------------------------------------->
+GestaoQIBI.exe: 00001D98: 00:20:43 [Terminated]:Exit Code: 0
+GestaoQIBI.exe: 00000330: 00:39:47 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000330: 00:39:47 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000330: 00:39:47 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000330: 00:39:47 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000007A8: 00:40:34 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000007A8: 00:40:34 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000007A8: 00:40:34 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 000007A8: 00:40:34 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000007A8: 00:40:34 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001AE0: 00:40:47 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001FE4: 00:47:41 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001FE4: 00:47:41 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001FE4: 00:47:41 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+GestaoQIBI.exe: 00001FE4: 00:47:41 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001FE4: 00:47:41 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001704: 00:47:49 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 4rplDxfEdD10710B56F ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001BF8: 00:47:50 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001CA4: 00:49:09 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001CA4: 00:49:09 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001CA4: 00:49:09 [TUniServerModule]:Global Cache Folder Erased. <169> Files deleted.
+GestaoQIBI.exe: 00001CA4: 00:49:09 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001CA4: 00:49:09 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000021E0: 00:49:20 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000021E0: 00:49:20 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000021E0: 00:49:20 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 000021E0: 00:49:20 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000021E0: 00:49:20 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001BF0: 00:49:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ooUk81BRyB10710B759 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00002838: 00:49:22 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002050: 00:50:06 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002050: 00:50:06 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002050: 00:50:06 [TUniServerModule]:Global Cache Folder Erased. <167> Files deleted.
+GestaoQIBI.exe: 00002050: 00:50:06 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002050: 00:50:06 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000A20: 00:50:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: xApU9HWQah10710B7C4 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001D28: 00:50:23 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002870: 00:51:05 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002870: 00:51:05 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002870: 00:51:05 [TUniServerModule]:Global Cache Folder Erased. <164> Files deleted.
+GestaoQIBI.exe: 00002870: 00:51:06 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002870: 00:51:06 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001924: 00:51:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ESnumDvlx410710B80A ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001EA8: 00:51:08 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002418: 00:51:45 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002418: 00:51:45 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002418: 00:51:45 [TUniServerModule]:Global Cache Folder Erased. <164> Files deleted.
+GestaoQIBI.exe: 00002418: 00:51:45 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002418: 00:51:45 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001518: 00:52:00 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001518: 00:52:00 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001518: 00:52:00 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 00001518: 00:52:00 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001518: 00:52:00 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000664: 00:52:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Sl3E76qZL110710B83E ) : Addr: $0080BE2A
+GestaoQIBI.exe: 0000113C: 00:52:02 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000628: 00:57:21 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000628: 00:57:21 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000628: 00:57:21 [TUniServerModule]:Global Cache Folder Erased. <165> Files deleted.
+GestaoQIBI.exe: 00000628: 00:57:21 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000628: 00:57:21 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001778: 00:57:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: JAnu5soMVf10710B87D ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00002624: 00:57:22 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002504: 00:58:23 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002504: 00:58:23 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002504: 00:58:23 [TUniServerModule]:Global Cache Folder Erased. <169> Files deleted.
+GestaoQIBI.exe: 00002504: 00:58:23 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002504: 00:58:23 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000394: 00:58:23 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 3HNQhOckjt10710B9EF ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000394: 00:58:23 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 3HNQhOckjt10710B9EF ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001784: 00:58:25 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002B68: 01:01:29 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002B68: 01:01:29 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002B68: 01:01:29 [TUniServerModule]:Global Cache Folder Erased. <162> Files deleted.
+GestaoQIBI.exe: 00002B68: 01:01:29 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002B68: 01:01:29 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00002324: 01:02:48 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002324: 01:02:48 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002324: 01:02:48 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 00002324: 01:02:48 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002324: 01:02:48 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 0000289C: 01:06:18 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000289C: 01:06:18 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000289C: 01:06:18 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 0000289C: 01:06:18 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000289C: 01:06:18 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00002054: 01:06:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: gkXrgT4pSP10710BA38 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000CA8: 01:06:32 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001E88: 01:07:26 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001E88: 01:07:26 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001E88: 01:07:26 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+GestaoQIBI.exe: 00001E88: 01:07:26 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001E88: 01:07:26 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000AD8: 01:07:37 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: TOvh59pnfT10710BC6B ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000025A4: 01:07:37 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001E88: 01:09:39 [TUniServerModule]:Shutting Down Server.
+GestaoQIBI.exe: 00001E88: 01:09:39 [TUniServerModule]:Stopping HTTP Server.
+GestaoQIBI.exe: 00001E88: 01:09:40 [TUniServerModule]:HTTP Server Stopped.
+GestaoQIBI.exe: 00001E88: 01:09:40 [TUniGUISessionManager]:Terminating Session manager.
+GestaoQIBI.exe: 00001E88: 01:09:40 [TUniGUISessionManager]:Stopping Cache Eraser...
+GestaoQIBI.exe: 00001E88: 01:09:40 [TUniGUISessionManager]:Cache Eraser Stopped.
+GestaoQIBI.exe: 00001E88: 01:09:40 [TUniGUISessionManager]:Destroying Worker Threads.
+GestaoQIBI.exe: 00001E88: 01:09:40 [TUniGUISessionManager]:Session manager terminated.
+GestaoQIBI.exe: 00001E88: 01:09:40 [TUniServerModule]:Server Shutdown Completed.
+GestaoQIBI.exe: 00001E88: 01:09:40 []:<-------------------------------------------------------------->
+GestaoQIBI.exe: 00001E88: 01:09:40 [Terminated]:Exit Code: 0
+GestaoQIBI.exe: 00001850: 11:40:24 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001850: 11:40:24 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001850: 11:40:25 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001850: 11:40:25 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001A1C: 11:43:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000024FC: 11:44:25 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000024FC: 11:44:25 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000024FC: 11:44:25 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+GestaoQIBI.exe: 000024FC: 11:44:25 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000024FC: 11:44:25 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000010D0: 11:44:27 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 9afyekBNZD107116935 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00002540: 11:44:28 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000E18: 12:00:37 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000E18: 12:00:37 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000E18: 12:00:37 [TUniServerModule]:Global Cache Folder Erased. <162> Files deleted.
+GestaoQIBI.exe: 00000E18: 12:00:37 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000E18: 12:00:37 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000007A8: 12:01:51 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000007A8: 12:01:51 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000007A8: 12:01:51 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 000007A8: 12:01:51 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000007A8: 12:01:51 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000714: 12:01:53 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: oZw6Fjhg9o107116979 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000014F4: 12:01:54 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000026C8: 12:03:40 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000026C8: 12:03:40 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000026C8: 12:03:40 [TUniServerModule]:Global Cache Folder Erased. <162> Files deleted.
+GestaoQIBI.exe: 000026C8: 12:03:40 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000026C8: 12:03:40 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00002514: 12:05:37 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002514: 12:05:37 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002514: 12:05:37 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 00002514: 12:05:38 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002514: 12:05:38 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000003A8: 12:05:42 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: GHmnLl5PIc107116E33 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000004CC: 12:05:44 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000003A8: 12:06:35 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000DB4: 12:08:51 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000DB4: 12:08:51 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000DB4: 12:08:51 [TUniServerModule]:Global Cache Folder Erased. <156> Files deleted.
+GestaoQIBI.exe: 00000DB4: 12:08:51 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000DB4: 12:08:51 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000B34: 12:08:53 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: wy8kDMwqDO107116F79 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00002704: 12:08:54 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001DFC: 12:09:53 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001DFC: 12:09:53 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001DFC: 12:09:53 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+GestaoQIBI.exe: 00001DFC: 12:09:53 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001DFC: 12:09:53 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001BF0: 12:09:56 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: QBd1sHRHnU107117019 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000010D4: 12:09:57 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001BC8: 12:30:40 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001BC8: 12:30:40 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001BC8: 12:30:40 [TUniServerModule]:Global Cache Folder Erased. <151> Files deleted.
+GestaoQIBI.exe: 00001BC8: 12:30:40 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001BC8: 12:30:40 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 0000105C: 12:31:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: DJXFT2QzkX107117062 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000DBC: 12:31:05 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000208C: 12:35:59 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000208C: 12:35:59 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000208C: 12:35:59 [TUniServerModule]:Global Cache Folder Erased. <162> Files deleted.
+GestaoQIBI.exe: 0000208C: 12:35:59 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000208C: 12:35:59 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000458: 12:36:00 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: V6tqCiav2u10711761E ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001D88: 12:36:01 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000C5C: 12:37:37 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -804
+Count of read-write columns does not equal count of values : Addr: $008CB2FC
+GestaoQIBI.exe: 00000C5C: 12:37:49 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -804
+Count of read-write columns does not equal count of values : Addr: $008CB2FC
+GestaoQIBI.exe: 00000B74: 12:38:47 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000B74: 12:38:47 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000B74: 12:38:47 [TUniServerModule]:Global Cache Folder Erased. <165> Files deleted.
+GestaoQIBI.exe: 00000B74: 12:38:47 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000B74: 12:38:47 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000008D8: 12:38:48 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: dJtqYEZXkO107117774 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000017D8: 12:38:49 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002618: 12:40:07 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002618: 12:40:07 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002618: 12:40:07 [TUniServerModule]:Global Cache Folder Erased. <147> Files deleted.
+GestaoQIBI.exe: 00002618: 12:40:07 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002618: 12:40:07 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001428: 12:40:09 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: pY2hMDuQtx107117836 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000025F0: 12:40:11 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000217C: 12:41:22 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000B84: 12:44:53 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000B84: 12:44:53 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000B84: 12:44:53 [TUniServerModule]:Global Cache Folder Erased. <162> Files deleted.
+GestaoQIBI.exe: 00000B84: 12:44:53 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000B84: 12:44:53 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000003D0: 12:46:47 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000003D0: 12:46:47 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000003D0: 12:46:47 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 000003D0: 12:46:47 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000003D0: 12:46:47 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000017AC: 12:47:05 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: hU3ei7BbZD1071178E8 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001268: 12:47:05 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000025C0: 12:48:02 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -206
+Column unknown
+NASCIMENTO
+At line 1, column 24 : Addr: $008CB2FC
+GestaoQIBI.exe: 00000A64: 12:50:22 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000A64: 12:50:22 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000A64: 12:50:22 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+GestaoQIBI.exe: 00000A64: 12:50:22 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000A64: 12:50:22 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001BF8: 12:50:23 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: qQdibta2nS107117A75 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000B44: 12:50:24 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001214: 12:52:21 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001214: 12:52:21 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001214: 12:52:21 [TUniServerModule]:Global Cache Folder Erased. <168> Files deleted.
+GestaoQIBI.exe: 00001214: 12:52:22 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001214: 12:52:22 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000E24: 12:52:36 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: VTtq5gFKdz107117B5B ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001E70: 12:52:37 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000001E4: 12:57:28 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000DF4: 13:01:06 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000DF4: 13:01:06 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000DF4: 13:01:06 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+GestaoQIBI.exe: 00000DF4: 13:01:06 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000DF4: 13:01:06 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001284: 13:01:14 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: HCTyOosaAE107117D46 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00002500: 13:01:17 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000267C: 13:04:22 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000267C: 13:04:22 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000267C: 13:04:22 [TUniServerModule]:Global Cache Folder Erased. <166> Files deleted.
+GestaoQIBI.exe: 0000267C: 13:04:22 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000267C: 13:04:22 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001710: 13:04:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: hD3ZuiRrql107117E4F ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001C0C: 13:04:23 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000238C: 13:05:25 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000003D8: 13:22:50 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000003D8: 13:22:50 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000003D8: 13:22:50 [TUniServerModule]:Global Cache Folder Erased. <151> Files deleted.
+GestaoQIBI.exe: 000003D8: 13:22:50 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000003D8: 13:22:50 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000D9C: 13:22:52 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 4RGCboHTMP107117F6E ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000025F8: 13:22:53 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000848: 13:23:09 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 2, column 1
+NUMERO : Addr: $008CB2FC
+GestaoQIBI.exe: 0000214C: 13:23:37 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000214C: 13:23:37 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000214C: 13:23:37 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+GestaoQIBI.exe: 0000214C: 13:23:37 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000214C: 13:23:37 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000000C8: 13:23:37 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: QwW81i7EFe10711842B ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00002608: 13:23:38 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002408: 13:24:40 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000005B0: 13:25:36 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000005B0: 13:25:36 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000005B0: 13:25:36 [TUniServerModule]:Global Cache Folder Erased. <153> Files deleted.
+GestaoQIBI.exe: 000005B0: 13:25:36 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000005B0: 13:25:36 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001194: 13:25:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: u93vsxPLt61071184A7 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000009E0: 13:25:47 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001194: 13:26:18 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000006D4: 13:27:02 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000006D4: 13:27:02 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000006D4: 13:27:03 [TUniServerModule]:Global Cache Folder Erased. <153> Files deleted.
+GestaoQIBI.exe: 000006D4: 13:27:03 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000006D4: 13:27:03 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001458: 13:27:06 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: unjyImxtV1107118519 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000CA0: 13:27:08 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000000E0: 13:27:33 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000210C: 13:32:59 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000210C: 13:32:59 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000210C: 13:32:59 [TUniServerModule]:Global Cache Folder Erased. <164> Files deleted.
+GestaoQIBI.exe: 0000210C: 13:32:59 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000210C: 13:32:59 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000BC4: 13:33:04 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: iAkCQpotju107118570 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000BD0: 13:33:04 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000BC4: 13:33:35 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000007EC: 13:37:20 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001E68: 13:41:29 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001E68: 13:41:29 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001E68: 13:41:29 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+GestaoQIBI.exe: 00001E68: 13:41:29 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001E68: 13:41:29 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000007AC: 13:42:03 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000007AC: 13:42:03 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000007AC: 13:42:03 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 000007AC: 13:42:03 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000007AC: 13:42:03 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00002534: 13:42:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: TGZZ9My6oC107118817 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000016DC: 13:42:04 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000005B4: 13:44:19 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000005B4: 13:44:19 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000005B4: 13:44:19 [TUniServerModule]:Global Cache Folder Erased. <165> Files deleted.
+GestaoQIBI.exe: 000005B4: 13:44:19 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000005B4: 13:44:19 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001BF4: 13:44:25 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: sZWUJTNrXF10711895F ) : Addr: $0080BE2A
+GestaoQIBI.exe: 0000183C: 13:44:26 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002678: 13:45:41 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002678: 13:45:41 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002678: 13:45:41 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+GestaoQIBI.exe: 00002678: 13:45:41 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002678: 13:45:42 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000984: 13:45:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: TJ94nYFANU107118A04 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000F24: 13:45:44 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000984: 13:46:40 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000944: 13:49:13 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000944: 13:49:13 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000944: 13:49:13 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+GestaoQIBI.exe: 00000944: 13:49:13 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000944: 13:49:13 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00002488: 13:49:33 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002488: 13:49:33 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002488: 13:49:33 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 00002488: 13:49:33 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002488: 13:49:33 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000C2C: 13:49:34 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: x5WtB5aq5w107118A9F ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000FE8: 13:49:35 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000005CC: 13:50:51 [127.0.0.1]:UniErrorException : Event:Toast, Object: O247 not found in session list. It could be timed out, refresh page and try again : Addr: $00000000
+GestaoQIBI.exe: 00002084: 13:50:56 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001AB0: 13:51:16 [127.0.0.1]:UniErrorException : Event:Toast, Object: O247 not found in session list. It could be timed out, refresh page and try again : Addr: $00000000
+GestaoQIBI.exe: 00002488: 13:51:23 [TUniServerModule]:Shutting Down Server.
+GestaoQIBI.exe: 00002488: 13:51:23 [TUniServerModule]:Stopping HTTP Server.
+GestaoQIBI.exe: 00002488: 13:51:24 [TUniServerModule]:HTTP Server Stopped.
+GestaoQIBI.exe: 00002488: 13:51:24 [TUniGUISessionManager]:Terminating Session manager.
+GestaoQIBI.exe: 00002488: 13:51:24 [TUniGUISessionManager]:Stopping Cache Eraser...
+GestaoQIBI.exe: 00002488: 13:51:24 [TUniGUISessionManager]:Cache Eraser Stopped.
+GestaoQIBI.exe: 00002488: 13:51:24 [TUniGUISessionManager]:Waiting for session manager thread...
+GestaoQIBI.exe: 00001818: 13:56:03 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001818: 13:56:03 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001818: 13:56:03 [TUniServerModule]:Global Cache Folder Erased. <164> Files deleted.
+GestaoQIBI.exe: 00001818: 13:56:03 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001818: 13:56:03 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 0000067C: 13:56:24 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000FEC: 13:56:30 [127.0.0.1]:EFDException : [FireDAC][Comp][Clnt]-512. Connection is not defined for [FDTransaction1]. Possible reason: Connection and ConnectionName property values are both empty : Addr: $008153E0
+GestaoQIBI.exe: 00002280: 13:58:04 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002280: 13:58:04 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002280: 13:58:04 [TUniServerModule]:Global Cache Folder Erased. <147> Files deleted.
+GestaoQIBI.exe: 00002280: 13:58:04 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002280: 13:58:04 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001DB0: 13:58:05 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: AqysVkfDXy107118D43 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001DB0: 13:58:09 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000270C: 13:59:56 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000270C: 13:59:56 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000270C: 13:59:56 [TUniServerModule]:Global Cache Folder Erased. <168> Files deleted.
+GestaoQIBI.exe: 0000270C: 13:59:56 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000270C: 13:59:56 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000025C0: 14:00:40 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000025C0: 14:00:40 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000025C0: 14:00:40 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 000025C0: 14:00:40 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000025C0: 14:00:40 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000A20: 14:00:42 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: qSTLBy9fSS107118DBC ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000023F8: 14:00:43 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000DB0: 14:04:20 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000DB0: 14:04:20 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000DB0: 14:04:20 [TUniServerModule]:Global Cache Folder Erased. <176> Files deleted.
+GestaoQIBI.exe: 00000DB0: 14:04:20 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000DB0: 14:04:20 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000CFC: 14:04:27 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: CEdNvIFqhj107118E6E ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000005C4: 14:04:27 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000004E4: 14:05:18 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000004E4: 14:05:18 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000004E4: 14:05:18 [TUniServerModule]:Global Cache Folder Erased. <166> Files deleted.
+GestaoQIBI.exe: 000004E4: 14:05:18 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000004E4: 14:05:18 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000026C8: 14:05:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: iKvqoYV7O6107118F72 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000EB8: 14:05:19 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001658: 14:06:38 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001658: 14:06:38 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001658: 14:06:38 [TUniServerModule]:Global Cache Folder Erased. <164> Files deleted.
+GestaoQIBI.exe: 00001658: 14:06:38 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001658: 14:06:38 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00002280: 14:06:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: oCfMHDaRa7107118FAE ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000025C0: 14:06:41 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000784: 14:07:43 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000784: 14:07:43 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000784: 14:07:43 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+GestaoQIBI.exe: 00000784: 14:07:44 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000784: 14:07:44 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000538: 14:07:45 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: KEeW2M2w1P10711900D ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000005DC: 14:07:45 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001578: 14:09:35 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001820: 14:11:07 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001820: 14:11:07 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001820: 14:11:07 [TUniServerModule]:Global Cache Folder Erased. <151> Files deleted.
+GestaoQIBI.exe: 00001820: 14:11:07 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001820: 14:11:07 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000564: 14:11:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000E18: 14:11:46 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000267C: 14:13:48 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000267C: 14:13:48 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000267C: 14:13:48 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+GestaoQIBI.exe: 0000267C: 14:13:48 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000267C: 14:13:48 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 0000267C: 14:13:57 [TUniServerModule]:Shutting Down Server.
+GestaoQIBI.exe: 0000267C: 14:13:57 [TUniServerModule]:Stopping HTTP Server.
+GestaoQIBI.exe: 0000267C: 14:13:57 [TUniServerModule]:HTTP Server Stopped.
+GestaoQIBI.exe: 0000267C: 14:13:57 [TUniGUISessionManager]:Terminating Session manager.
+GestaoQIBI.exe: 0000267C: 14:13:57 [TUniGUISessionManager]:Stopping Cache Eraser...
+GestaoQIBI.exe: 0000267C: 14:13:57 [TUniGUISessionManager]:Cache Eraser Stopped.
+GestaoQIBI.exe: 0000267C: 14:13:57 [TUniGUISessionManager]:Destroying Worker Threads.
+GestaoQIBI.exe: 0000267C: 14:13:57 [TUniGUISessionManager]:Session manager terminated.
+GestaoQIBI.exe: 0000267C: 14:13:57 [TUniServerModule]:Server Shutdown Completed.
+GestaoQIBI.exe: 0000267C: 14:13:57 []:<-------------------------------------------------------------->
+GestaoQIBI.exe: 0000267C: 14:13:57 [Terminated]:Exit Code: 0
+GestaoQIBI.exe: 00001554: 14:14:00 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001554: 14:14:00 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001554: 14:14:00 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001554: 14:14:00 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000025E0: 14:14:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 1MijPFfUK710711916E ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00002134: 14:14:08 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000008D8: 14:14:24 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001748: 14:15:21 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001748: 14:15:21 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001748: 14:15:21 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+GestaoQIBI.exe: 00001748: 14:15:21 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001748: 14:15:21 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000027AC: 14:21:57 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000027AC: 14:21:57 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000027AC: 14:21:57 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 000027AC: 14:21:57 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000027AC: 14:21:57 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000F28: 14:22:09 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: LGmku7GqAR107119226 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001370: 14:22:09 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\css\uni-ext.css
+GestaoQIBI.exe: 00000B78: 14:22:09 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\classic\theme-triton\resources\theme-triton-all.css
+GestaoQIBI.exe: 00002624: 14:22:09 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\sweetalert\sweetalert2.min.css
+GestaoQIBI.exe: 000027B8: 14:22:09 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\sweetalert\unisweetalert2.css
+GestaoQIBI.exe: 00000C5C: 14:22:09 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\packages\font-awesome-4.7.0\resources\font-awesome-all.css
+GestaoQIBI.exe: 00001DAC: 14:22:09 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\packages\font-pictos\resources\font-pictos-all.css
+GestaoQIBI.exe: 00000B74: 14:22:09 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\packages\font-awesome\resources\font-awesome-all.css
+GestaoQIBI.exe: 00001C04: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\css\uni-xtheme-common.css
+GestaoQIBI.exe: 00001C08: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\css\uni-xtheme-triton.css
+GestaoQIBI.exe: 0000032C: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\ext-all.js
+GestaoQIBI.exe: 000004B0: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\classic\theme-triton\theme-triton.js
+GestaoQIBI.exe: 000005B4: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\ext-unicommon-min.js
+GestaoQIBI.exe: 00001E84: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\ext-sync-min.js
+GestaoQIBI.exe: 000011BC: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\classic\locale\locale-pt_BR.js
+GestaoQIBI.exe: 00000E0C: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\jQuery\jquery-1.11.2.min.js
+GestaoQIBI.exe: 00001444: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\jQuery\MaskedInput\jquery.inputmask.min.js
+GestaoQIBI.exe: 00001CD0: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\jQuery\autoNumeric\autoNumeric-1.9.35.js
+GestaoQIBI.exe: 000007C8: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\ext-treenode-plugin.js
+GestaoQIBI.exe: 000025AC: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\sweetalert\sweetalert2.min.js
+GestaoQIBI.exe: 0000022C: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\sweetalert\sweetalert2.min.css
+GestaoQIBI.exe: 00000B84: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\sweetalert\unisweetalert2.css
+GestaoQIBI.exe: 00001DC4: 14:22:10 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\ext-unigui-min.js
+GestaoQIBI.exe: 00001AE4: 14:22:11 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\packages\font-awesome\resources\font-awesome-all.css
+GestaoQIBI.exe: 00002064: 14:22:11 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\css\uni-xtheme-common.css
+GestaoQIBI.exe: 00000690: 14:22:11 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\css\uni-xtheme-triton.css
+GestaoQIBI.exe: 00001F54: 14:22:11 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\packages\font-awesome-4.7.0\resources\font-awesome-all.css
+GestaoQIBI.exe: 0000112C: 14:22:11 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\packages\font-pictos\resources\font-pictos-all.css
+GestaoQIBI.exe: 00001688: 14:22:11 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\cache\gestaoqibi_exe\ej3WuKvrG5107119440\favicon.ico
+GestaoQIBI.exe: 00002578: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\css\uni-ext.css
+GestaoQIBI.exe: 000002F0: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\classic\theme-triton\resources\theme-triton-all.css
+GestaoQIBI.exe: 000006B0: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\sweetalert\sweetalert2.min.css
+GestaoQIBI.exe: 00001E00: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\sweetalert\unisweetalert2.css
+GestaoQIBI.exe: 000012E8: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\packages\font-awesome\resources\font-awesome-all.css
+GestaoQIBI.exe: 00002478: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\packages\font-awesome-4.7.0\resources\font-awesome-all.css
+GestaoQIBI.exe: 00002384: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\packages\font-pictos\resources\font-pictos-all.css
+GestaoQIBI.exe: 000019C8: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\css\uni-xtheme-common.css
+GestaoQIBI.exe: 00001004: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\css\uni-xtheme-triton.css
+GestaoQIBI.exe: 000020C0: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\ext-all.js
+GestaoQIBI.exe: 00001F2C: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\classic\theme-triton\theme-triton.js
+GestaoQIBI.exe: 000027E4: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\ext-unicommon-min.js
+GestaoQIBI.exe: 000020F4: 14:22:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\ext-sync-min.js
+GestaoQIBI.exe: 00000954: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\classic\locale\locale-pt_BR.js
+GestaoQIBI.exe: 00001E18: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\jQuery\jquery-1.11.2.min.js
+GestaoQIBI.exe: 000025BC: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\jQuery\MaskedInput\jquery.inputmask.min.js
+GestaoQIBI.exe: 00000134: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\jQuery\autoNumeric\autoNumeric-1.9.35.js
+GestaoQIBI.exe: 00001D3C: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\ext-treenode-plugin.js
+GestaoQIBI.exe: 00001428: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\sweetalert\sweetalert2.min.js
+GestaoQIBI.exe: 00000BC4: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\sweetalert\sweetalert2.min.css
+GestaoQIBI.exe: 0000238C: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\ext-unigui-min.js
+GestaoQIBI.exe: 000018B8: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\sweetalert\unisweetalert2.css
+GestaoQIBI.exe: 00000870: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\packages\font-awesome\resources\font-awesome-all.css
+GestaoQIBI.exe: 00001F98: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\css\uni-xtheme-common.css
+GestaoQIBI.exe: 000022B4: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\css\uni-xtheme-triton.css
+GestaoQIBI.exe: 000027B0: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\uni-1.90.0.1530\ext-unigui-min.js
+GestaoQIBI.exe: 0000196C: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\packages\font-awesome-4.7.0\resources\font-awesome-all.css
+GestaoQIBI.exe: 00000618: 14:22:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\ext-7.2.0\build\packages\font-pictos\resources\font-pictos-all.css
+GestaoQIBI.exe: 00002738: 14:22:16 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\C:\Program Files (x86)\FMSoft\Framework\uniGUI\uni-1.90.0.1530\cache\gestaoqibi_exe\1C41yy1LcO107119445\favicon.ico
+GestaoQIBI.exe: 00001A90: 14:22:42 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001A90: 14:22:42 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001A90: 14:22:42 [TUniServerModule]:Global Cache Folder Erased. <149> Files deleted.
+GestaoQIBI.exe: 00001A90: 14:22:42 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001A90: 14:22:42 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000000E0: 14:22:43 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002024: 14:23:23 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000122C: 14:24:20 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000001E0: 14:26:16 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000001E0: 14:26:16 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000001E0: 14:26:16 [TUniServerModule]:Global Cache Folder Erased. <153> Files deleted.
+GestaoQIBI.exe: 000001E0: 14:26:16 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000001E0: 14:26:16 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000009C0: 14:26:24 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 1A3FsRgFjH1071194D7 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001970: 14:26:24 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000198C: 14:27:08 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001AD8: 14:27:57 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001AD8: 14:27:57 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001AD8: 14:27:57 [TUniServerModule]:Global Cache Folder Erased. <153> Files deleted.
+GestaoQIBI.exe: 00001AD8: 14:27:58 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001AD8: 14:27:58 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000F40: 14:28:13 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ypL34tgMBa107119599 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 0000217C: 14:28:16 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000EC8: 14:29:32 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000EC8: 14:29:32 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000EC8: 14:29:32 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+GestaoQIBI.exe: 00000EC8: 14:29:32 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000EC8: 14:29:32 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00002374: 14:29:34 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 35WOEk9jgU1071195E7 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001790: 14:29:34 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001C88: 14:30:31 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001C88: 14:30:31 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001C88: 14:30:31 [TUniServerModule]:Global Cache Folder Erased. <151> Files deleted.
+GestaoQIBI.exe: 00001C88: 14:30:31 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001C88: 14:30:31 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001FD8: 14:42:14 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001FD8: 14:42:14 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001FD8: 14:42:14 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 00001FD8: 14:42:14 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001FD8: 14:42:14 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001FD8: 14:43:58 [TUniServerModule]:Shutting Down Server.
+GestaoQIBI.exe: 00001FD8: 14:43:58 [TUniServerModule]:Stopping HTTP Server.
+GestaoQIBI.exe: 00001FD8: 14:43:59 [TUniServerModule]:HTTP Server Stopped.
+GestaoQIBI.exe: 00001FD8: 14:43:59 [TUniGUISessionManager]:Terminating Session manager.
+GestaoQIBI.exe: 00001FD8: 14:43:59 [TUniGUISessionManager]:Stopping Cache Eraser...
+GestaoQIBI.exe: 00001FD8: 14:43:59 [TUniGUISessionManager]:Cache Eraser Stopped.
+GestaoQIBI.exe: 00001FD8: 14:43:59 [TUniGUISessionManager]:Destroying Worker Threads.
+GestaoQIBI.exe: 00001FD8: 14:43:59 [TUniGUISessionManager]:Session manager terminated.
+GestaoQIBI.exe: 00001FD8: 14:43:59 [TUniServerModule]:Server Shutdown Completed.
+GestaoQIBI.exe: 00001FD8: 14:43:59 []:<-------------------------------------------------------------->
+GestaoQIBI.exe: 00001FD8: 14:43:59 [Terminated]:Exit Code: 0
+GestaoQIBI.exe: 00001B54: 14:49:10 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001B54: 14:49:10 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001B54: 14:49:10 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001B54: 14:49:10 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000009D4: 14:49:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002310: 14:49:42 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001ACC: 14:51:55 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000E50: 14:53:06 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000184C: 14:56:37 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000184C: 14:56:37 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000184C: 14:56:37 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+GestaoQIBI.exe: 0000184C: 14:56:37 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000184C: 14:56:37 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001DB0: 14:56:48 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 5RCdNIiWtw107119CA5 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001DB0: 14:56:50 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000018B4: 15:06:57 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000004E0: 15:07:29 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002730: 15:10:38 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002730: 15:10:38 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002730: 15:10:38 [TUniServerModule]:Global Cache Folder Erased. <153> Files deleted.
+GestaoQIBI.exe: 00002730: 15:10:38 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002730: 15:10:38 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000C78: 15:10:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: kt7Pvqwjii10711A08B ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000020: 15:10:41 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000010EC: 15:11:13 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000010EC: 15:11:13 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000010EC: 15:11:13 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+GestaoQIBI.exe: 000010EC: 15:11:13 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000010EC: 15:11:13 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000C64: 15:11:18 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: N2A3jL6Z4g10711A169 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000C04: 15:11:18 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002758: 15:14:44 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002758: 15:14:44 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002758: 15:14:44 [TUniServerModule]:Global Cache Folder Erased. <151> Files deleted.
+GestaoQIBI.exe: 00002758: 15:14:44 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002758: 15:14:44 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00002024: 15:14:49 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000844: 15:28:27 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000844: 15:28:27 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000844: 15:28:27 [TUniServerModule]:Global Cache Folder Erased. <151> Files deleted.
+GestaoQIBI.exe: 00000844: 15:28:27 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000844: 15:28:27 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001A54: 15:29:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001938: 15:30:51 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000728: 15:31:18 [127.0.0.1]:UniErrorException : Event:Toast, Object: O247 not found in session list. It could be timed out, refresh page and try again : Addr: $00000000
+GestaoQIBI.exe: 0000071C: 15:32:17 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000071C: 15:32:17 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000071C: 15:32:17 [TUniServerModule]:Global Cache Folder Erased. <169> Files deleted.
+GestaoQIBI.exe: 0000071C: 15:32:17 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000071C: 15:32:17 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 0000182C: 15:32:20 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Z7uMn9Q3NQ10711A6E2 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001194: 15:32:21 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000508: 15:36:40 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000508: 15:36:40 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000508: 15:36:40 [TUniServerModule]:Global Cache Folder Erased. <166> Files deleted.
+GestaoQIBI.exe: 00000508: 15:36:40 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000508: 15:36:40 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000798: 15:36:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 8XD11RGvI910711A749 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001C54: 15:36:51 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001BB0: 15:37:23 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000264: 15:38:50 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000508: 15:40:57 [TUniServerModule]:Shutting Down Server.
+GestaoQIBI.exe: 00000508: 15:40:57 [TUniServerModule]:Stopping HTTP Server.
+GestaoQIBI.exe: 00000508: 15:40:58 [TUniServerModule]:HTTP Server Stopped.
+GestaoQIBI.exe: 00000508: 15:40:58 [TUniGUISessionManager]:Terminating Session manager.
+GestaoQIBI.exe: 00000508: 15:40:58 [TUniGUISessionManager]:Stopping Cache Eraser...
+GestaoQIBI.exe: 00000508: 15:40:58 [TUniGUISessionManager]:Cache Eraser Stopped.
+GestaoQIBI.exe: 00000508: 15:40:58 [TUniGUISessionManager]:Destroying Worker Threads.
+GestaoQIBI.exe: 00000508: 15:40:58 [TUniGUISessionManager]:Session manager terminated.
+GestaoQIBI.exe: 00000508: 15:40:58 [TUniServerModule]:Server Shutdown Completed.
+GestaoQIBI.exe: 00000508: 15:40:58 []:<-------------------------------------------------------------->
+GestaoQIBI.exe: 00000508: 15:40:58 [Terminated]:Exit Code: 0
+GestaoQIBI.exe: 00002170: 15:44:07 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002170: 15:44:07 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002170: 15:44:07 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002170: 15:44:07 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001FD8: 15:44:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SRw6ntnr8H10711A90D ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001FD8: 15:44:10 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SRw6ntnr8H10711A90D ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001FD8: 15:44:10 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SRw6ntnr8H10711A90D ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000CEC: 15:44:52 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000CEC: 15:44:52 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000CEC: 15:44:52 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 00000CEC: 15:44:52 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000CEC: 15:44:52 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000018A8: 15:44:53 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000528: 15:45:39 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002694: 15:49:37 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000212C: 15:57:56 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001BB8: 15:58:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000E48: 16:00:40 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000E48: 16:00:40 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000E48: 16:00:40 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+GestaoQIBI.exe: 00000E48: 16:00:40 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000E48: 16:00:40 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000024A0: 16:05:36 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000024A0: 16:05:36 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000024A0: 16:05:36 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 000024A0: 16:05:36 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000024A0: 16:05:36 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000A70: 16:05:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: IHqyXDEBtG10711AE63 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000BA8: 16:05:42 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001564: 16:05:59 [127.0.0.1]:EFDException : [FireDAC][Phys][FB]-308. Cannot open / define command, which does not return result sets. Hint: use Execute / ExecSQL method for non-SELECT commands : Addr: $008153E0
+GestaoQIBI.exe: 000020B4: 16:06:21 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000020B4: 16:06:21 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000020B4: 16:06:21 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+GestaoQIBI.exe: 000020B4: 16:06:21 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000020B4: 16:06:21 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001488: 16:06:28 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: EKpjLqFD4A10711B055 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001368: 16:06:28 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002564: 16:06:40 [127.0.0.1]:EFDException : [FireDAC][Phys][FB]-308. Cannot open / define command, which does not return result sets. Hint: use Execute / ExecSQL method for non-SELECT commands : Addr: $008153E0
+GestaoQIBI.exe: 00001EC4: 16:18:13 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001EC4: 16:18:13 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001EC4: 16:18:14 [TUniServerModule]:Global Cache Folder Erased. <151> Files deleted.
+GestaoQIBI.exe: 00001EC4: 16:18:14 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001EC4: 16:18:14 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000018F4: 16:26:12 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000018F4: 16:26:12 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000018F4: 16:26:12 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 000018F4: 16:26:12 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000018F4: 16:26:12 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000998: 16:26:14 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 4XXFdmhtGU10711B08B ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000700: 16:26:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001060: 16:27:04 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001060: 16:27:04 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001060: 16:27:04 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+GestaoQIBI.exe: 00001060: 16:27:04 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001060: 16:27:04 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000023C0: 16:27:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: C68LTf9EFn10711B5E9 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001550: 16:27:08 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000004A4: 16:27:34 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000016E0: 16:32:54 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000016E0: 16:32:54 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000016E0: 16:32:54 [TUniServerModule]:Global Cache Folder Erased. <153> Files deleted.
+GestaoQIBI.exe: 000016E0: 16:32:54 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000016E0: 16:32:54 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00002798: 16:33:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 27iImXu3DB10711B645 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001ED8: 16:33:19 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000640: 16:37:31 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000640: 16:37:31 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000640: 16:37:31 [TUniServerModule]:Global Cache Folder Erased. <170> Files deleted.
+GestaoQIBI.exe: 00000640: 16:37:31 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000640: 16:37:31 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000026D4: 16:37:53 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: GTCoziVJYo10711B7D4 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000006EC: 16:37:54 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000674: 16:38:43 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000E5C: 16:42:11 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000424: 16:48:00 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000424: 16:48:00 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000424: 16:48:00 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+GestaoQIBI.exe: 00000424: 16:48:00 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000424: 16:48:00 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 0000058C: 16:48:10 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 6qP7mHpL3m10711BA3C ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000CA8: 16:48:12 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000058C: 16:49:34 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001914: 16:59:29 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001914: 16:59:29 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001914: 16:59:29 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+GestaoQIBI.exe: 00001914: 16:59:29 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001914: 16:59:29 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001BA4: 16:59:34 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: yISxb6Qwlh10711BC3D ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001DEC: 16:59:34 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000630: 17:00:11 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001914: 17:00:32 [TUniServerModule]:Shutting Down Server.
+GestaoQIBI.exe: 00001914: 17:00:32 [TUniServerModule]:Stopping HTTP Server.
+GestaoQIBI.exe: 00001914: 17:00:33 [TUniServerModule]:HTTP Server Stopped.
+GestaoQIBI.exe: 00001914: 17:00:33 [TUniGUISessionManager]:Terminating Session manager.
+GestaoQIBI.exe: 00001914: 17:00:33 [TUniGUISessionManager]:Stopping Cache Eraser...
+GestaoQIBI.exe: 00001914: 17:00:33 [TUniGUISessionManager]:Cache Eraser Stopped.
+GestaoQIBI.exe: 00001914: 17:00:33 [TUniGUISessionManager]:Destroying Worker Threads.
+GestaoQIBI.exe: 00001914: 17:00:33 [TUniGUISessionManager]:Session manager terminated.
+GestaoQIBI.exe: 00001914: 17:00:33 [TUniServerModule]:Server Shutdown Completed.
+GestaoQIBI.exe: 00001914: 17:00:33 []:<-------------------------------------------------------------->
+GestaoQIBI.exe: 00001914: 17:00:33 [Terminated]:Exit Code: 0
+GestaoQIBI.exe: 00000494: 17:04:31 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000494: 17:04:31 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000494: 17:04:31 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000494: 17:04:31 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00002024: 17:04:44 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: tyhjuljGqM10711BF1D ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000026A0: 17:04:46 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000494: 17:09:02 [TUniServerModule]:Shutting Down Server.
+GestaoQIBI.exe: 00000494: 17:09:02 [TUniServerModule]:Stopping HTTP Server.
+GestaoQIBI.exe: 00000494: 17:09:03 [TUniServerModule]:HTTP Server Stopped.
+GestaoQIBI.exe: 00000494: 17:09:03 [TUniGUISessionManager]:Terminating Session manager.
+GestaoQIBI.exe: 00000494: 17:09:03 [TUniGUISessionManager]:Stopping Cache Eraser...
+GestaoQIBI.exe: 00000494: 17:09:03 [TUniGUISessionManager]:Cache Eraser Stopped.
+GestaoQIBI.exe: 00000494: 17:09:03 [TUniGUISessionManager]:Destroying Worker Threads.
+GestaoQIBI.exe: 00000494: 17:09:03 [TUniGUISessionManager]:Session manager terminated.
+GestaoQIBI.exe: 00000494: 17:09:03 [TUniServerModule]:Server Shutdown Completed.
+GestaoQIBI.exe: 00000494: 17:09:03 []:<-------------------------------------------------------------->
+GestaoQIBI.exe: 00000494: 17:09:03 [Terminated]:Exit Code: 0
+GestaoQIBI.exe: 0000052C: 17:13:01 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000052C: 17:13:01 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000052C: 17:13:01 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000052C: 17:13:01 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00002174: 17:13:08 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000087C: 17:14:08 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002294: 17:14:44 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002294: 17:14:44 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002294: 17:14:44 [TUniServerModule]:Global Cache Folder Erased. <153> Files deleted.
+GestaoQIBI.exe: 00002294: 17:14:45 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002294: 17:14:45 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000F0C: 17:14:46 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Mhmm6uIqk210711C2E7 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000022D0: 17:14:49 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000000E8: 17:14:54 [127.0.0.1]:EFDException : [FireDAC][Comp][Clnt]-512. Connection is not defined for [FDTransaction1]. Possible reason: Connection and ConnectionName property values are both empty : Addr: $008153E0
+GestaoQIBI.exe: 00002724: 17:16:01 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002724: 17:16:01 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002724: 17:16:02 [TUniServerModule]:Global Cache Folder Erased. <147> Files deleted.
+GestaoQIBI.exe: 00002724: 17:16:02 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002724: 17:16:02 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000026FC: 17:22:25 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000026FC: 17:22:25 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000026FC: 17:22:25 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 000026FC: 17:22:25 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000026FC: 17:22:25 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000EF8: 17:22:34 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: zwUGGcl8eS10711C316 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001118: 17:22:34 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001178: 17:23:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000018DC: 17:29:15 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000018DC: 17:29:15 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000018DC: 17:29:15 [TUniServerModule]:Global Cache Folder Erased. <153> Files deleted.
+GestaoQIBI.exe: 000018DC: 17:29:15 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000018DC: 17:29:15 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000010B8: 17:29:44 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000010B8: 17:29:44 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000010B8: 17:29:44 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 000010B8: 17:29:44 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000010B8: 17:29:44 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000D10: 17:30:04 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: sxtkSYUECl10711C55F ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001BFC: 17:30:04 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002050: 17:30:31 [127.0.0.1]:EFDException : [FireDAC][Phys][FB]-345. Data too large for variable [VUF]. Max len = [2], actual len = [3] Hint: set the TFDParam.Size to a greater value : Addr: $008153E0
+GestaoQIBI.exe: 00001174: 17:35:08 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001174: 17:35:08 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001174: 17:35:08 [TUniServerModule]:Global Cache Folder Erased. <166> Files deleted.
+GestaoQIBI.exe: 00001174: 17:35:08 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001174: 17:35:08 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000778: 17:35:13 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: oItXuuxIJi10711C739 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00002174: 17:35:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001BA8: 17:37:43 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001BA8: 17:37:43 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001BA8: 17:37:43 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+GestaoQIBI.exe: 00001BA8: 17:37:43 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001BA8: 17:37:43 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000BB8: 17:38:10 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000BB8: 17:38:10 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000BB8: 17:38:10 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 00000BB8: 17:38:11 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000BB8: 17:38:11 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001B40: 17:38:24 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Eecoe5tvji10711C89F ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000490: 17:38:25 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002348: 17:38:38 [127.0.0.1]:EDatabaseError : FDQueryAuxiliar: Cannot perform this operation on a closed dataset : Addr: $00695C76
+GestaoQIBI.exe: 00000990: 17:40:07 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000990: 17:40:07 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000990: 17:40:07 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+GestaoQIBI.exe: 00000990: 17:40:07 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000990: 17:40:07 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000024B0: 17:40:39 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000554: 17:41:05 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000013DC: 17:42:58 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: uhUIanjmhf10711C97D ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000660: 17:43:03 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000026F0: 17:43:59 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000026F0: 17:43:59 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000026F0: 17:43:59 [TUniServerModule]:Global Cache Folder Erased. <153> Files deleted.
+GestaoQIBI.exe: 000026F0: 17:43:59 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000026F0: 17:43:59 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001C6C: 17:44:39 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001C6C: 17:44:39 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001C6C: 17:44:39 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 00001C6C: 17:44:39 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001C6C: 17:44:39 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000870: 17:46:25 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000870: 17:46:25 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000870: 17:46:25 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+GestaoQIBI.exe: 00000870: 17:46:25 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000870: 17:46:25 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000027B8: 17:46:28 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: AfoI31H5bf10711CABF ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001D50: 17:46:29 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001BF8: 17:47:34 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000870: 17:53:04 [TUniServerModule]:Shutting Down Server.
+GestaoQIBI.exe: 00000870: 17:53:04 [TUniServerModule]:Stopping HTTP Server.
+GestaoQIBI.exe: 00000870: 17:53:05 [TUniServerModule]:HTTP Server Stopped.
+GestaoQIBI.exe: 00000870: 17:53:05 [TUniGUISessionManager]:Terminating Session manager.
+GestaoQIBI.exe: 00000870: 17:53:05 [TUniGUISessionManager]:Stopping Cache Eraser...
+GestaoQIBI.exe: 00000870: 17:53:05 [TUniGUISessionManager]:Cache Eraser Stopped.
+GestaoQIBI.exe: 00000870: 17:53:05 [TUniGUISessionManager]:Destroying Worker Threads.
+GestaoQIBI.exe: 00000870: 17:53:05 [TUniGUISessionManager]:Session manager terminated.
+GestaoQIBI.exe: 00000870: 17:53:05 [TUniServerModule]:Server Shutdown Completed.
+GestaoQIBI.exe: 00000870: 17:53:05 []:<-------------------------------------------------------------->
+GestaoQIBI.exe: 00000870: 17:53:05 [Terminated]:Exit Code: 0
+GestaoQIBI.exe: 00000D64: 17:54:29 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00000D64: 17:54:29 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00000D64: 17:54:29 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00000D64: 17:54:29 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001244: 17:54:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: t92UNIn2cr10711CBF8 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001998: 17:54:34 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000129C: 17:56:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00000F10: 17:57:29 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002274: 18:02:51 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002274: 18:02:51 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002274: 18:02:51 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+GestaoQIBI.exe: 00002274: 18:02:51 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002274: 18:02:51 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000027B0: 18:03:23 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: U3tZyElFPL10711CEA9 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001758: 18:03:24 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000089C: 18:13:12 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000089C: 18:13:12 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000089C: 18:13:12 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+GestaoQIBI.exe: 0000089C: 18:13:12 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000089C: 18:13:12 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001A60: 18:13:15 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: HP3mLMG48p10711D043 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001708: 18:13:16 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002610: 18:20:09 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002610: 18:20:09 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002610: 18:20:09 [TUniServerModule]:Global Cache Folder Erased. <169> Files deleted.
+GestaoQIBI.exe: 00002610: 18:20:09 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002610: 18:20:09 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000009C0: 18:20:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Wci5rx56aM10711D2F0 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001178: 18:20:16 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001904: 18:28:37 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001904: 18:28:37 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001904: 18:28:37 [TUniServerModule]:Global Cache Folder Erased. <165> Files deleted.
+GestaoQIBI.exe: 00001904: 18:28:37 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001904: 18:28:37 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001DC4: 18:28:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: f7sdMtThED10711D4D7 ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00001B68: 18:28:40 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001718: 18:29:32 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001718: 18:29:32 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001718: 18:29:32 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+GestaoQIBI.exe: 00001718: 18:29:33 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001718: 18:29:33 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00000F34: 18:30:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 8bdQCmSg8f10711D71E ) : Addr: $0080BE2A
+GestaoQIBI.exe: 00000C60: 18:30:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001FB8: 18:32:58 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00001FB8: 18:32:58 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00001FB8: 18:32:58 [TUniServerModule]:Global Cache Folder Erased. <162> Files deleted.
+GestaoQIBI.exe: 00001FB8: 18:32:58 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00001FB8: 18:32:58 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000003F4: 18:33:00 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Jto2gtJwZf10711D79E ) : Addr: $0080BE2A
+GestaoQIBI.exe: 000025EC: 18:33:00 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\modelo\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001FB8: 18:55:20 [TUniServerModule]:Shutting Down Server.
+GestaoQIBI.exe: 00001FB8: 18:55:20 [TUniServerModule]:Stopping HTTP Server.
+GestaoQIBI.exe: 00001FB8: 18:55:21 [TUniServerModule]:HTTP Server Stopped.
+GestaoQIBI.exe: 00001FB8: 18:55:21 [TUniGUISessionManager]:Terminating Session manager.
+GestaoQIBI.exe: 00001FB8: 18:55:21 [TUniGUISessionManager]:Stopping Cache Eraser...
+GestaoQIBI.exe: 00001FB8: 18:55:21 [TUniGUISessionManager]:Cache Eraser Stopped.
+GestaoQIBI.exe: 00001FB8: 18:55:21 [TUniGUISessionManager]:Destroying Worker Threads.
+GestaoQIBI.exe: 00001FB8: 18:55:21 [TUniGUISessionManager]:Session manager terminated.
+GestaoQIBI.exe: 00001FB8: 18:55:22 [TUniServerModule]:Server Shutdown Completed.
+GestaoQIBI.exe: 00001FB8: 18:55:22 []:<-------------------------------------------------------------->
+GestaoQIBI.exe: 00001FB8: 18:55:22 [Terminated]:Exit Code: 0
