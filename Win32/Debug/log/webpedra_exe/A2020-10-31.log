@@ -1,0 +1,17 @@
+WebPedra.exe: 000005A0: 21:10:15 []:>--------------------------------------------------------------<
+WebPedra.exe: 000005A0: 21:10:15 [TUniServerModule]:Server First Init.
+WebPedra.exe: 000005A0: 21:10:15 [TUniServerModule]:Global Cache Folder Erased. <151> Files deleted.
+WebPedra.exe: 000005A0: 21:10:15 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+WebPedra.exe: 000005A0: 21:10:15 [TUniServerModule]:HTTP Server Started on Port: 8084
+WebPedra.exe: 000029EC: 21:10:43 [HandleFileRequest[127.0.0.1]]:File not found: D:\2020\unigui\2020\ControleQIBI\GestaoQIBI\Win32\Debug\files\files\font\yugothib.ttf
+WebPedra.exe: 000005A0: 21:11:36 [TUniServerModule]:Shutting Down Server.
+WebPedra.exe: 000005A0: 21:11:36 [TUniServerModule]:Stopping HTTP Server.
+WebPedra.exe: 000005A0: 21:11:37 [TUniServerModule]:HTTP Server Stopped.
+WebPedra.exe: 000005A0: 21:11:37 [TUniGUISessionManager]:Terminating Session manager.
+WebPedra.exe: 000005A0: 21:11:37 [TUniGUISessionManager]:Stopping Cache Eraser...
+WebPedra.exe: 000005A0: 21:11:37 [TUniGUISessionManager]:Cache Eraser Stopped.
+WebPedra.exe: 000005A0: 21:11:37 [TUniGUISessionManager]:Destroying Worker Threads.
+WebPedra.exe: 000005A0: 21:11:37 [TUniGUISessionManager]:Session manager terminated.
+WebPedra.exe: 000005A0: 21:11:37 [TUniServerModule]:Server Shutdown Completed.
+WebPedra.exe: 000005A0: 21:11:37 []:<-------------------------------------------------------------->
+WebPedra.exe: 000005A0: 21:11:37 [Terminated]:Exit Code: 0

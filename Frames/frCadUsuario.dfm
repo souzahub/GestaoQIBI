@@ -20,7 +20,7 @@ object frameCadUsuario: TframeCadUsuario
       Width = 1143
       Height = 616
       Hint = ''
-      ActivePage = Tab1
+      ActivePage = Tab2
       Align = alClient
       TabOrder = 1
       object Tab1: TUniTabSheet

@@ -1270,6 +1270,34 @@ object MainForm: TMainForm
         Font.Style = [fsBold]
         TabOrder = 3
       end
+      object BtCan: TUniFSButton
+        AlignWithMargins = True
+        Left = 1330
+        Top = 3
+        Width = 36
+        Height = 35
+        Hint = ''
+        Margins.Right = 10
+        StyleButton = GoogleBlueRound
+        BadgeText.Text = '0'
+        BadgeText.TextColor = '#FFFFFF'
+        BadgeText.TextSize = 10
+        BadgeText.TextStyle = 'bold'
+        BadgeText.BackgroundColor = '#D50000'
+        Caption = ''
+        Align = alRight
+        ParentFont = False
+        Font.Color = clBlack
+        Font.Height = -16
+        Font.Name = 'Yu Gothic UI'
+        Font.Style = [fsBold]
+        TabOrder = 4
+        Images = UniNativeImageList1
+        ImageIndex = 33
+        OnClick = BtCanClick
+        ExplicitLeft = 171
+        ExplicitHeight = 36
+      end
     end
   end
   object frxGradientObject1: TfrxGradientObject

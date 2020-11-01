@@ -50,49 +50,24 @@ object frameCadMembros: TframeCadMembros
           Color = clWindow
           Columns = <
             item
-              FieldName = 'ID'
-              Title.Caption = 'ID'
-              Width = 25
-            end
-            item
               FieldName = 'DT_NASCIMENTO'
               Title.Caption = 'Nascimento'
-              Width = 83
+              Width = 115
             end
             item
               FieldName = 'DT_BATISMO'
               Title.Caption = 'Batismo'
-              Width = 86
+              Width = 115
             end
             item
               FieldName = 'NOME'
               Title.Caption = 'Nome'
-              Width = 304
+              Width = 376
             end
             item
               FieldName = 'ENDERECO'
               Title.Caption = 'Endere'#231'o'
-              Width = 246
-            end
-            item
-              FieldName = 'NUMERO'
-              Title.Caption = 'Numero'
-              Width = 64
-            end
-            item
-              FieldName = 'BAIRRO'
-              Title.Caption = 'Bairro'
-              Width = 116
-            end
-            item
-              FieldName = 'CIDADE'
-              Title.Caption = 'Cidade'
-              Width = 161
-            end
-            item
-              FieldName = 'EMAIL'
-              Title.Caption = 'Email'
-              Width = 259
+              Width = 445
             end>
         end
       end
@@ -133,8 +108,9 @@ object frameCadMembros: TframeCadMembros
               Height = 29
               Hint = ''
               CharCase = ecUpperCase
+              MaxLength = 50
               Text = 'EDNOME'
-              TabOrder = 1
+              TabOrder = 3
               ClearButton = True
             end
             object edEndereco: TUniEdit
@@ -144,8 +120,9 @@ object frameCadMembros: TframeCadMembros
               Height = 29
               Hint = ''
               CharCase = ecUpperCase
+              MaxLength = 50
               Text = 'EDENDERECO'
-              TabOrder = 2
+              TabOrder = 4
               ClearButton = True
             end
             object lbBaiiro: TUniLabel
@@ -155,7 +132,7 @@ object frameCadMembros: TframeCadMembros
               Height = 13
               Hint = ''
               Caption = 'BAIRRO'
-              TabOrder = 3
+              TabOrder = 10
             end
             object edBairro: TUniEdit
               Left = 16
@@ -164,8 +141,9 @@ object frameCadMembros: TframeCadMembros
               Height = 29
               Hint = ''
               CharCase = ecUpperCase
+              MaxLength = 30
               Text = 'EDBAIRRO'
-              TabOrder = 4
+              TabOrder = 6
               ClearButton = True
             end
             object UniLabel4: TUniLabel
@@ -175,7 +153,7 @@ object frameCadMembros: TframeCadMembros
               Height = 13
               Hint = ''
               Caption = 'EMAIL'
-              TabOrder = 5
+              TabOrder = 11
             end
             object edEmail: TUniEdit
               Left = 16
@@ -184,7 +162,7 @@ object frameCadMembros: TframeCadMembros
               Height = 29
               Hint = ''
               Text = 'UniEdit3'
-              TabOrder = 6
+              TabOrder = 9
               ClearButton = True
             end
             object UniLabel7: TUniLabel
@@ -194,7 +172,7 @@ object frameCadMembros: TframeCadMembros
               Height = 13
               Hint = ''
               Caption = 'UF'
-              TabOrder = 7
+              TabOrder = 12
             end
             object lbNumero: TUniLabel
               Left = 499
@@ -203,7 +181,7 @@ object frameCadMembros: TframeCadMembros
               Height = 13
               Hint = ''
               Caption = 'NUMERO'
-              TabOrder = 8
+              TabOrder = 13
             end
             object edCidade: TUniEdit
               Left = 257
@@ -212,8 +190,9 @@ object frameCadMembros: TframeCadMembros
               Height = 29
               Hint = ''
               CharCase = ecUpperCase
+              MaxLength = 30
               Text = 'EDCIDADE'
-              TabOrder = 9
+              TabOrder = 7
               ClearButton = True
             end
             object dtBatismo: TUniDateTimePicker
@@ -224,7 +203,7 @@ object frameCadMembros: TframeCadMembros
               DateTime = 44134.000000000000000000
               DateFormat = 'dd/MM/yyyy'
               TimeFormat = 'HH:mm:ss'
-              TabOrder = 10
+              TabOrder = 2
             end
             object dtNascimento: TUniDateTimePicker
               Left = 16
@@ -234,7 +213,7 @@ object frameCadMembros: TframeCadMembros
               DateTime = 44134.000000000000000000
               DateFormat = 'dd/MM/yyyy'
               TimeFormat = 'HH:mm:ss'
-              TabOrder = 11
+              TabOrder = 1
             end
             object lbDataNascimento: TUniLabel
               Left = 16
@@ -243,7 +222,7 @@ object frameCadMembros: TframeCadMembros
               Height = 13
               Hint = ''
               Caption = 'Data do Nascimento'
-              TabOrder = 12
+              TabOrder = 14
             end
             object UniLabel8: TUniLabel
               Left = 193
@@ -252,7 +231,7 @@ object frameCadMembros: TframeCadMembros
               Height = 13
               Hint = ''
               Caption = 'Data do Batismo'
-              TabOrder = 13
+              TabOrder = 15
             end
             object lbCidade: TUniLabel
               Left = 257
@@ -261,7 +240,7 @@ object frameCadMembros: TframeCadMembros
               Height = 13
               Hint = ''
               Caption = 'CIDADE'
-              TabOrder = 14
+              TabOrder = 16
             end
             object lbEndereco: TUniLabel
               Left = 16
@@ -270,7 +249,7 @@ object frameCadMembros: TframeCadMembros
               Height = 13
               Hint = ''
               Caption = 'Endere'#231'o'
-              TabOrder = 15
+              TabOrder = 17
             end
             object lbNome: TUniLabel
               Left = 16
@@ -279,7 +258,7 @@ object frameCadMembros: TframeCadMembros
               Height = 13
               Hint = ''
               Caption = 'NOME'
-              TabOrder = 16
+              TabOrder = 18
             end
             object edUf: TUniEdit
               Left = 499
@@ -288,9 +267,9 @@ object frameCadMembros: TframeCadMembros
               Height = 29
               Hint = ''
               CharCase = ecUpperCase
-              MaxLength = 40
+              MaxLength = 2
               Text = 'UNINOME'
-              TabOrder = 17
+              TabOrder = 8
               InputMask.Mask = 'aa'
               InputMask.MaskChar = ' '
               InputMask.UnmaskText = True
@@ -302,8 +281,9 @@ object frameCadMembros: TframeCadMembros
               Height = 29
               Hint = ''
               CharCase = ecUpperCase
+              MaxLength = 10
               Text = 'UNINOME'
-              TabOrder = 18
+              TabOrder = 5
               InputMask.Mask = '9999999999'
               InputMask.MaskChar = ' '
               InputMask.UnmaskText = True

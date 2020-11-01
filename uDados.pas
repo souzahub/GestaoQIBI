@@ -8,7 +8,7 @@ uses
   FireDAC.DApt.Intf, Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client,
   FireDAC.Stan.Async, FireDAC.DApt, FireDAC.UI.Intf, FireDAC.Stan.Def,
   FireDAC.Stan.Pool, FireDAC.Phys, FireDAC.Phys.FB, FireDAC.Phys.FBDef,
-  FireDAC.VCLUI.Wait ;
+  FireDAC.VCLUI.Wait, formAniversarioDoMes ;
 
 type
   TdmDados = class(TDataModule)
@@ -42,6 +42,7 @@ type
   public
     { Public declarations }
   end;
+
 
 function dmDados: TdmDados;
 

@@ -8,7 +8,7 @@ uses
   uniGUIClasses, uniGUIFrame, uniDateTimePicker, uniPanel, uniSweetAlert,
   uniScreenMask, uniGUIBaseClasses, uniImageList, uniEdit, uniButton, uniBitBtn,
   UniFSButton, uniLabel, uniBasicGrid, uniDBGrid, uniPageControl, Data.DB,
-  uDados, UniFSToast, MainModule;
+  uDados, UniFSToast, MainModule, formAniversarioDoMes;
 
 type
   TframeCadMembros = class(TUniFrame)

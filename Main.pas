@@ -11,7 +11,7 @@ uses
   Vcl.Imaging.pngimage, uniImage, uniScrollBox, uniPageControl, frxClass,
   frxExportBaseDialog, frxExportPDF, frxGradient, frxDBSet, uniGUIFrame,
   uniButton, uniBitBtn, uniMenuButton, UniFSMenuButton, DB, frCadUsuario,
-  UniFSToast, frCadMembros, frLogSystema;
+  UniFSToast, frCadMembros, frLogSystema, formAniversarioDoMes, UniFSButton;
 
 type
   TMainForm = class(TUniForm)
@@ -70,6 +70,7 @@ type
     UniLabel11: TUniLabel;
     labSistema: TUniLabel;
     Toast: TUniFSToast;
+    BtCan: TUniFSButton;
     procedure mnuUsuarioClick(Sender: TObject);
     procedure UniFormScreenResize(Sender: TObject; AWidth,
       AHeight: Integer);
@@ -78,7 +79,8 @@ type
     procedure RegistraLog(Tipo: String; Historico: String);
     procedure Log2Click(Sender: TObject);
     procedure DashBoardClick(Sender: TObject);
-    procedure ContasPadro1Click(Sender: TObject);// procedure gravar log
+    procedure ContasPadro1Click(Sender: TObject);
+    procedure BtCanClick(Sender: TObject);// procedure gravar log
   private
     procedure NovaAba(nomeFormFrame: TFrame; descFormFrame: string; Fechar: Boolean);   // frame lateral
   public
@@ -132,6 +134,11 @@ begin
 end;
 
 // frame lateral
+procedure TMainForm.BtCanClick(Sender: TObject);
+begin
+   forAnivMEs.ShowModal();
+end;
+
 procedure TMainForm.ContasPadro1Click(Sender: TObject);
 begin
   NovaAba(TFrame(TframeCadMembros),'Membros',True);

@@ -9,7 +9,8 @@ uses
   uFormLogin in 'uFormLogin.pas' {formLogin: TUniLoginForm},
   frCadUsuario in 'Frames\frCadUsuario.pas' {frameCadUsuario: TUniFrame},
   frLogSystema in 'Frames\frLogSystema.pas' {frameLogSys: TUniFrame},
-  frCadMembros in 'Frames\frCadMembros.pas' {frameCadMembros: TUniFrame};
+  frCadMembros in 'Frames\frCadMembros.pas' {frameCadMembros: TUniFrame},
+  formAniversarioDoMes in 'Forms\formAniversarioDoMes.pas' {forAnivMEs: TUniForm};
 
 {$R *.res}
 
