@@ -11,7 +11,8 @@ uses
   Vcl.Imaging.pngimage, uniImage, uniScrollBox, uniPageControl, frxClass,
   frxExportBaseDialog, frxExportPDF, frxGradient, frxDBSet, uniGUIFrame,
   uniButton, uniBitBtn, uniMenuButton, UniFSMenuButton, DB, frCadUsuario,
-  UniFSToast, frCadMembros, frLogSystema, formAniversarioDoMes, UniFSButton;
+  UniFSToast, frCadMembros, frLogSystema, formAniversarioDoMes, UniFSButton,
+  frMembrosAtivo, frMembrosAusentes, frMembrosExcluidos, frMembrosObitos;
 
 type
   TMainForm = class(TUniForm)
@@ -71,6 +72,11 @@ type
     labSistema: TUniLabel;
     Toast: TUniFSToast;
     BtCan: TUniFSButton;
+    Gerenciamento1: TUniMenuItem;
+    Ativos1: TUniMenuItem;
+    Ausentes1: TUniMenuItem;
+    Excluidos1: TUniMenuItem;
+    bito1: TUniMenuItem;
     procedure mnuUsuarioClick(Sender: TObject);
     procedure UniFormScreenResize(Sender: TObject; AWidth,
       AHeight: Integer);
@@ -80,7 +86,11 @@ type
     procedure Log2Click(Sender: TObject);
     procedure DashBoardClick(Sender: TObject);
     procedure ContasPadro1Click(Sender: TObject);
-    procedure BtCanClick(Sender: TObject);// procedure gravar log
+    procedure BtCanClick(Sender: TObject);
+    procedure Ativos1Click(Sender: TObject);
+    procedure Ausentes1Click(Sender: TObject);
+    procedure Excluidos1Click(Sender: TObject);
+    procedure bito1Click(Sender: TObject);// procedure gravar log
   private
     procedure NovaAba(nomeFormFrame: TFrame; descFormFrame: string; Fechar: Boolean);   // frame lateral
   public
@@ -106,7 +116,7 @@ procedure TMainForm.RegistraLog(Tipo: String; Historico: String);  // procedure 
 var
   xERRO: String;
 begin
-//  exit;
+  exit;
   // registra o log ( função Log ) para todos
   dmDados.FDQueryAuxiliar.Close;
   dmDados.FDQueryAuxiliar.SQL.Clear;
@@ -134,6 +144,21 @@ begin
 end;
 
 // frame lateral
+procedure TMainForm.Ativos1Click(Sender: TObject);
+begin
+  NovaAba(TFrame(TframeMembrosAtivos),'Membros Ativos',True);
+end;
+
+procedure TMainForm.Ausentes1Click(Sender: TObject);
+begin
+  NovaAba(TFrame(TframeMembrosAusentes),'Membros Ausentes',True);
+end;
+
+procedure TMainForm.bito1Click(Sender: TObject);
+begin
+  NovaAba(TFrame(TframeMembrosObitos),'Membros Óbitos',True);
+end;
+
 procedure TMainForm.BtCanClick(Sender: TObject);
 begin
    forAnivMEs.ShowModal();
@@ -147,6 +172,11 @@ end;
 procedure TMainForm.DashBoardClick(Sender: TObject);
 begin
   PagePrincipal.ActivePage := TabHome; // ativa pagina Principal
+end;
+
+procedure TMainForm.Excluidos1Click(Sender: TObject);
+begin
+  NovaAba(TFrame(TframeMembrosExcluidos),'Membros Excluidos',True);
 end;
 
 procedure TMainForm.Log2Click(Sender: TObject);

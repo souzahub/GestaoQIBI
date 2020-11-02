@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{AD800B77-D12C-418C-9154-FF5D62778CAF}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="GestaoQIBI.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\luan\Downloads\Compressed\WebGestaoDevo-main\WebGestaoDevo-main\GestaoDevo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="GestaoQIBI">
+        <MSBuild Projects="GestaoQIBI.dproj"/>
+    </Target>
+    <Target Name="GestaoQIBI:Clean">
+        <MSBuild Projects="GestaoQIBI.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GestaoQIBI:Make">
+        <MSBuild Projects="GestaoQIBI.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GestaoDevo">
+        <MSBuild Projects="C:\Users\luan\Downloads\Compressed\WebGestaoDevo-main\WebGestaoDevo-main\GestaoDevo.dproj"/>
+    </Target>
+    <Target Name="GestaoDevo:Clean">
+        <MSBuild Projects="C:\Users\luan\Downloads\Compressed\WebGestaoDevo-main\WebGestaoDevo-main\GestaoDevo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GestaoDevo:Make">
+        <MSBuild Projects="C:\Users\luan\Downloads\Compressed\WebGestaoDevo-main\WebGestaoDevo-main\GestaoDevo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="GestaoQIBI;GestaoDevo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="GestaoQIBI:Clean;GestaoDevo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="GestaoQIBI:Make;GestaoDevo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

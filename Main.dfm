@@ -1295,8 +1295,6 @@ object MainForm: TMainForm
         Images = UniNativeImageList1
         ImageIndex = 33
         OnClick = BtCanClick
-        ExplicitLeft = 171
-        ExplicitHeight = 36
       end
     end
   end
@@ -1543,6 +1541,30 @@ object MainForm: TMainForm
         Caption = 'Membros'
         ImageIndex = 23
         OnClick = ContasPadro1Click
+      end
+    end
+    object Gerenciamento1: TUniMenuItem
+      Caption = 'Gerenciamento Membros'
+      ImageIndex = 1
+      object Ativos1: TUniMenuItem
+        Caption = 'Ativos'
+        ImageIndex = 18
+        OnClick = Ativos1Click
+      end
+      object Ausentes1: TUniMenuItem
+        Caption = 'Ausentes'
+        ImageIndex = 4
+        OnClick = Ausentes1Click
+      end
+      object Excluidos1: TUniMenuItem
+        Caption = 'Excluidos'
+        ImageIndex = 5
+        OnClick = Excluidos1Click
+      end
+      object bito1: TUniMenuItem
+        Caption = #211'bito'
+        ImageIndex = 15
+        OnClick = bito1Click
       end
     end
   end

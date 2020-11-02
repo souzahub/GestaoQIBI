@@ -1,7 +1,7 @@
 object forAnivMEs: TforAnivMEs
   Left = 0
   Top = 0
-  ClientHeight = 535
+  ClientHeight = 471
   ClientWidth = 649
   Caption = 'ANIVERSARIANTES DO  M'#202'S'
   BorderStyle = bsNoneSizeable
@@ -14,16 +14,12 @@ object forAnivMEs: TforAnivMEs
     Left = 0
     Top = 0
     Width = 649
-    Height = 535
+    Height = 471
     Hint = ''
     Align = alClient
     TabOrder = 0
     BorderStyle = ubsNone
     Caption = ''
-    ExplicitLeft = 8
-    ExplicitTop = -8
-    ExplicitWidth = 693
-    ExplicitHeight = 542
     object UniPanel1: TUniPanel
       Left = 0
       Top = 0
@@ -38,7 +34,6 @@ object forAnivMEs: TforAnivMEs
       TabOrder = 1
       Caption = 'ANIVERSARIANTES DO  M'#202'S'
       Color = clActiveCaption
-      ExplicitWidth = 643
       object UniFSButton1: TUniFSButton
         AlignWithMargins = True
         Left = 610
@@ -95,7 +90,7 @@ object forAnivMEs: TforAnivMEs
       Left = 5
       Top = 102
       Width = 428
-      Height = 428
+      Height = 364
       Hint = ''
       Margins.Left = 5
       Margins.Top = 5
@@ -128,13 +123,11 @@ object forAnivMEs: TforAnivMEs
       Left = 433
       Top = 97
       Width = 216
-      Height = 438
+      Height = 374
       Hint = ''
       Align = alRight
       TabOrder = 5
       Caption = ''
-      ExplicitLeft = 430
-      ExplicitTop = -15
       object ComboBox1: TUniComboBox
         Left = 3
         Top = 5
@@ -191,7 +184,7 @@ object forAnivMEs: TforAnivMEs
     OnFilterRecord = FDQueryAniverFilterRecord
     Connection = UniMainModule.FDConnection1
     SQL.Strings = (
-      'SELECT DT_NASCIMENTO, NOME FROM CAD_MEMBROS ;')
+      'SELECT DT_NASCIMENTO, NOME FROM CAD_MEMBROS;')
     Left = 104
     Top = 48
   end

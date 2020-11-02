@@ -17,16 +17,19 @@ SET SQL DIALECT 3;
 CREATE GENERATOR GEN_CAD_MEMBROS_ID;
 
 CREATE TABLE CAD_MEMBROS (
-    ID             INTEGER,
-    DT_NASCIMENTO  DATE,
-    DT_BATISMO     DATE,
-    NOME           VARCHAR(50),
-    ENDERECO       VARCHAR(50),
-    NUMERO         VARCHAR(10),
-    BAIRRO         VARCHAR(30),
-    CIDADE         VARCHAR(30),
-    EMAIL          VARCHAR(50),
-    UF             VARCHAR(2)
+   ID                INTEGER,
+    DT_NASCIMENTO     DATE,
+    DT_BATISMO        DATE,
+    NOME              VARCHAR(50),
+    ENDERECO          VARCHAR(50),
+    NUMERO            VARCHAR(10),
+    BAIRRO            VARCHAR(30),
+    CIDADE            VARCHAR(30),
+    EMAIL             VARCHAR(50),
+    UF                VARCHAR(2),
+    DATA_CADASTRO     DATE,
+    STATUS            VARCHAR(10),
+    DATASTATUS_ATIVO  DATE
 );
 
 

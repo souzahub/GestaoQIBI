@@ -1,4 +1,4 @@
-object frameCadMembros: TframeCadMembros
+object frameMembrosAtivos: TframeMembrosAtivos
   Left = 0
   Top = 0
   Width = 1125
@@ -14,6 +14,7 @@ object frameCadMembros: TframeCadMembros
     Align = alClient
     TabOrder = 0
     Caption = 'PnUsuario'
+    ExplicitLeft = -56
     object PageCadastro: TUniPageControl
       Left = 1
       Top = 43
@@ -48,42 +49,29 @@ object frameCadMembros: TframeCadMembros
           TabOrder = 0
           ParentColor = False
           Color = clWindow
-          OnCellClick = UniDBGrid1CellClick
           Columns = <
             item
+              FieldName = 'DATA_CADASTRO'
+              Title.Caption = 'Data Cadastro'
+              Width = 74
+            end
+            item
               FieldName = 'NOME'
-              Title.Caption = 'NOME'
-              Width = 340
-            end
-            item
-              FieldName = 'ATIVO'
-              Title.Alignment = taCenter
-              Title.Caption = 'ATIVO'
-              Width = 39
-            end
-            item
-              FieldName = 'AUSENTE'
-              Title.Alignment = taCenter
-              Title.Caption = 'AUSENTE'
-              Width = 51
-            end
-            item
-              FieldName = 'EXCLUIDO'
-              Title.Alignment = taCenter
-              Title.Caption = 'EXCLUIDO'
-              Width = 57
-            end
-            item
-              FieldName = 'OBITO'
-              Title.Alignment = taCenter
-              Title.Caption = 'OBITO'
-              Width = 38
+              Title.Caption = 'Nome'
+              Width = 304
             end
             item
               FieldName = 'STATUS'
               Title.Alignment = taCenter
-              Title.Caption = 'STATUS'
-              Width = 49
+              Title.Caption = 'Status'
+              Width = 64
+              Alignment = taCenter
+            end
+            item
+              FieldName = 'DATASTATUS_ATIVO'
+              Title.Alignment = taCenter
+              Title.Caption = 'Data Ativo'
+              Width = 69
               Alignment = taCenter
             end>
         end
@@ -91,6 +79,10 @@ object frameCadMembros: TframeCadMembros
       object Tab2: TUniTabSheet
         Hint = ''
         Caption = 'Ficha'
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 256
+        ExplicitHeight = 128
         object UniPanel2: TUniPanel
           Left = 0
           Top = 0
@@ -132,7 +124,7 @@ object frameCadMembros: TframeCadMembros
             end
             object edEndereco: TUniEdit
               Left = 16
-              Top = 168
+              Top = 192
               Width = 466
               Height = 29
               Hint = ''
@@ -144,7 +136,7 @@ object frameCadMembros: TframeCadMembros
             end
             object lbBaiiro: TUniLabel
               Left = 16
-              Top = 221
+              Top = 269
               Width = 39
               Height = 13
               Hint = ''
@@ -153,7 +145,7 @@ object frameCadMembros: TframeCadMembros
             end
             object edBairro: TUniEdit
               Left = 16
-              Top = 240
+              Top = 288
               Width = 225
               Height = 29
               Hint = ''
@@ -165,7 +157,7 @@ object frameCadMembros: TframeCadMembros
             end
             object UniLabel4: TUniLabel
               Left = 16
-              Top = 293
+              Top = 381
               Width = 30
               Height = 13
               Hint = ''
@@ -174,7 +166,7 @@ object frameCadMembros: TframeCadMembros
             end
             object edEmail: TUniEdit
               Left = 16
-              Top = 312
+              Top = 400
               Width = 539
               Height = 29
               Hint = ''
@@ -184,7 +176,7 @@ object frameCadMembros: TframeCadMembros
             end
             object UniLabel7: TUniLabel
               Left = 499
-              Top = 221
+              Top = 269
               Width = 13
               Height = 13
               Hint = ''
@@ -193,7 +185,7 @@ object frameCadMembros: TframeCadMembros
             end
             object lbNumero: TUniLabel
               Left = 499
-              Top = 149
+              Top = 173
               Width = 43
               Height = 13
               Hint = ''
@@ -202,7 +194,7 @@ object frameCadMembros: TframeCadMembros
             end
             object edCidade: TUniEdit
               Left = 257
-              Top = 240
+              Top = 288
               Width = 225
               Height = 29
               Hint = ''
@@ -252,7 +244,7 @@ object frameCadMembros: TframeCadMembros
             end
             object lbCidade: TUniLabel
               Left = 257
-              Top = 221
+              Top = 269
               Width = 38
               Height = 13
               Hint = ''
@@ -261,7 +253,7 @@ object frameCadMembros: TframeCadMembros
             end
             object lbEndereco: TUniLabel
               Left = 16
-              Top = 149
+              Top = 173
               Width = 45
               Height = 13
               Hint = ''
@@ -279,7 +271,7 @@ object frameCadMembros: TframeCadMembros
             end
             object edUf: TUniEdit
               Left = 499
-              Top = 240
+              Top = 288
               Width = 56
               Height = 29
               Hint = ''
@@ -293,7 +285,7 @@ object frameCadMembros: TframeCadMembros
             end
             object edNumero: TUniEdit
               Left = 499
-              Top = 168
+              Top = 192
               Width = 56
               Height = 29
               Hint = ''
@@ -324,6 +316,8 @@ object frameCadMembros: TframeCadMembros
       BorderStyle = ubsNone
       Caption = 'Cadastro de Membros'
       Color = clNone
+      ExplicitLeft = 10
+      ExplicitTop = 3
       object UniLabel1: TUniLabel
         Left = 784
         Top = 24
@@ -333,116 +327,6 @@ object frameCadMembros: TframeCadMembros
         Visible = False
         Caption = '.'
         TabOrder = 1
-      end
-      object BtCan: TUniFSButton
-        AlignWithMargins = True
-        Left = 171
-        Top = 3
-        Width = 36
-        Height = 36
-        Hint = ''
-        StyleButton = GoogleBlueRound
-        BadgeText.Text = '0'
-        BadgeText.TextColor = '#FFFFFF'
-        BadgeText.TextSize = 10
-        BadgeText.TextStyle = 'bold'
-        BadgeText.BackgroundColor = '#D50000'
-        Caption = '<i class="fas fa-sync"></i>'
-        Align = alLeft
-        ParentFont = False
-        Font.Color = clWhite
-        Font.Height = -16
-        Font.Style = [fsBold]
-        TabOrder = 2
-        OnClick = BtCanClick
-      end
-      object BtGrv: TUniFSButton
-        AlignWithMargins = True
-        Left = 129
-        Top = 3
-        Width = 36
-        Height = 36
-        Hint = ''
-        StyleButton = GoogleBlueRound
-        BadgeText.Text = '0'
-        BadgeText.TextColor = '#FFFFFF'
-        BadgeText.TextSize = 10
-        BadgeText.TextStyle = 'bold'
-        BadgeText.BackgroundColor = '#D50000'
-        Caption = '<i class="fas fa-save"></i>'
-        Align = alLeft
-        ParentFont = False
-        Font.Color = clWhite
-        Font.Height = -16
-        Font.Style = [fsBold]
-        TabOrder = 3
-        OnClick = BtGrvClick
-      end
-      object BtExc: TUniFSButton
-        AlignWithMargins = True
-        Left = 87
-        Top = 3
-        Width = 36
-        Height = 36
-        Hint = ''
-        StyleButton = GoogleBlueRound
-        BadgeText.Text = '0'
-        BadgeText.TextColor = '#FFFFFF'
-        BadgeText.TextSize = 10
-        BadgeText.TextStyle = 'bold'
-        BadgeText.BackgroundColor = '#D50000'
-        Caption = '<i class="far fa-trash-alt"></i>'
-        Align = alLeft
-        ParentFont = False
-        Font.Color = clWhite
-        Font.Height = -16
-        Font.Style = [fsBold]
-        TabOrder = 4
-        OnClick = BtExcClick
-      end
-      object BtInc: TUniFSButton
-        AlignWithMargins = True
-        Left = 3
-        Top = 3
-        Width = 36
-        Height = 36
-        Hint = ''
-        StyleButton = GoogleBlueRound
-        BadgeText.Text = '0'
-        BadgeText.TextColor = '#FFFFFF'
-        BadgeText.TextSize = 10
-        BadgeText.TextStyle = 'bold'
-        BadgeText.BackgroundColor = '#D50000'
-        Caption = '<i class="fas fa-plus "></i>'
-        Align = alLeft
-        ParentFont = False
-        Font.Color = clWhite
-        Font.Height = -16
-        Font.Style = [fsBold]
-        TabOrder = 5
-        OnClick = BtIncClick
-      end
-      object BtAlt: TUniFSButton
-        AlignWithMargins = True
-        Left = 45
-        Top = 3
-        Width = 36
-        Height = 36
-        Hint = ''
-        StyleButton = GoogleBlueRound
-        BadgeText.Text = '0'
-        BadgeText.TextColor = '#FFFFFF'
-        BadgeText.TextSize = 10
-        BadgeText.TextStyle = 'bold'
-        BadgeText.BackgroundColor = '#D50000'
-        Caption = '<i class="far fa-edit"></i>'
-        Align = alLeft
-        ParentFont = False
-        Font.Color = clWhite
-        Font.Height = -16
-        Font.Style = [fsBold]
-        TabOrder = 6
-        OnClick = BtAltClick
       end
       object EdPesquisar: TUniEdit
         AlignWithMargins = True
@@ -462,7 +346,7 @@ object frameCadMembros: TframeCadMembros
         Font.Color = clBlack
         Font.Style = [fsBold]
         Align = alRight
-        TabOrder = 7
+        TabOrder = 2
         EmptyText = 'PESQUISAR'
         ClearButton = True
         FieldLabel = '<i class="fas fa-search"></i>'
@@ -470,19 +354,18 @@ object frameCadMembros: TframeCadMembros
         FieldLabelSeparator = ' '
         FieldLabelFont.Height = -19
         FieldLabelFont.Style = [fsBold]
-        OnChange = EdPesquisarChange
       end
     end
   end
   object DataSourceMembros: TDataSource
     AutoEdit = False
-    DataSet = dmDados.FDCadMembros
-    Left = 612
-    Top = 122
+    DataSet = dmDados.FDMembrosAtivos
+    Left = 572
+    Top = 10
   end
   object UniNativeImageList1: TUniNativeImageList
-    Left = 824
-    Top = 120
+    Left = 744
+    Top = 8
     Images = {
       1400000000000000060600000073613B66613B00000000060B0000006465736B
       746F703B66613B000000000608000000656469743B66613B0000000006090000
@@ -501,31 +384,18 @@ object frameCadMembros: TframeCadMembros
   object UniScreenMask1: TUniScreenMask
     Enabled = True
     DisplayMessage = ' Buscando . . .'
-    Left = 888
-    Top = 120
+    Left = 840
+    Top = 8
   end
   object UniSweetAlert1: TUniSweetAlert
+    Title = 'Title'
     ConfirmButtonText = 'Sim'
     CancelButtonText = 'N'#227'o'
-    ConfirmButtonColor = 6835774
-    CancelButtonColor = clMaroon
-    Width = 500
+    ConfirmButtonColor = clMaroon
+    CancelButtonColor = 6835774
+    Width = 400
     Padding = 20
-    OnDismiss = UniSweetAlert1Dismiss
-    OnConfirm = UniSweetAlert1Confirm
-    Left = 724
-    Top = 122
-  end
-  object UniSweetAlertUpdate: TUniSweetAlert
-    ConfirmButtonText = 'Sim'
-    CancelButtonText = 'N'#227'o'
-    ConfirmButtonColor = 6835774
-    CancelButtonColor = clMaroon
-    Width = 500
-    Padding = 20
-    OnDismiss = UniSweetAlertUpdateDismiss
-    OnConfirm = UniSweetAlertUpdateConfirm
-    Left = 724
-    Top = 218
+    Left = 652
+    Top = 10
   end
 end

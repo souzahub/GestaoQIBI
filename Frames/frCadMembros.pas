@@ -49,6 +49,7 @@ type
     lbNome: TUniLabel;
     edUf: TUniEdit;
     edNumero: TUniEdit;
+    UniSweetAlertUpdate: TUniSweetAlert;
     procedure UniFrameCreate(Sender: TObject);
     procedure BtIncClick(Sender: TObject);
     procedure BtExcClick(Sender: TObject);
@@ -59,8 +60,13 @@ type
     procedure UniSweetAlert1Dismiss(Sender: TObject;
       const Reason: TDismissType);
     procedure EdPesquisarChange(Sender: TObject);
+    procedure UniDBGrid1CellClick(Column: TUniDBGridColumn);
+    procedure UniSweetAlertUpdateConfirm(Sender: TObject);
+    procedure UniSweetAlertUpdateDismiss(Sender: TObject;
+      const Reason: TDismissType);
   private
      xIncluindo, xDeletando, xEditando, xSoAlerta : Boolean;
+     xAtivo, xAusente, xExcluido, xObito : Boolean;
   public
     { Public declarations }
   end;
@@ -152,7 +158,7 @@ begin
   begin
     xSoAlerta := True; // Bloqueia o alerta
     UniSweetAlert1.Title := ('Nome Obrigatório');
-    UniSweetAlert1.AlertType := atInfo;
+    UniSweetAlert1.AlertType := atWarning;
     UniSweetAlert1.ShowConfirmButton := False;
     UniSweetAlert1.ShowCancelButton := True ;
     UniSweetAlert1.CancelButtonText := 'Ok';
@@ -163,7 +169,7 @@ begin
   //  Salvando com SweetAlert1
   xSoAlerta := False;
   UniSweetAlert1.Title := 'Deseja salvar esse Membro ?';
-  UniSweetAlert1.AlertType := atQuestion;
+  UniSweetAlert1.AlertType := atInfo;
   UniSweetAlert1.ShowConfirmButton := True;
   UniSweetAlert1.ConfirmButtonText := 'Sim';
   UniSweetAlert1.ShowCancelButton := True;
@@ -223,6 +229,85 @@ begin
   dmDados.FDCadMembros.Open;
 end;
 
+procedure TframeCadMembros.UniDBGrid1CellClick(Column: TUniDBGridColumn);
+begin
+   if Column.Field = dmDados.FDCadMembrosATIVO then
+   begin
+
+    xSoAlerta := False;
+    xAtivo := True;
+    xAusente := False;
+    xExcluido := False;
+    xObito := False;
+
+    UniSweetAlertUpdate.Title := 'Deseja Ativar o Membro?';
+    UniSweetAlertUpdate.AlertType := atInfo;
+    UniSweetAlertUpdate.ShowConfirmButton := True;
+    UniSweetAlertUpdate.ConfirmButtonText := 'Sim';
+    UniSweetAlertUpdate.ShowCancelButton := True;
+    UniSweetAlertUpdate.CancelButtonText := 'Não';
+    UniSweetAlertUpdate.Show(dmDados.FDCadMembrosNOME.Value);
+
+    end;
+
+     if Column.Field = dmDados.FDCadMembrosAUSENTE then
+   begin
+
+    xSoAlerta := False;
+    xAtivo := False;
+    xAusente := True;
+    xExcluido := False;
+    xObito := False;
+
+    UniSweetAlertUpdate.Title := 'Deseja Ausentar o Membro?';
+    UniSweetAlertUpdate.AlertType := atInfo;
+    UniSweetAlertUpdate.ShowConfirmButton := True;
+    UniSweetAlertUpdate.ConfirmButtonText := 'Sim';
+    UniSweetAlertUpdate.ShowCancelButton := True;
+    UniSweetAlertUpdate.CancelButtonText := 'Não';
+    UniSweetAlertUpdate.Show(dmDados.FDCadMembrosNOME.Value);
+
+   end;
+
+     if Column.Field = dmDados.FDCadMembrosEXCLUIDO then
+   begin
+
+    xSoAlerta := False;
+    xAtivo := False;
+    xAusente := False;
+    xExcluido := True;
+    xObito := False;
+
+    UniSweetAlertUpdate.Title := 'Deseja Excluir o Membro?';
+    UniSweetAlertUpdate.AlertType := atInfo;
+    UniSweetAlertUpdate.ShowConfirmButton := True;
+    UniSweetAlertUpdate.ConfirmButtonText := 'Sim';
+    UniSweetAlertUpdate.ShowCancelButton := True;
+    UniSweetAlertUpdate.CancelButtonText := 'Não';
+    UniSweetAlertUpdate.Show(dmDados.FDCadMembrosNOME.Value);
+
+   end;
+
+     if Column.Field = dmDados.FDCadMembrosOBITO then
+   begin
+
+    xSoAlerta := False;
+    xAtivo := False;
+    xAusente := False;
+    xExcluido := False;
+    xObito := True;
+
+    UniSweetAlertUpdate.Title := 'Deseja Desligar o Membro?';
+    UniSweetAlertUpdate.AlertType := atInfo;
+    UniSweetAlertUpdate.ShowConfirmButton := True;
+    UniSweetAlertUpdate.ConfirmButtonText := 'Sim';
+    UniSweetAlertUpdate.ShowCancelButton := True;
+    UniSweetAlertUpdate.CancelButtonText := 'Não';
+    UniSweetAlertUpdate.Show(dmDados.FDCadMembrosNOME.Value);
+
+   end;
+end;
+
 procedure TframeCadMembros.UniFrameCreate(Sender: TObject);
 begin
 
@@ -251,7 +336,7 @@ begin
 
     dmDados.FDQueryAuxiliar.Close;
     dmDados.FDQueryAuxiliar.SQL.Clear;
-    dmDados.FDQueryAuxiliar.SQL.Add('INSERT into CAD_MEMBROS values (NULL, :vDT_NASCIMENTO, :vDT_BATISMO, :vNOME, :vENDERECO, :vNUMERO, :vBAIRRO, :vCIDADE, :vEMAIL, :vUF )');
+    dmDados.FDQueryAuxiliar.SQL.Add('INSERT into CAD_MEMBROS values (NULL, :vDT_NASCIMENTO, :vDT_BATISMO, :vNOME, :vENDERECO, :vNUMERO, :vBAIRRO, :vCIDADE, :vEMAIL, :vUF, :vDATA_CADASTRO, :vSTATUS, :vDATASTATUS_ATIVO )');
     dmDados.FDQueryAuxiliar.Params[0].DataType := ftDate;
     dmDados.FDQueryAuxiliar.Params[0].Value := dtNascimento.Text;
     dmDados.FDQueryAuxiliar.Params[1].DataType := ftDate;
@@ -270,11 +355,32 @@ begin
     dmDados.FDQueryAuxiliar.Params[7].Value := edEmail.Text;
     dmDados.FDQueryAuxiliar.Params[8].DataType := ftString;
     dmDados.FDQueryAuxiliar.Params[8].Value := edUf.Text;
+    dmDados.FDQueryAuxiliar.Params[9].DataType := ftDate;
+    dmDados.FDQueryAuxiliar.Params[9].Value := Now;
+    dmDados.FDQueryAuxiliar.Params[10].DataType := ftString;
+    dmDados.FDQueryAuxiliar.Params[10].Value := 'ativo';
+    dmDados.FDQueryAuxiliar.Params[11].DataType := ftDate;
+    dmDados.FDQueryAuxiliar.Params[11].Value := Now;
+    // null
+
 
     dmDados.FDQueryAuxiliar.ExecSQL(xErro);
 
     dmDados.FDCadMembros.Close;
     dmDados.FDCadMembros.Open;
+
+    dmDados.FDMembrosAtivos.Close;
+    dmDados.FDMembrosAtivos.Open;
+
+    dmDados.FDMembrosAusente.Close;
+    dmDados.FDMembrosAusente.Open;
+
+    dmDados.FDMembrosExcluido.Close;
+    dmDados.FDMembrosExcluido.Open;
+
+    dmDados.FDMembrosObito.Close;
+    dmDados.FDMembrosObito.Open;
+
     xIncluindo := False;
 //    Toast.Success('Sucesso', 'Membro Cadastrado ', topCenter);
     // MainForm.RegistraLog('INCLUSÃO', 'INCLUSÃO DO USUÁRIO: '+UniNome.Text);    log
@@ -287,8 +393,8 @@ begin
 
     dmDados.FDQueryAuxiliar.Close;
     dmDados.FDQueryAuxiliar.SQL.Clear;
-    dmDados.FDQueryAuxiliar.SQL.Add('update CAD_MEMBROS set DT_NASCIMENTO=:vDT_NASCIMENTO, DT_BATISMO=:vDT_BATISMO, NOME=:vNOME, ENDERECO=:vENDERECO,');
-    dmDados.FDQueryAuxiliar.SQL.Add('NUMERO=:vNUMERO, BAIRRO=:vBAIRRO, CIDADE=:vCIDADE, EMAIL=:vEMAIL, UF=:vUF where ID=:vID');
+    dmDados.FDQueryAuxiliar.SQL.Add('update CAD_MEMBROS set DT_NASCIMENTO=:vDT_NASCIMENTO, DT_BATISMO=:vDT_BATISMO, NOME=:vNOME, ENDERECO=:vENDERECO, NUMERO=:vNUMERO, BAIRRO=:vBAIRRO,');
+    dmDados.FDQueryAuxiliar.SQL.Add('CIDADE=:vCIDADE, EMAIL=:vEMAIL, UF=:vUF, DATA_CADASTRO=:vDATA_CADASTRO, STATUS=:vSTATUS, DATASTATUS_ATIVO=:vDATASTATUS_ATIVO where ID=:vID');
     dmDados.FDQueryAuxiliar.Params[0].DataType := ftDate;
     dmDados.FDQueryAuxiliar.Params[0].Value := dtNascimento.Text;
     dmDados.FDQueryAuxiliar.Params[1].DataType := ftDate;
@@ -307,12 +413,31 @@ begin
     dmDados.FDQueryAuxiliar.Params[7].Value := edEmail.Text;
     dmDados.FDQueryAuxiliar.Params[8].DataType := ftString;
     dmDados.FDQueryAuxiliar.Params[8].Value := edUf.Text;
-    dmDados.FDQueryAuxiliar.Params[9].DataType := ftInteger;
-    dmDados.FDQueryAuxiliar.Params[9].Value := dmDados.FDCadMembrosID.Value;
+    dmDados.FDQueryAuxiliar.Params[9].DataType := ftDate;
+    dmDados.FDQueryAuxiliar.Params[9].Value := Now;
+    dmDados.FDQueryAuxiliar.Params[10].DataType := ftString;
+    dmDados.FDQueryAuxiliar.Params[10].Value := 'ativo';
+    dmDados.FDQueryAuxiliar.Params[11].DataType := ftDate;
+    dmDados.FDQueryAuxiliar.Params[11].Value := Now;
+    // null  data Saida
+    dmDados.FDQueryAuxiliar.Params[12].DataType := ftInteger;
+    dmDados.FDQueryAuxiliar.Params[12].Value := dmDados.FDCadMembrosID.Value;
 
     dmDados.FDQueryAuxiliar.ExecSQL(xErro);
     dmDados.FDCadMembros.Close;
     dmDados.FDCadMembros.Open;
+
+    dmDados.FDMembrosAtivos.Close;
+    dmDados.FDMembrosAtivos.Open;
+
+    dmDados.FDMembrosAusente.Close;
+    dmDados.FDMembrosAusente.Open;
+
+    dmDados.FDMembrosExcluido.Close;
+    dmDados.FDMembrosExcluido.Open;
+
+    dmDados.FDMembrosObito.Close;
+    dmDados.FDMembrosObito.Open;
 
 //    Toast.Success('Sucesso', 'Membro Alterado ', topCenter);
     xEditando := False;
@@ -331,6 +456,18 @@ begin
 
     dmDados.FDCadMembros.Close;
     dmDados.FDCadMembros.Open;
+
+    dmDados.FDMembrosAtivos.Close;
+    dmDados.FDMembrosAtivos.Open;
+
+    dmDados.FDMembrosAusente.Close;
+    dmDados.FDMembrosAusente.Open;
+
+    dmDados.FDMembrosExcluido.Close;
+    dmDados.FDMembrosExcluido.Open;
+
+    dmDados.FDMembrosObito.Close;
+    dmDados.FDMembrosObito.Open;
 //    Toast.Error('Sucesso', 'Membro Excluido com sucesso ', topCenter);
     xDeletando := False;
 
@@ -348,6 +485,171 @@ begin
   xEditando := False;
   xDeletando := False;
 
+end;
+
+procedure TframeCadMembros.UniSweetAlertUpdateConfirm(Sender: TObject);
+var
+  xErro: String;
+begin
+  if xAtivo then
+
+  begin
+
+    dmDados.FDQueryAuxiliar.Close;
+    dmDados.FDQueryAuxiliar.SQL.Clear;
+    dmDados.FDQueryAuxiliar.SQL.Add('update CAD_MEMBROS set STATUS=:vSTATUS, DATASTATUS_ATIVO=:vDATASTATUS_ATIVO where ID=:vID');
+
+    dmDados.FDQueryAuxiliar.Params[0].DataType := ftString;
+    dmDados.FDQueryAuxiliar.Params[0].Value := 'ativo';
+
+    dmDados.FDQueryAuxiliar.Params[1].DataType := ftDate;
+    dmDados.FDQueryAuxiliar.Params[1].Value := Now;
+    // null
+    dmDados.FDQueryAuxiliar.Params[2].DataType := ftInteger;
+    dmDados.FDQueryAuxiliar.Params[2].Value := dmDados.FDCadMembrosID.Value;
+
+    dmDados.FDQueryAuxiliar.ExecSQL(xErro);
+    dmDados.FDCadMembros.Close;
+    dmDados.FDCadMembros.Open;
+
+    dmDados.FDMembrosAtivos.Close;
+    dmDados.FDMembrosAtivos.Open;
+
+    dmDados.FDMembrosAusente.Close;
+    dmDados.FDMembrosAusente.Open;
+
+    dmDados.FDMembrosExcluido.Close;
+    dmDados.FDMembrosExcluido.Open;
+
+    dmDados.FDMembrosObito.Close;
+    dmDados.FDMembrosObito.Open;
+
+//    Toast.Success('Sucesso', 'Membro Alterado ', topCenter);
+    xAtivo := False;
+
+  end;
+
+    if xAusente then
+  begin
+
+    dmDados.FDQueryAuxiliar.Close;
+    dmDados.FDQueryAuxiliar.SQL.Clear;
+    dmDados.FDQueryAuxiliar.SQL.Add('update CAD_MEMBROS set STATUS=:vSTATUS, DATASTATUS_ATIVO=:vDATASTATUS_ATIVO where ID=:vID');
+
+    dmDados.FDQueryAuxiliar.Params[0].DataType := ftString;
+    dmDados.FDQueryAuxiliar.Params[0].Value := 'ausente';
+
+    dmDados.FDQueryAuxiliar.Params[1].DataType := ftDate;
+    dmDados.FDQueryAuxiliar.Params[1].Value := Now;
+
+    dmDados.FDQueryAuxiliar.Params[2].DataType := ftInteger;
+    dmDados.FDQueryAuxiliar.Params[2].Value := dmDados.FDCadMembrosID.Value;
+
+    dmDados.FDQueryAuxiliar.ExecSQL(xErro);
+    dmDados.FDCadMembros.Close;
+    dmDados.FDCadMembros.Open;
+
+    dmDados.FDMembrosAtivos.Close;
+    dmDados.FDMembrosAtivos.Open;
+
+    dmDados.FDMembrosAusente.Close;
+    dmDados.FDMembrosAusente.Open;
+
+    dmDados.FDMembrosExcluido.Close;
+    dmDados.FDMembrosExcluido.Open;
+
+    dmDados.FDMembrosObito.Close;
+    dmDados.FDMembrosObito.Open;
+
+//    Toast.Success('Sucesso', 'Membro Alterado ', topCenter);
+    xAusente := False;
+  end;
+
+  if xExcluido then
+
+  begin
+
+    dmDados.FDQueryAuxiliar.Close;
+    dmDados.FDQueryAuxiliar.SQL.Clear;
+    dmDados.FDQueryAuxiliar.SQL.Add('update CAD_MEMBROS set STATUS=:vSTATUS, DATASTATUS_ATIVO=:vDATASTATUS_ATIVO where ID=:vID');
+
+    dmDados.FDQueryAuxiliar.Params[0].DataType := ftString;
+    dmDados.FDQueryAuxiliar.Params[0].Value := 'excluido';
+
+    dmDados.FDQueryAuxiliar.Params[1].DataType := ftDate;
+    dmDados.FDQueryAuxiliar.Params[1].Value := Now;
+
+    dmDados.FDQueryAuxiliar.Params[2].DataType := ftInteger;
+    dmDados.FDQueryAuxiliar.Params[2].Value := dmDados.FDCadMembrosID.Value;
+
+    dmDados.FDQueryAuxiliar.ExecSQL(xErro);
+    dmDados.FDCadMembros.Close;
+    dmDados.FDCadMembros.Open;
+
+    dmDados.FDMembrosAtivos.Close;
+    dmDados.FDMembrosAtivos.Open;
+
+    dmDados.FDMembrosAusente.Close;
+    dmDados.FDMembrosAusente.Open;
+
+    dmDados.FDMembrosExcluido.Close;
+    dmDados.FDMembrosExcluido.Open;
+
+    dmDados.FDMembrosObito.Close;
+    dmDados.FDMembrosObito.Open;
+
+//    Toast.Success('Sucesso', 'Membro Alterado ', topCenter);
+    xExcluido := False;
+
+  end;
+
+    if xObito then
+
+  begin
+
+    dmDados.FDQueryAuxiliar.Close;
+    dmDados.FDQueryAuxiliar.SQL.Clear;
+    dmDados.FDQueryAuxiliar.SQL.Add('update CAD_MEMBROS set STATUS=:vSTATUS, DATASTATUS_ATIVO=:vDATASTATUS_ATIVO where ID=:vID');
+
+    dmDados.FDQueryAuxiliar.Params[0].DataType := ftString;
+    dmDados.FDQueryAuxiliar.Params[0].Value := 'obito';
+
+    dmDados.FDQueryAuxiliar.Params[1].DataType := ftDate;
+    dmDados.FDQueryAuxiliar.Params[1].Value := Now;
+
+    dmDados.FDQueryAuxiliar.Params[2].DataType := ftInteger;
+    dmDados.FDQueryAuxiliar.Params[2].Value := dmDados.FDCadMembrosID.Value;
+
+    dmDados.FDQueryAuxiliar.ExecSQL(xErro);
+    dmDados.FDCadMembros.Close;
+    dmDados.FDCadMembros.Open;
+
+    dmDados.FDMembrosAtivos.Close;
+    dmDados.FDMembrosAtivos.Open;
+
+    dmDados.FDMembrosAusente.Close;
+    dmDados.FDMembrosAusente.Open;
+
+    dmDados.FDMembrosExcluido.Close;
+    dmDados.FDMembrosExcluido.Open;
+
+    dmDados.FDMembrosObito.Close;
+    dmDados.FDMembrosObito.Open;
+
+//    Toast.Success('Sucesso', 'Membro Alterado ', topCenter);
+    xObito := False;
+
+  end;
+
+end;
+
+procedure TframeCadMembros.UniSweetAlertUpdateDismiss(Sender: TObject;
+  const Reason: TDismissType);
+begin
+  xAtivo := False;
+  xAusente := False;
+  xExcluido := False;
+  xObito := False;
 end;
 
 end.

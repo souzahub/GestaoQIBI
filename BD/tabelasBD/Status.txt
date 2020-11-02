@@ -1,0 +1,6 @@
+STATTUS 
+ativo    ( esta ativo normal )
+ausente  ( que esta sumido da igreja ) apos  6 meses
+excluido ( que fou excluido ) dataStatus_saida
+obito    ( faleceu ) / dataStatus_saida
+
