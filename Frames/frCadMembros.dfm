@@ -20,7 +20,7 @@ object frameCadMembros: TframeCadMembros
       Width = 1123
       Height = 648
       Hint = ''
-      ActivePage = Tab1
+      ActivePage = Tab2
       Align = alClient
       TabOrder = 1
       object Tab1: TUniTabSheet
@@ -505,6 +505,7 @@ object frameCadMembros: TframeCadMembros
     Top = 120
   end
   object UniSweetAlert1: TUniSweetAlert
+    Title = 'Title'
     ConfirmButtonText = 'Sim'
     CancelButtonText = 'N'#227'o'
     ConfirmButtonColor = 6835774
@@ -517,6 +518,7 @@ object frameCadMembros: TframeCadMembros
     Top = 122
   end
   object UniSweetAlertUpdate: TUniSweetAlert
+    Title = 'Title'
     ConfirmButtonText = 'Sim'
     CancelButtonText = 'N'#227'o'
     ConfirmButtonColor = 6835774

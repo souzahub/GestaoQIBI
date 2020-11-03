@@ -45,6 +45,7 @@ type
     UniScreenMask1: TUniScreenMask;
     UniSweetAlert1: TUniSweetAlert;
     procedure UniFrameCreate(Sender: TObject);
+    procedure EdPesquisarChange(Sender: TObject);
   private
     { Private declarations }
   public
@@ -56,6 +57,17 @@ implementation
 {$R *.dfm}
 
 
+
+procedure TframeMembrosAusentes.EdPesquisarChange(Sender: TObject);
+begin
+  // pesquisa dinamica na tabela Usuario
+  dmDados.FDMembrosAusente.SQL.Clear;
+  dmDados.FDMembrosAusente.SQL.Add('select * from CAD_MEMBROS where STATUS=''ausente''');
+  dmDados.FDMembrosAusente.SQL.Add('and (NOME LIKE  '+QuotedStr('%'+EdPesquisar.Text+'%') );
+  dmDados.FDMembrosAusente.SQL.Add(')order by NOME');
+  dmDados.FDMembrosAusente.Open;
+
+end;
 
 procedure TframeMembrosAusentes.UniFrameCreate(Sender: TObject);
 begin

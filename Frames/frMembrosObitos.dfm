@@ -70,7 +70,7 @@ object frameMembrosObitos: TframeMembrosObitos
               FieldName = 'DATASTATUS_ATIVO'
               Title.Alignment = taCenter
               Title.Caption = 'Data Obito'
-              Width = 64
+              Width = 69
               Alignment = taCenter
             end>
         end
@@ -78,10 +78,6 @@ object frameMembrosObitos: TframeMembrosObitos
       object Tab2: TUniTabSheet
         Hint = ''
         Caption = 'Ficha'
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 256
-        ExplicitHeight = 128
         object UniPanel2: TUniPanel
           Left = 0
           Top = 0
@@ -351,6 +347,7 @@ object frameMembrosObitos: TframeMembrosObitos
         FieldLabelSeparator = ' '
         FieldLabelFont.Height = -19
         FieldLabelFont.Style = [fsBold]
+        OnChange = EdPesquisarChange
       end
     end
   end

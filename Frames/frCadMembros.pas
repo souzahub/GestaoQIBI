@@ -79,6 +79,21 @@ implementation
 
 procedure TframeCadMembros.BtAltClick(Sender: TObject);
 begin
+
+  if dmDados.FDCadMembrosSTATUS.Value = 'obito' then
+  begin
+
+    UniSweetAlert1.Width := 300;
+    UniSweetAlert1.Title := ('ATENÇÃO !!!');
+    UniSweetAlert1.AlertType := atInfo;
+    UniSweetAlert1.ShowConfirmButton := False;
+    UniSweetAlert1.ShowCancelButton := True;
+    UniSweetAlert1.CancelButtonText := 'Ok';
+    UniSweetAlert1.Show('Membro em Óbito');
+    exit;
+
+  end;
+
   EdPesquisar.Visible := False;
   xSoAlerta := False;
   xIncluindo := False;
@@ -134,12 +149,26 @@ end;
 
 procedure TframeCadMembros.BtExcClick(Sender: TObject);
 begin
+  if dmDados.FDCadMembrosSTATUS.Value = 'obito' then
+  begin
+
+    UniSweetAlert1.Width := 300;
+    UniSweetAlert1.Title := ('ATENÇÃO !!!');
+    UniSweetAlert1.AlertType := atInfo;
+    UniSweetAlert1.ShowConfirmButton := False;
+    UniSweetAlert1.ShowCancelButton := True;
+    UniSweetAlert1.CancelButtonText := 'Ok';
+    UniSweetAlert1.Show('Membro em Óbito');
+    exit;
+
+  end;
    // Confirmacao da exclusao com SweetAlert1
   xSoAlerta := False;
   xIncluindo := False;
   xEditando := False;
   xDeletando := True;
 
+  UniSweetAlert1.Width := 500;
   UniSweetAlert1.Title := 'Deseja excluir esse Usuario';
   UniSweetAlert1.AlertType := atError;
   UniSweetAlert1.ShowConfirmButton := True;
@@ -152,11 +181,26 @@ end;
 
 procedure TframeCadMembros.BtGrvClick(Sender: TObject);
 begin
+    if dmDados.FDCadMembrosSTATUS.Value = 'obito' then
+  begin
+
+    UniSweetAlert1.Width := 300;
+    UniSweetAlert1.Title := ('ATENÇÃO !!!');
+    UniSweetAlert1.AlertType := atInfo;
+    UniSweetAlert1.ShowConfirmButton := False;
+    UniSweetAlert1.ShowCancelButton := True;
+    UniSweetAlert1.CancelButtonText := 'Ok';
+    UniSweetAlert1.Show('Membro em Óbito');
+    exit;
+
+  end;
+
    EdPesquisar.Visible := False;
     //  usando  SweetAlert1
   if edNome.Text = '' then
   begin
     xSoAlerta := True; // Bloqueia o alerta
+    UniSweetAlert1.Width := 300;
     UniSweetAlert1.Title := ('Nome Obrigatório');
     UniSweetAlert1.AlertType := atWarning;
     UniSweetAlert1.ShowConfirmButton := False;
@@ -168,6 +212,7 @@ begin
 
   //  Salvando com SweetAlert1
   xSoAlerta := False;
+  UniSweetAlert1.Width := 500;
   UniSweetAlert1.Title := 'Deseja salvar esse Membro ?';
   UniSweetAlert1.AlertType := atInfo;
   UniSweetAlert1.ShowConfirmButton := True;
@@ -231,8 +276,23 @@ end;
 
 procedure TframeCadMembros.UniDBGrid1CellClick(Column: TUniDBGridColumn);
 begin
+
    if Column.Field = dmDados.FDCadMembrosATIVO then
    begin
+       if dmDados.FDCadMembrosSTATUS.Value = 'obito' then
+    begin
+
+      UniSweetAlert1.Width := 300;
+      UniSweetAlert1.Title := ('ATENÇÃO !!!');
+      UniSweetAlert1.AlertType := atInfo;
+      UniSweetAlert1.ShowConfirmButton := False;
+      UniSweetAlert1.ShowCancelButton := True;
+      UniSweetAlert1.CancelButtonText := 'Ok';
+      UniSweetAlert1.Show('Membro em Óbito');
+      exit;
+
+    end;
+
 
     xSoAlerta := False;
     xAtivo := True;
@@ -240,6 +300,7 @@ begin
     xExcluido := False;
     xObito := False;
 
+    UniSweetAlert1.Width := 500;
     UniSweetAlertUpdate.Title := 'Deseja Ativar o Membro?';
     UniSweetAlertUpdate.AlertType := atInfo;
     UniSweetAlertUpdate.ShowConfirmButton := True;
@@ -252,13 +313,26 @@ begin
 
      if Column.Field = dmDados.FDCadMembrosAUSENTE then
    begin
+       if dmDados.FDCadMembrosSTATUS.Value = 'obito' then
+    begin
+
+      UniSweetAlert1.Width := 300;
+      UniSweetAlert1.Title := ('ATENÇÃO !!!');
+      UniSweetAlert1.AlertType := atInfo;
+      UniSweetAlert1.ShowConfirmButton := False;
+      UniSweetAlert1.ShowCancelButton := True;
+      UniSweetAlert1.CancelButtonText := 'Ok';
+      UniSweetAlert1.Show('Membro em Óbito');
+      exit;
+
+    end;
 
     xSoAlerta := False;
     xAtivo := False;
     xAusente := True;
     xExcluido := False;
     xObito := False;
-
+    UniSweetAlert1.Width := 500;
     UniSweetAlertUpdate.Title := 'Deseja Ausentar o Membro?';
     UniSweetAlertUpdate.AlertType := atInfo;
     UniSweetAlertUpdate.ShowConfirmButton := True;
@@ -272,12 +346,26 @@ begin
      if Column.Field = dmDados.FDCadMembrosEXCLUIDO then
    begin
 
+       if dmDados.FDCadMembrosSTATUS.Value = 'obito' then
+    begin
+      UniSweetAlert1.Width := 300;
+      UniSweetAlert1.Title := ('ATENÇÃO !!!');
+      UniSweetAlert1.AlertType := atInfo;
+      UniSweetAlert1.ShowConfirmButton := False;
+      UniSweetAlert1.ShowCancelButton := True;
+      UniSweetAlert1.CancelButtonText := 'Ok';
+      UniSweetAlert1.Show('Membro em Óbito');
+      exit;
+
+    end;
+
     xSoAlerta := False;
     xAtivo := False;
     xAusente := False;
     xExcluido := True;
     xObito := False;
 
+    UniSweetAlert1.Width := 500;
     UniSweetAlertUpdate.Title := 'Deseja Excluir o Membro?';
     UniSweetAlertUpdate.AlertType := atInfo;
     UniSweetAlertUpdate.ShowConfirmButton := True;
@@ -291,12 +379,26 @@ begin
      if Column.Field = dmDados.FDCadMembrosOBITO then
    begin
 
+       if dmDados.FDCadMembrosSTATUS.Value = 'obito' then
+    begin
+      UniSweetAlert1.Width := 300;
+      UniSweetAlert1.Title := ('ATENÇÃO !!!');
+      UniSweetAlert1.AlertType := atInfo;
+      UniSweetAlert1.ShowConfirmButton := False;
+      UniSweetAlert1.ShowCancelButton := True;
+      UniSweetAlert1.CancelButtonText := 'Ok';
+      UniSweetAlert1.Show('Membro em Óbito');
+      exit;
+
+    end;
+
     xSoAlerta := False;
     xAtivo := False;
     xAusente := False;
     xExcluido := False;
     xObito := True;
 
+    UniSweetAlert1.Width := 500;
     UniSweetAlertUpdate.Title := 'Deseja Desligar o Membro?';
     UniSweetAlertUpdate.AlertType := atInfo;
     UniSweetAlertUpdate.ShowConfirmButton := True;

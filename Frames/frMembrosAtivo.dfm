@@ -14,7 +14,6 @@ object frameMembrosAtivos: TframeMembrosAtivos
     Align = alClient
     TabOrder = 0
     Caption = 'PnUsuario'
-    ExplicitLeft = -56
     object PageCadastro: TUniPageControl
       Left = 1
       Top = 43
@@ -79,10 +78,6 @@ object frameMembrosAtivos: TframeMembrosAtivos
       object Tab2: TUniTabSheet
         Hint = ''
         Caption = 'Ficha'
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 256
-        ExplicitHeight = 128
         object UniPanel2: TUniPanel
           Left = 0
           Top = 0
@@ -316,8 +311,6 @@ object frameMembrosAtivos: TframeMembrosAtivos
       BorderStyle = ubsNone
       Caption = 'Cadastro de Membros'
       Color = clNone
-      ExplicitLeft = 10
-      ExplicitTop = 3
       object UniLabel1: TUniLabel
         Left = 784
         Top = 24
@@ -354,6 +347,7 @@ object frameMembrosAtivos: TframeMembrosAtivos
         FieldLabelSeparator = ' '
         FieldLabelFont.Height = -19
         FieldLabelFont.Style = [fsBold]
+        OnChange = EdPesquisarChange
       end
     end
   end

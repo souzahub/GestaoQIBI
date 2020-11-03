@@ -110,25 +110,25 @@ end;
 procedure TdmDados.FDCadMembrosATIVOGetText(Sender: TField; var Text: string;
   DisplayText: Boolean);
 begin
-   Text :='<i title="Ativar Membro" class="x-fa4 fa-lg far fa-check-circle"; style="color: #28b538;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
+   Text :='<i title="Ativar Membro" class="x-fa4 fa-lg fas fa-check-square"; style="color: #282cb5;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
 end;
 
 procedure TdmDados.FDCadMembrosAUSENTEGetText(Sender: TField; var Text: string;
   DisplayText: Boolean);
 begin
-    Text :='<i title="Ausentar Membro" class="x-fa4 fa-lg far fa-check-circle"; style="color: #28b538;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
+    Text :='<i title="Ausentar Membro" class="x-fa4 fa-lg fas fa-check-square"; style="color: #282cb5;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
 end;
 
 procedure TdmDados.FDCadMembrosEXCLUIDOGetText(Sender: TField; var Text: string;
   DisplayText: Boolean);
 begin
-   Text :='<i title="Excluir Membro" class="x-fa4 fa-lg far fa-check-circle"; style="color: #28b538;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
+   Text :='<i title="Excluir Membro" class="x-fa4 fa-lg fas fa-check-square"; style="color: #282cb5;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
 end;
 
 procedure TdmDados.FDCadMembrosOBITOGetText(Sender: TField; var Text: string;
   DisplayText: Boolean);
 begin
-    Text :='<i title="”bito de Membro" class="x-fa4 fa-lg far fa-check-circle"; style="color: #28b538;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
+    Text :='<i title="”bito de Membro" class="x-fa4 fa-lg fas fa-check-square"; style="color: #282cb5;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
 end;
 
 procedure TdmDados.FDCadMembrosSTATUSGetText(Sender: TField; var Text: string;
@@ -138,13 +138,13 @@ begin
     Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-success btn-sm">&nbsp&nbsp&nbspATIVO&nbsp&nbsp&nbsp</button> </span>';
 
     if FDCadMembrosSTATUS.Value = 'ausente' then
-    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-warning btn-sm"> AUSENTE </button> </span>';
+    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-info btn-sm"> AUSENTE </button> </span>';
 
     if FDCadMembrosSTATUS.Value = 'excluido' then
     Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-danger btn-sm">EXCLUIDO</button> </span>';
 
     if FDCadMembrosSTATUS.Value = 'obito' then
-    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-danger btn-sm">&nbsp&nbsp&nbsp”BITO&nbsp&nbsp&nbsp</button> </span>';
+    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-dark btn-sm">&nbsp&nbsp&nbsp”BITO&nbsp&nbsp&nbsp</button> </span>';
 end;
 
 procedure TdmDados.FDMembrosAtivosSTATUSGetText(Sender: TField;
@@ -158,7 +158,7 @@ procedure TdmDados.FDMembrosAusenteSTATUSGetText(Sender: TField;
   var Text: string; DisplayText: Boolean);
 begin
   if FDMembrosAusenteSTATUS.Value = 'ausente' then
-    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-warning btn-sm"> AUSENTE </button> </span>';
+    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-info btn-sm"> AUSENTE </button> </span>';
 end;
 
 procedure TdmDados.FDMembrosExcluidoSTATUSGetText(Sender: TField;
@@ -172,7 +172,7 @@ procedure TdmDados.FDMembrosObitoSTATUSGetText(Sender: TField; var Text: string;
   DisplayText: Boolean);
 begin
   if FDMembrosObitoSTATUS.Value = 'obito' then
-    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-danger btn-sm">&nbsp&nbsp&nbsp”BITO&nbsp&nbsp&nbsp</button> </span>';
+    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-dark btn-sm">&nbsp&nbsp&nbsp”BITO&nbsp&nbsp&nbsp</button> </span>';
 end;
 
 initialization

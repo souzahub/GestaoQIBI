@@ -52,7 +52,7 @@ object frameMembrosAusentes: TframeMembrosAusentes
             item
               FieldName = 'DATA_CADASTRO'
               Title.Caption = 'Data Cadastro'
-              Width = 106
+              Width = 74
             end
             item
               FieldName = 'NOME'
@@ -78,10 +78,6 @@ object frameMembrosAusentes: TframeMembrosAusentes
       object Tab2: TUniTabSheet
         Hint = ''
         Caption = 'Ficha'
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 256
-        ExplicitHeight = 128
         object UniPanel2: TUniPanel
           Left = 0
           Top = 0
@@ -351,6 +347,7 @@ object frameMembrosAusentes: TframeMembrosAusentes
         FieldLabelSeparator = ' '
         FieldLabelFont.Height = -19
         FieldLabelFont.Style = [fsBold]
+        OnChange = EdPesquisarChange
       end
     end
   end
