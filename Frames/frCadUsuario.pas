@@ -40,6 +40,7 @@ type
     UniNativeImageList1: TUniNativeImageList;
     UniScreenMask1: TUniScreenMask;
     UniSweetAlert1: TUniSweetAlert;
+    UniLabel5: TUniLabel;
     procedure UniFrameCreate(Sender: TObject);
     procedure BtIncClick(Sender: TObject);
     procedure BtAltClick(Sender: TObject);

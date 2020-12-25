@@ -1,8 +1,8 @@
 object formLogin: TformLogin
   Left = 0
   Top = 0
-  ClientHeight = 342
-  ClientWidth = 234
+  ClientHeight = 372
+  ClientWidth = 238
   Caption = 'formLogin'
   BorderStyle = bsNone
   OldCreateOrder = False
@@ -16,8 +16,8 @@ object formLogin: TformLogin
   OnCreate = UniLoginFormCreate
   OnScreenResize = UniLoginFormScreenResize
   DesignSize = (
-    234
-    342)
+    238
+    372)
   PixelsPerInch = 96
   TextHeight = 13
   object UniImage2: TUniImage
@@ -2965,7 +2965,7 @@ object formLogin: TformLogin
     Font.Style = [fsBold]
     ParentColor = False
     Color = clWhite
-    TabOrder = 1
+    TabOrder = 5
   end
   object lbA: TUniLabel
     Left = 175
@@ -2982,7 +2982,7 @@ object formLogin: TformLogin
     Font.Height = -15
     Font.Name = 'Yu Gothic UI'
     Font.Style = [fsBold]
-    TabOrder = 2
+    TabOrder = 6
     OnClick = lbAClick
   end
   object lbF: TUniLabel
@@ -3001,46 +3001,48 @@ object formLogin: TformLogin
     Font.Height = -15
     Font.Name = 'Yu Gothic UI'
     Font.Style = [fsBold]
-    TabOrder = 3
+    TabOrder = 7
     OnClick = lbFClick
   end
   object edUsuario: TUniEdit
     Left = 19
     Top = 156
-    Width = 184
+    Width = 188
     Hint = ''
     CharCase = ecUpperCase
     Text = ''
     Anchors = [akLeft, akTop, akRight]
-    TabOrder = 4
+    TabOrder = 1
     EmptyText = 'USU'#193'RIO'
     FieldLabel = '<i class="fa fa-user" aria-hidden="true"></i>'
     FieldLabelWidth = 12
     FieldLabelSeparator = ' '
     LayoutConfig.Cls = 'border-bottom-edit'
+    ExplicitWidth = 184
   end
   object edSenhaLogin: TUniEdit
     Left = 19
     Top = 203
-    Width = 150
+    Width = 154
     Hint = ''
     PasswordChar = '*'
     CharEOL = #13
     Text = ''
     Anchors = [akLeft, akTop, akRight]
-    TabOrder = 5
+    TabOrder = 2
     EmptyText = 'SENHA'
     FieldLabel = '<i class="fa fa-key" aria-hidden="true"></i>'
     FieldLabelWidth = 12
     FieldLabelSeparator = ' '
     LayoutConfig.Cls = 'border-bottom-edit'
     OnKeyPress = edSenhaLoginKeyPress
+    ExplicitWidth = 150
   end
   object PnlBottom: TUniPanel
     AlignWithMargins = True
     Left = 5
-    Top = 320
-    Width = 229
+    Top = 350
+    Width = 233
     Height = 22
     Hint = ''
     Margins.Left = 5
@@ -3054,10 +3056,12 @@ object formLogin: TformLogin
     Font.Height = -9
     Font.Name = 'Yu Gothic UI'
     Font.Style = [fsBold]
-    TabOrder = 6
+    TabOrder = 0
     BorderStyle = ubsNone
     Caption = 'Desenvolvido por  LS SISTEMAS'
     Color = 16744448
+    ExplicitTop = 320
+    ExplicitWidth = 229
   end
   object sbConectar: TUniFSButton
     Left = 33
@@ -3074,8 +3078,26 @@ object formLogin: TformLogin
     Caption = 'CONECTAR'
     ParentFont = False
     Font.Style = [fsBold]
-    TabOrder = 7
+    TabOrder = 3
     OnClick = UniFSButton1Click
+  end
+  object sbSair: TUniFSButton
+    Left = 33
+    Top = 291
+    Width = 170
+    Height = 32
+    Hint = ''
+    StyleButton = GoogleBlueRound
+    BadgeText.Text = '0'
+    BadgeText.TextColor = '#FFFFFF'
+    BadgeText.TextSize = 10
+    BadgeText.TextStyle = 'bold'
+    BadgeText.BackgroundColor = '#D50000'
+    Caption = 'SAIR'
+    ParentFont = False
+    Font.Style = [fsBold]
+    TabOrder = 8
+    OnClick = sbSairClick
   end
   object Toast: TUniFSToast
     TitleSize = 13

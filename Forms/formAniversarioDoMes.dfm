@@ -2,7 +2,7 @@ object forAnivMEs: TforAnivMEs
   Left = 0
   Top = 0
   ClientHeight = 471
-  ClientWidth = 649
+  ClientWidth = 584
   Caption = 'ANIVERSARIANTES DO  M'#202'S'
   BorderStyle = bsNoneSizeable
   OldCreateOrder = False
@@ -13,7 +13,7 @@ object forAnivMEs: TforAnivMEs
   object pnPrincipal: TUniPanel
     Left = 0
     Top = 0
-    Width = 649
+    Width = 584
     Height = 471
     Hint = ''
     Align = alClient
@@ -23,7 +23,7 @@ object forAnivMEs: TforAnivMEs
     object UniPanel1: TUniPanel
       Left = 0
       Top = 0
-      Width = 649
+      Width = 584
       Height = 41
       Hint = ''
       Align = alTop
@@ -36,10 +36,10 @@ object forAnivMEs: TforAnivMEs
       Color = clActiveCaption
       object UniFSButton1: TUniFSButton
         AlignWithMargins = True
-        Left = 610
-        Top = 2
+        Left = 544
+        Top = 4
         Width = 36
-        Height = 36
+        Height = 33
         Hint = ''
         Margins.Left = 50
         StyleButton = Transparent
@@ -49,6 +49,7 @@ object forAnivMEs: TforAnivMEs
         BadgeText.TextStyle = 'bold'
         BadgeText.BackgroundColor = '#D50000'
         Caption = 'X'
+        Align = alRight
         ParentFont = False
         Font.Color = clBlack
         Font.Height = -33
@@ -62,8 +63,8 @@ object forAnivMEs: TforAnivMEs
       AlignWithMargins = True
       Left = 180
       Top = 44
-      Width = 289
-      Height = 50
+      Width = 224
+      Height = 37
       Hint = ''
       Margins.Left = 180
       Margins.Right = 180
@@ -88,9 +89,9 @@ object forAnivMEs: TforAnivMEs
     object UniDBGrid2: TUniDBGrid
       AlignWithMargins = True
       Left = 5
-      Top = 102
-      Width = 428
-      Height = 364
+      Top = 89
+      Width = 413
+      Height = 377
       Hint = ''
       Margins.Left = 5
       Margins.Top = 5
@@ -110,28 +111,29 @@ object forAnivMEs: TforAnivMEs
       Columns = <
         item
           FieldName = 'DT_NASCIMENTO'
-          Title.Caption = 'DT_NASCIMENTO'
+          Title.Caption = 'Nascimento'
           Width = 103
         end
         item
           FieldName = 'NOME'
-          Title.Caption = 'NOME'
-          Width = 268
+          Title.Caption = 'Nome'
+          Width = 295
         end>
     end
     object UniPanel2: TUniPanel
-      Left = 433
-      Top = 97
-      Width = 216
-      Height = 374
+      AlignWithMargins = True
+      Left = 421
+      Top = 87
+      Width = 160
+      Height = 381
       Hint = ''
       Align = alRight
       TabOrder = 5
       Caption = ''
       object ComboBox1: TUniComboBox
-        Left = 3
-        Top = 5
-        Width = 210
+        Left = 1
+        Top = 1
+        Width = 158
         Height = 38
         Hint = ''
         Style = csDropDownList
@@ -149,6 +151,7 @@ object forAnivMEs: TforAnivMEs
           'Outubro'
           'Novembro'
           'Dezembro')
+        Align = alTop
         TabOrder = 1
         EmptyText = 'Selecione um M'#234's'
         IconItems = <>
@@ -159,8 +162,8 @@ object forAnivMEs: TforAnivMEs
   object dsAniversarioMes: TDataSource
     AutoEdit = False
     DataSet = FDQueryAniver
-    Left = 64
-    Top = 50
+    Left = 56
+    Top = 42
   end
   object UniNativeImageList1: TUniNativeImageList
     Left = 17
@@ -184,8 +187,10 @@ object forAnivMEs: TforAnivMEs
     OnFilterRecord = FDQueryAniverFilterRecord
     Connection = UniMainModule.FDConnection1
     SQL.Strings = (
-      'SELECT DT_NASCIMENTO, NOME FROM CAD_MEMBROS;')
-    Left = 104
-    Top = 48
+      
+        'SELECT DT_NASCIMENTO, NOME ,STATUS, CLASSIFICACAO   FROM CAD_MEM' +
+        'BROS Where STATUS = '#39'ativo'#39' order by NOME  ;')
+    Left = 128
+    Top = 40
   end
 end

@@ -40,12 +40,16 @@ type
     edNumero: TUniEdit;
     PnlCrud: TUniPanel;
     UniLabel1: TUniLabel;
-    EdPesquisar: TUniEdit;
     UniNativeImageList1: TUniNativeImageList;
     UniScreenMask1: TUniScreenMask;
     UniSweetAlert1: TUniSweetAlert;
+    cPanel1: TUniContainerPanel;
+    EdPesquisar: TUniEdit;
+    smLimpar: TUniFSButton;
+    UniLabel2: TUniLabel;
     procedure UniFrameCreate(Sender: TObject);
     procedure EdPesquisarChange(Sender: TObject);
+    procedure smLimparClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -69,9 +73,19 @@ begin
 
 end;
 
+procedure TframeMembrosAtivos.smLimparClick(Sender: TObject);
+begin
+
+  EdPesquisar.Clear;
+  EdPesquisarChange(Sender);
+
+end;
+
 procedure TframeMembrosAtivos.UniFrameCreate(Sender: TObject);
 begin
   dmDados.FDMembrosAtivos.Open();
+   PageCadastro.Pages[0].TabVisible := True;
+   PageCadastro.Pages[1].TabVisible := False;
 end;
 
 end.

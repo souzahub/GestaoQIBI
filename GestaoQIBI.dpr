@@ -14,7 +14,12 @@ uses
   frMembrosAtivo in 'Frames\frMembrosAtivo.pas' {frameMembrosAtivos: TUniFrame},
   frMembrosObitos in 'Frames\frMembrosObitos.pas' {frameMembrosObitos: TUniFrame},
   frMembrosExcluidos in 'Frames\frMembrosExcluidos.pas' {frameMembrosExcluidos: TUniFrame},
-  frMembrosAusentes in 'Frames\frMembrosAusentes.pas' {frameMembrosAusentes: TUniFrame};
+  frMembrosAusentes in 'Frames\frMembrosAusentes.pas' {frameMembrosAusentes: TUniFrame},
+  formAlteraDados in 'Forms\formAlteraDados.pas' {uformAlteraDados: TUniForm},
+  frAdultos in 'Frames\frAdultos.pas' {frameAdulto: TUniFrame},
+  frJovens in 'Frames\frJovens.pas' {frameJovens: TUniFrame},
+  frAdolescentes in 'Frames\frAdolescentes.pas' {frameAdolescentes: TUniFrame},
+  frInfantis in 'Frames\frInfantis.pas' {frameInfantis: TUniFrame};
 
 {$R *.res}
 

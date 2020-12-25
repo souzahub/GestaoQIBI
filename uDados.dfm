@@ -168,6 +168,16 @@ object dmDados: TdmDados
       OnGetText = FDCadMembrosOBITOGetText
       Calculated = True
     end
+    object FDCadMembrosCLASSIFICACAO: TStringField
+      FieldName = 'CLASSIFICACAO'
+      Origin = 'CLASSIFICACAO'
+      Size = 15
+    end
+    object FDCadMembrosTEL: TStringField
+      FieldName = 'TEL'
+      Origin = 'TEL'
+      Size = 12
+    end
   end
   object FDTransaction1: TFDTransaction
     Connection = UniMainModule.FDConnection1
@@ -179,8 +189,9 @@ object dmDados: TdmDados
     Transaction = FDTransaction1
     SQL.Strings = (
       
-        'SELECT DT_BATISMO, NOME, DATA_CADASTRO, STATUS, DATASTATUS_ATIVO' +
-        ' FROM CAD_MEMBROS Where STATUS = '#39'ativo'#39'order by NOME  ;')
+        'SELECT DT_NASCIMENTO, DT_BATISMO, NOME, DATA_CADASTRO, STATUS, D' +
+        'ATASTATUS_ATIVO FROM CAD_MEMBROS Where STATUS = '#39'ativo'#39'order by ' +
+        'NOME  ;')
     Left = 296
     Top = 32
     object FDMembrosAtivosDT_BATISMO: TDateField
@@ -206,14 +217,19 @@ object dmDados: TdmDados
       FieldName = 'DATASTATUS_ATIVO'
       Origin = 'DATASTATUS_ATIVO'
     end
+    object FDMembrosAtivosDT_NASCIMENTO: TDateField
+      FieldName = 'DT_NASCIMENTO'
+      Origin = 'DT_NASCIMENTO'
+    end
   end
   object FDMembrosObito: TFDQuery
     Connection = UniMainModule.FDConnection1
     Transaction = FDTransaction1
     SQL.Strings = (
       
-        'SELECT DT_BATISMO, NOME, DATA_CADASTRO, STATUS, DATASTATUS_ATIVO' +
-        ' FROM CAD_MEMBROS Where STATUS = '#39'obito'#39' order by NOME;')
+        'SELECT DT_NASCIMENTO, DT_BATISMO, NOME, DATA_CADASTRO, STATUS, D' +
+        'ATASTATUS_ATIVO FROM CAD_MEMBROS Where STATUS = '#39'obito'#39' order by' +
+        ' NOME;')
     Left = 296
     Top = 96
     object FDMembrosObitoDT_BATISMO: TDateField
@@ -239,14 +255,19 @@ object dmDados: TdmDados
       FieldName = 'DATASTATUS_ATIVO'
       Origin = 'DATASTATUS_ATIVO'
     end
+    object FDMembrosObitoDT_NASCIMENTO: TDateField
+      FieldName = 'DT_NASCIMENTO'
+      Origin = 'DT_NASCIMENTO'
+    end
   end
   object FDMembrosAusente: TFDQuery
     Connection = UniMainModule.FDConnection1
     Transaction = FDTransaction1
     SQL.Strings = (
       
-        'SELECT DT_BATISMO, NOME, DATA_CADASTRO, STATUS, DATASTATUS_ATIVO' +
-        ' FROM CAD_MEMBROS Where STATUS = '#39'ausente'#39' order by NOME;')
+        'SELECT DT_NASCIMENTO, DT_BATISMO, NOME, DATA_CADASTRO, STATUS, D' +
+        'ATASTATUS_ATIVO FROM CAD_MEMBROS Where STATUS = '#39'ausente'#39' order ' +
+        'by NOME;')
     Left = 296
     Top = 160
     object FDMembrosAusenteDT_BATISMO: TDateField
@@ -272,14 +293,19 @@ object dmDados: TdmDados
       FieldName = 'DATASTATUS_ATIVO'
       Origin = 'DATASTATUS_ATIVO'
     end
+    object FDMembrosAusenteDT_NASCIMENTO: TDateField
+      FieldName = 'DT_NASCIMENTO'
+      Origin = 'DT_NASCIMENTO'
+    end
   end
   object FDMembrosExcluido: TFDQuery
     Connection = UniMainModule.FDConnection1
     Transaction = FDTransaction1
     SQL.Strings = (
       
-        'SELECT DT_BATISMO, NOME, DATA_CADASTRO, STATUS, DATASTATUS_ATIVO' +
-        ' FROM CAD_MEMBROS Where STATUS = '#39'excluido'#39' order by NOME;')
+        'SELECT DT_NASCIMENTO, DT_BATISMO, NOME, DATA_CADASTRO, STATUS, D' +
+        'ATASTATUS_ATIVO FROM CAD_MEMBROS Where STATUS = '#39'excluido'#39' order' +
+        ' by NOME;')
     Left = 296
     Top = 232
     object FDMembrosExcluidoDT_BATISMO: TDateField
@@ -304,6 +330,10 @@ object dmDados: TdmDados
     object FDMembrosExcluidoDATASTATUS_ATIVO: TDateField
       FieldName = 'DATASTATUS_ATIVO'
       Origin = 'DATASTATUS_ATIVO'
+    end
+    object FDMembrosExcluidoDT_NASCIMENTO: TDateField
+      FieldName = 'DT_NASCIMENTO'
+      Origin = 'DT_NASCIMENTO'
     end
   end
 end

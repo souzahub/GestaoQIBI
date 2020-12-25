@@ -1,7 +1,7 @@
 object MainForm: TMainForm
   Left = 0
   Top = 0
-  Width = 1480
+  Width = 1478
   Height = 651
   Caption = ''
   WindowState = wsMaximized
@@ -10,13 +10,14 @@ object MainForm: TMainForm
   BorderIcons = []
   AutoScroll = True
   MonitoredKeys.Keys = <>
+  OnCreate = UniFormCreate
   OnScreenResize = UniFormScreenResize
   PixelsPerInch = 96
   TextHeight = 13
   object UniStatusBar1: TUniStatusBar
     Left = 0
     Top = 592
-    Width = 1464
+    Width = 1462
     Height = 20
     Hint = ''
     Panels = <
@@ -34,24 +35,24 @@ object MainForm: TMainForm
     Align = alBottom
     ParentColor = False
     Color = clWindow
+    ExplicitWidth = 1464
   end
   object paLayoutMenuLateral: TUniContainerPanel
     Left = 0
     Top = 41
-    Width = 224
+    Width = 161
     Height = 551
     Hint = ''
     Margins.Top = 10
     ParentColor = False
-    Color = 1447446
+    Color = clWhite
     Align = alLeft
     TabOrder = 1
-    LayoutConfig.Cls = 'color'
     object imgUser: TUniImage
       AlignWithMargins = True
       Left = 0
       Top = 29
-      Width = 202
+      Width = 139
       Height = 112
       Hint = ''
       Margins.Left = 0
@@ -570,7 +571,7 @@ object MainForm: TMainForm
     object UniTreeMenu1: TUniTreeMenu
       Left = 0
       Top = 141
-      Width = 224
+      Width = 161
       Height = 410
       Hint = ''
       BodyRTL = True
@@ -588,7 +589,7 @@ object MainForm: TMainForm
       AlignWithMargins = True
       Left = 3
       Top = 4
-      Width = 216
+      Width = 153
       Height = 25
       Hint = ''
       Margins.Top = 4
@@ -599,7 +600,7 @@ object MainForm: TMainForm
       Caption = 'usuario'
       Align = alTop
       ParentFont = False
-      Font.Color = clWhite
+      Font.Color = clBlack
       Font.Height = -13
       Font.Name = 'Yu Gothic UI'
       Font.Style = [fsBold]
@@ -615,31 +616,34 @@ object MainForm: TMainForm
     end
   end
   object paBackGround: TUniContainerPanel
-    Left = 224
+    Left = 161
     Top = 41
-    Width = 1240
+    Width = 1301
     Height = 551
     Hint = ''
     ParentColor = False
     Align = alClient
     TabOrder = 2
+    ExplicitWidth = 1303
     object PagePrincipal: TUniPageControl
       Left = 0
       Top = 0
-      Width = 1240
+      Width = 1301
       Height = 551
       Hint = ''
       ActivePage = TabHome
       Images = UniNativeImageList1
       Align = alClient
       TabOrder = 1
+      ExplicitWidth = 1303
       object TabHome: TUniTabSheet
         Hint = ''
         Caption = 'Home'
+        ExplicitWidth = 1295
         object paGeral: TUniContainerPanel
           Left = 0
           Top = 0
-          Width = 1232
+          Width = 1293
           Height = 523
           Hint = ''
           ParentColor = False
@@ -647,11 +651,12 @@ object MainForm: TMainForm
           Align = alClient
           TabOrder = 0
           LayoutConfig.Cls = 'borda'
+          ExplicitWidth = 1295
           object UniPanel1: TUniPanel
             AlignWithMargins = True
             Left = 3
             Top = 3
-            Width = 1226
+            Width = 1287
             Height = 517
             Hint = ''
             AutoScroll = True
@@ -660,26 +665,28 @@ object MainForm: TMainForm
             Caption = ''
             Color = clNone
             LayoutConfig.Cls = 'cor1'
+            ExplicitLeft = 99
+            ExplicitTop = -18
             ScrollHeight = 517
-            ScrollWidth = 1226
+            ScrollWidth = 1327
+            ScrollX = 40
             object UniContainerPanel2: TUniContainerPanel
               AlignWithMargins = True
-              Left = 72
-              Top = 36
-              Width = 1221
+              Left = 13
+              Top = 12
+              Width = 1060
               Height = 151
               Hint = ''
               Margins.Left = 20
               Margins.Top = 20
               Margins.Bottom = 380
-              Visible = False
               ParentColor = False
               TabOrder = 1
               object paDash1x1_Blue: TUniContainerPanel
                 AlignWithMargins = True
-                Left = 309
+                Left = 215
                 Top = 3
-                Width = 300
+                Width = 206
                 Height = 145
                 Hint = ''
                 CreateOrder = 1
@@ -689,7 +696,7 @@ object MainForm: TMainForm
                 TabOrder = 2
                 LayoutConfig.Cls = 'borda'
                 object paDashBlueImg: TUniContainerPanel
-                  Left = 246
+                  Left = 152
                   Top = 0
                   Width = 54
                   Height = 145
@@ -698,6 +705,7 @@ object MainForm: TMainForm
                   Color = 15448681
                   Align = alRight
                   TabOrder = 1
+                  ExplicitLeft = 246
                   object imgDashBlue: TUniImage
                     AlignWithMargins = True
                     Left = 3
@@ -719,7 +727,7 @@ object MainForm: TMainForm
                     Align = alClient
                   end
                 end
-                object UniLabel4: TUniLabel
+                object lbAdulto: TUniLabel
                   Left = 10
                   Top = 10
                   Width = 15
@@ -736,10 +744,10 @@ object MainForm: TMainForm
                 object UniLabel5: TUniLabel
                   Left = 11
                   Top = 64
-                  Width = 43
+                  Width = 55
                   Height = 15
                   Hint = ''
-                  Caption = 'Total de'
+                  Caption = 'Membros '
                   ParentFont = False
                   Font.Color = clWhite
                   Font.Height = -13
@@ -749,10 +757,101 @@ object MainForm: TMainForm
                 object UniLabel7: TUniLabel
                   Left = 10
                   Top = 78
-                  Width = 52
+                  Width = 42
                   Height = 15
                   Hint = ''
-                  Caption = 'Membros'
+                  Caption = 'Adultos'
+                  ParentFont = False
+                  Font.Color = clWhite
+                  Font.Height = -13
+                  Font.Name = 'Calibri'
+                  TabOrder = 4
+                end
+              end
+              object UniContainerPanel3: TUniContainerPanel
+                AlignWithMargins = True
+                Left = 851
+                Top = 3
+                Width = 206
+                Height = 145
+                Hint = ''
+                CreateOrder = 1
+                ParentColor = False
+                Color = 12615680
+                Align = alLeft
+                TabOrder = 5
+                LayoutConfig.Cls = 'borda'
+                ExplicitLeft = 808
+                object UniContainerPanel4: TUniContainerPanel
+                  Left = 152
+                  Top = 0
+                  Width = 54
+                  Height = 145
+                  Hint = ''
+                  ParentColor = False
+                  Color = 12615680
+                  Align = alRight
+                  TabOrder = 1
+                  object UniImage1: TUniImage
+                    AlignWithMargins = True
+                    Left = 3
+                    Top = 3
+                    Width = 48
+                    Height = 139
+                    Hint = ''
+                    Picture.Data = {
+                      0954506E67496D61676589504E470D0A1A0A0000000D49484452000000300000
+                      00300804000000FD0B310C00000002624B474400FF878FCCBF00000009704859
+                      7300000B1300000B1301009A9C18000001294944415478DA63FCCF405BC038D8
+                      2CF062F8CFB09D7616B0325C61F8C7A0C7F09B56161433F400C9428609B4B140
+                      8CE116033F90FEC0A0CAF0861616CC664881B266306452DF022386D30C4C50F6
+                      5F20EF12B52DD80A4C4108B0812190DA167C63E044E27D65E0A1B6055F18B851
+                      78BCD4B66013832F6D834883E104389182C07B060B6092A5B205202B3A199C80
+                      F41E8672628D1F84851D8D2D8029661CB5804E16683174313832701130E12BC3
+                      3E8632861BA45BA0C5709C818F48677E04663C1C56E0B6600B8337F101012C48
+                      FC49B5E02BC1C04106380B3FDC16909A037144FCA80523D002E2722F2E802557
+                      A35A404AEEC505D07235AA05A4E55E5C002557A35A405AEEC505507235AA05D4
+                      AA3F91227CD482510B868C05B46A3F328E5A40B405340434B70000F72079017F
+                      09CA4F0000000049454E44AE426082}
+                    Align = alClient
+                    ExplicitLeft = -29
+                    ExplicitTop = 27
+                  end
+                end
+                object lbInfantil: TUniLabel
+                  Left = 10
+                  Top = 10
+                  Width = 15
+                  Height = 36
+                  Hint = ''
+                  Caption = '5'
+                  ParentFont = False
+                  Font.Color = clWhite
+                  Font.Height = -29
+                  Font.Name = 'Calibri'
+                  Font.Style = [fsBold]
+                  TabOrder = 2
+                end
+                object UniLabel15: TUniLabel
+                  Left = 11
+                  Top = 64
+                  Width = 55
+                  Height = 15
+                  Hint = ''
+                  Caption = 'Membros '
+                  ParentFont = False
+                  Font.Color = clWhite
+                  Font.Height = -13
+                  Font.Name = 'Calibri'
+                  TabOrder = 3
+                end
+                object UniLabel16: TUniLabel
+                  Left = 10
+                  Top = 78
+                  Width = 42
+                  Height = 15
+                  Hint = ''
+                  Caption = 'Infantis'
                   ParentFont = False
                   Font.Color = clWhite
                   Font.Height = -13
@@ -764,7 +863,7 @@ object MainForm: TMainForm
                 AlignWithMargins = True
                 Left = 3
                 Top = 3
-                Width = 300
+                Width = 206
                 Height = 145
                 Hint = ''
                 ParentColor = False
@@ -773,7 +872,7 @@ object MainForm: TMainForm
                 TabOrder = 1
                 LayoutConfig.Cls = 'borda'
                 object paDashRedImg: TUniContainerPanel
-                  Left = 246
+                  Left = 152
                   Top = 0
                   Width = 54
                   Height = 145
@@ -782,6 +881,7 @@ object MainForm: TMainForm
                   Color = 4933602
                   Align = alRight
                   TabOrder = 1
+                  ExplicitLeft = 246
                   object imgDashRed: TUniImage
                     AlignWithMargins = True
                     Left = 3
@@ -830,7 +930,7 @@ object MainForm: TMainForm
                   Font.Name = 'Calibri'
                   TabOrder = 2
                 end
-                object UniLabel8: TUniLabel
+                object lbTotalMembro: TUniLabel
                   Left = 10
                   Top = 10
                   Width = 15
@@ -860,9 +960,9 @@ object MainForm: TMainForm
               end
               object paDash1x1_Purple: TUniContainerPanel
                 AlignWithMargins = True
-                Left = 615
+                Left = 427
                 Top = 3
-                Width = 300
+                Width = 206
                 Height = 145
                 Hint = ''
                 ParentColor = False
@@ -871,7 +971,7 @@ object MainForm: TMainForm
                 TabOrder = 3
                 LayoutConfig.Cls = 'borda'
                 object paDashOrangeImg: TUniContainerPanel
-                  Left = 246
+                  Left = 152
                   Top = 0
                   Width = 54
                   Height = 145
@@ -880,6 +980,7 @@ object MainForm: TMainForm
                   Color = clGray
                   Align = alRight
                   TabOrder = 1
+                  ExplicitLeft = 246
                   object imgDashOrange: TUniImage
                     AlignWithMargins = True
                     Left = 3
@@ -936,7 +1037,7 @@ object MainForm: TMainForm
                     Align = alClient
                   end
                 end
-                object UniLabel6: TUniLabel
+                object lbJovens: TUniLabel
                   Left = 10
                   Top = 10
                   Width = 30
@@ -953,10 +1054,10 @@ object MainForm: TMainForm
                 object UniLabel2: TUniLabel
                   Left = 11
                   Top = 64
-                  Width = 43
+                  Width = 52
                   Height = 15
                   Hint = ''
-                  Caption = 'Total de'
+                  Caption = 'Membros'
                   ParentFont = False
                   Font.Color = clWhite
                   Font.Height = -13
@@ -966,10 +1067,10 @@ object MainForm: TMainForm
                 object UniLabel9: TUniLabel
                   Left = 10
                   Top = 78
-                  Width = 52
+                  Width = 36
                   Height = 15
                   Hint = ''
-                  Caption = 'Membros'
+                  Caption = 'Jovens'
                   ParentFont = False
                   Font.Color = clWhite
                   Font.Height = -13
@@ -977,21 +1078,20 @@ object MainForm: TMainForm
                   TabOrder = 4
                 end
               end
-              object paDash1x1_Green: TUniContainerPanel
+              object UniContainerPanel5: TUniContainerPanel
                 AlignWithMargins = True
-                Left = 921
+                Left = 639
                 Top = 3
-                Width = 300
+                Width = 206
                 Height = 145
                 Hint = ''
-                Margins.Right = 40
                 ParentColor = False
                 Color = 8372031
                 Align = alLeft
                 TabOrder = 4
                 LayoutConfig.Cls = 'borda'
-                object paDashGreenImg: TUniContainerPanel
-                  Left = 246
+                object UniContainerPanel6: TUniContainerPanel
+                  Left = 152
                   Top = 0
                   Width = 54
                   Height = 145
@@ -1000,7 +1100,8 @@ object MainForm: TMainForm
                   Color = 8372031
                   Align = alRight
                   TabOrder = 1
-                  object imgDashGreen: TUniImage
+                  ExplicitLeft = 246
+                  object UniImage2: TUniImage
                     AlignWithMargins = True
                     Left = 3
                     Top = 3
@@ -1030,7 +1131,7 @@ object MainForm: TMainForm
                     Align = alClient
                   end
                 end
-                object UniLabel3: TUniLabel
+                object lbAdolecente: TUniLabel
                   Left = 10
                   Top = 10
                   Width = 15
@@ -1044,22 +1145,9 @@ object MainForm: TMainForm
                   Font.Style = [fsBold]
                   TabOrder = 2
                 end
-                object UniLabel10: TUniLabel
+                object UniLabel18: TUniLabel
                   Left = 11
                   Top = 64
-                  Width = 43
-                  Height = 15
-                  Hint = ''
-                  Caption = 'Total de'
-                  ParentFont = False
-                  Font.Color = clWhite
-                  Font.Height = -13
-                  Font.Name = 'Calibri'
-                  TabOrder = 3
-                end
-                object UniLabel11: TUniLabel
-                  Left = 10
-                  Top = 78
                   Width = 52
                   Height = 15
                   Hint = ''
@@ -1068,8 +1156,130 @@ object MainForm: TMainForm
                   Font.Color = clWhite
                   Font.Height = -13
                   Font.Name = 'Calibri'
+                  TabOrder = 3
+                end
+                object UniLabel19: TUniLabel
+                  Left = 10
+                  Top = 78
+                  Width = 66
+                  Height = 15
+                  Hint = ''
+                  Caption = 'Adolecentes'
+                  ParentFont = False
+                  Font.Color = clWhite
+                  Font.Height = -13
+                  Font.Name = 'Calibri'
                   TabOrder = 4
                 end
+              end
+            end
+            object pnAlteraSenha: TUniPanel
+              Left = 16
+              Top = 176
+              Width = 222
+              Height = 289
+              Hint = ''
+              Visible = False
+              TabOrder = 2
+              Caption = ''
+              LayoutConfig.Cls = 'borda'
+              DesignSize = (
+                222
+                289)
+              object edAlteraUsuario: TUniEdit
+                Left = 31
+                Top = 86
+                Width = 164
+                Hint = ''
+                CharCase = ecUpperCase
+                MaxLength = 20
+                Text = 'EDALTERAUSUARIO'
+                TabOrder = 1
+              end
+              object edAlteraSenha: TUniEdit
+                Left = 31
+                Top = 138
+                Width = 164
+                Hint = ''
+                MaxLength = 10
+                Text = 'UniEdit1'
+                TabOrder = 2
+              end
+              object UniLabel12: TUniLabel
+                Left = 16
+                Top = 16
+                Width = 123
+                Height = 28
+                Hint = ''
+                TextConversion = txtHTML
+                Caption = 'Alterar Dados'
+                Anchors = [akLeft, akTop, akRight]
+                ParentFont = False
+                Font.Color = 16744448
+                Font.Height = -20
+                Font.Name = 'Yu Gothic UI'
+                Font.Style = [fsBold]
+                ParentColor = False
+                Color = clWhite
+                TabOrder = 3
+              end
+              object sbConectar: TUniFSButton
+                Left = 25
+                Top = 179
+                Width = 170
+                Height = 32
+                Hint = ''
+                StyleButton = GoogleBlueRound
+                BadgeText.Text = '0'
+                BadgeText.TextColor = '#FFFFFF'
+                BadgeText.TextSize = 10
+                BadgeText.TextStyle = 'bold'
+                BadgeText.BackgroundColor = '#D50000'
+                Caption = 'Salvar'
+                ParentFont = False
+                Font.Style = [fsBold]
+                TabOrder = 4
+                OnClick = sbConectarClick
+              end
+              object UniFSButton1: TUniFSButton
+                Left = 25
+                Top = 217
+                Width = 170
+                Height = 32
+                Hint = ''
+                StyleButton = GoogleBlueRound
+                BadgeText.Text = '0'
+                BadgeText.TextColor = '#FFFFFF'
+                BadgeText.TextSize = 10
+                BadgeText.TextStyle = 'bold'
+                BadgeText.BackgroundColor = '#D50000'
+                Caption = 'Cancelar'
+                ParentFont = False
+                Font.Style = [fsBold]
+                TabOrder = 5
+                OnClick = UniFSButton1Click
+              end
+              object UniLabel13: TUniLabel
+                Left = 32
+                Top = 67
+                Width = 43
+                Height = 13
+                Hint = ''
+                Caption = 'Usu'#225'rio'
+                ParentFont = False
+                Font.Style = [fsBold]
+                TabOrder = 6
+              end
+              object UniLabel14: TUniLabel
+                Left = 32
+                Top = 119
+                Width = 35
+                Height = 13
+                Hint = ''
+                Caption = 'Senha'
+                ParentFont = False
+                Font.Style = [fsBold]
+                TabOrder = 7
               end
             end
           end
@@ -1080,7 +1290,7 @@ object MainForm: TMainForm
   object UniContainerPanel1: TUniContainerPanel
     Left = 0
     Top = 0
-    Width = 1464
+    Width = 1462
     Height = 41
     Hint = ''
     ParentColor = False
@@ -1088,10 +1298,11 @@ object MainForm: TMainForm
     Align = alTop
     ParentAlignmentControl = False
     TabOrder = 3
+    ExplicitWidth = 1464
     object PanelTop: TUniPanel
       Left = 0
       Top = 0
-      Width = 1464
+      Width = 1462
       Height = 41
       Hint = ''
       Margins.Left = 10
@@ -1110,9 +1321,10 @@ object MainForm: TMainForm
       Collapsed = True
       Color = clNone
       LayoutConfig.Cls = 'color'
+      ExplicitWidth = 1464
       object UniFSMenuButton1: TUniFSMenuButton
         AlignWithMargins = True
-        Left = 1379
+        Left = 1377
         Top = 5
         Width = 75
         Height = 31
@@ -1135,6 +1347,7 @@ object MainForm: TMainForm
         BadgeText.TextSize = 10
         BadgeText.TextStyle = 'bold'
         BadgeText.BackgroundColor = '#D50000'
+        ExplicitLeft = 1379
       end
       object imgIcone: TUniImage
         AlignWithMargins = True
@@ -1272,9 +1485,9 @@ object MainForm: TMainForm
       end
       object BtCan: TUniFSButton
         AlignWithMargins = True
-        Left = 1330
+        Left = 1086
         Top = 3
-        Width = 36
+        Width = 278
         Height = 35
         Hint = ''
         Margins.Right = 10
@@ -1284,7 +1497,7 @@ object MainForm: TMainForm
         BadgeText.TextSize = 10
         BadgeText.TextStyle = 'bold'
         BadgeText.BackgroundColor = '#D50000'
-        Caption = ''
+        Caption = 'Aniversariantes do M'#234's'
         Align = alRight
         ParentFont = False
         Font.Color = clBlack
@@ -1295,6 +1508,7 @@ object MainForm: TMainForm
         Images = UniNativeImageList1
         ImageIndex = 33
         OnClick = BtCanClick
+        ExplicitLeft = 1088
       end
     end
   end
@@ -1309,6 +1523,7 @@ object MainForm: TMainForm
     OverwritePrompt = False
     CreationTime = 43879.423307939820000000
     DataOnly = False
+    InteractiveFormsFontSubset = 'A-Z,a-z,0-9,#43-#47 '
     OpenAfterExport = False
     PrintOptimized = False
     Outline = False
@@ -1332,7 +1547,7 @@ object MainForm: TMainForm
     Top = 320
   end
   object frxReport1: TfrxReport
-    Version = '6.5.10'
+    Version = '6.8.6'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick, pbCopy, pbSelection]
@@ -1534,37 +1749,33 @@ object MainForm: TMainForm
       Caption = 'Home'
       OnClick = DashBoardClick
     end
-    object Cadastros1: TUniMenuItem
-      Caption = 'Cadastros'
-      ImageIndex = 19
-      object ContasPadro1: TUniMenuItem
-        Caption = 'Membros'
-        ImageIndex = 23
-        OnClick = ContasPadro1Click
-      end
-    end
     object Gerenciamento1: TUniMenuItem
-      Caption = 'Gerenciamento Membros'
+      Caption = 'Membros'
       ImageIndex = 1
       object Ativos1: TUniMenuItem
         Caption = 'Ativos'
         ImageIndex = 18
         OnClick = Ativos1Click
       end
-      object Ausentes1: TUniMenuItem
-        Caption = 'Ausentes'
-        ImageIndex = 4
-        OnClick = Ausentes1Click
+      object Adultos1: TUniMenuItem
+        Caption = 'Adultos'
+        ImageIndex = 34
+        OnClick = Adultos1Click
       end
-      object Excluidos1: TUniMenuItem
-        Caption = 'Excluidos'
-        ImageIndex = 5
-        OnClick = Excluidos1Click
+      object Jovens1: TUniMenuItem
+        Caption = 'Jovens'
+        ImageIndex = 35
+        OnClick = Jovens1Click
       end
-      object bito1: TUniMenuItem
-        Caption = #211'bito'
-        ImageIndex = 15
-        OnClick = bito1Click
+      object Adolescentes1: TUniMenuItem
+        Caption = 'Adolescentes'
+        ImageIndex = 26
+        OnClick = Adolescentes1Click
+      end
+      object Intantis1: TUniMenuItem
+        Caption = 'Intantis'
+        ImageIndex = 32
+        OnClick = Intantis1Click
       end
     end
   end
@@ -1572,7 +1783,7 @@ object MainForm: TMainForm
     Left = 104
     Top = 200
     Images = {
-      2200000000000000060A000000616374696F6E3B66613B00000000060B000000
+      2400000000000000060A000000616374696F6E3B66613B00000000060B000000
       6465736B746F703B66613B00000000060C000000656E76656C6F70653B66613B
       000000000608000000757365723B66613B00000000060E0000006C696E652D63
       686172743B66613B00000000061000000077696E646F772D636C6F73653B6661
@@ -1593,7 +1804,9 @@ object MainForm: TMainForm
       706C75733B66613B00000000060C00000065786368616E67653B66613B000000
       000613000000636172742D6172726F772D646F776E3B66613B00000000060D00
       000066696C652D746578743B66613B00000000061000000073686F7070696E67
-      2D6261673B66613B00000000060C000000626F6F6B6D61726B3B66613B}
+      2D6261673B66613B00000000060C000000626F6F6B6D61726B3B66613B000000
+      00060C00000069642D62616467653B66613B00000000060A0000007573657273
+      3B66615F3B}
   end
   object UniSweetAlert1: TUniSweetAlert
     Title = 'Title'
@@ -1602,6 +1815,8 @@ object MainForm: TMainForm
     ConfirmButtonColor = clMaroon
     CancelButtonColor = 6835774
     Padding = 20
+    OnDismiss = UniSweetAlert1Dismiss
+    OnConfirm = UniSweetAlert1Confirm
     Left = 37
     Top = 192
   end
@@ -1650,12 +1865,43 @@ object MainForm: TMainForm
   end
   object Popup1: TUniPopupMenu
     Images = UniNativeImageList1
-    Left = 1388
-    Top = 49
+    Left = 1260
+    Top = 65
     object Usuarios1: TUniMenuItem
       Caption = 'Usu'#225'rio'
       ImageIndex = 19
       OnClick = Usuarios1Click
+    end
+    object Membros1: TUniMenuItem
+      Caption = 'Membros'
+      ImageIndex = 21
+      OnClick = Membros1Click
+    end
+    object GerenciarMembros1: TUniMenuItem
+      Caption = 'Gerenciar Membros'
+      ImageIndex = 11
+      OnClick = GerenciarMembros1Click
+      object Ativo1: TUniMenuItem
+        Caption = 'Ativo'
+        OnClick = Ativo1Click
+      end
+      object Auxentes1: TUniMenuItem
+        Caption = 'Ausentes'
+        OnClick = Auxentes1Click
+      end
+      object Excluidos2: TUniMenuItem
+        Caption = 'Excluidos'
+        OnClick = Excluidos2Click
+      end
+      object bitos1: TUniMenuItem
+        Caption = #211'bitos'
+        OnClick = bitos1Click
+      end
+    end
+    object rocarSenha1: TUniMenuItem
+      Caption = 'Alterar Dados'
+      ImageIndex = 7
+      OnClick = rocarSenha1Click
     end
     object Log2: TUniMenuItem
       Caption = 'Log'

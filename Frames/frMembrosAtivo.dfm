@@ -50,28 +50,14 @@ object frameMembrosAtivos: TframeMembrosAtivos
           Color = clWindow
           Columns = <
             item
-              FieldName = 'DATA_CADASTRO'
-              Title.Caption = 'Data Cadastro'
-              Width = 74
+              FieldName = 'DT_NASCIMENTO'
+              Title.Caption = 'Nascimento'
+              Width = 134
             end
             item
               FieldName = 'NOME'
               Title.Caption = 'Nome'
-              Width = 304
-            end
-            item
-              FieldName = 'STATUS'
-              Title.Alignment = taCenter
-              Title.Caption = 'Status'
-              Width = 64
-              Alignment = taCenter
-            end
-            item
-              FieldName = 'DATASTATUS_ATIVO'
-              Title.Alignment = taCenter
-              Title.Caption = 'Data Ativo'
-              Width = 69
-              Alignment = taCenter
+              Width = 805
             end>
         end
       end
@@ -309,7 +295,7 @@ object frameMembrosAtivos: TframeMembrosAtivos
       Font.Style = [fsBold]
       TabOrder = 2
       BorderStyle = ubsNone
-      Caption = 'Cadastro de Membros'
+      Caption = ''
       Color = clNone
       object UniLabel1: TUniLabel
         Left = 784
@@ -321,33 +307,86 @@ object frameMembrosAtivos: TframeMembrosAtivos
         Caption = '.'
         TabOrder = 1
       end
-      object EdPesquisar: TUniEdit
-        AlignWithMargins = True
-        Left = 933
-        Top = 2
-        Width = 170
-        Height = 38
+      object cPanel1: TUniContainerPanel
+        Left = 762
+        Top = 0
+        Width = 361
+        Height = 42
         Hint = ''
-        Margins.Top = 2
-        Margins.Right = 20
-        Margins.Bottom = 2
-        ParentShowHint = False
-        CharCase = ecUpperCase
-        MaxLength = 40
-        Text = ''
-        ParentFont = False
-        Font.Color = clBlack
-        Font.Style = [fsBold]
+        ParentColor = False
         Align = alRight
         TabOrder = 2
-        EmptyText = 'PESQUISAR'
-        ClearButton = True
-        FieldLabel = '<i class="fas fa-search"></i>'
-        FieldLabelWidth = 20
-        FieldLabelSeparator = ' '
-        FieldLabelFont.Height = -19
-        FieldLabelFont.Style = [fsBold]
-        OnChange = EdPesquisarChange
+        object EdPesquisar: TUniEdit
+          AlignWithMargins = True
+          Left = 3
+          Top = 2
+          Width = 226
+          Height = 38
+          Hint = ''
+          Margins.Top = 2
+          Margins.Right = 20
+          Margins.Bottom = 2
+          ParentShowHint = False
+          CharCase = ecUpperCase
+          MaxLength = 40
+          Text = ''
+          ParentFont = False
+          Font.Color = clBlack
+          Font.Style = [fsBold]
+          TabOrder = 1
+          EmptyText = 'PESQUISAR'
+          ClearButton = True
+          FieldLabel = '<i class="fas fa-search"></i>'
+          FieldLabelWidth = 20
+          FieldLabelSeparator = ' '
+          FieldLabelFont.Height = -19
+          FieldLabelFont.Style = [fsBold]
+          OnChange = EdPesquisarChange
+        end
+        object smLimpar: TUniFSButton
+          AlignWithMargins = True
+          Left = 269
+          Top = 6
+          Width = 77
+          Height = 28
+          Hint = ''
+          Margins.Left = 4
+          Margins.Top = 6
+          Margins.Right = 4
+          Margins.Bottom = 6
+          ParentShowHint = False
+          StyleButton = Primary
+          BadgeText.Text = '2'
+          BadgeText.TextColor = '#FFFFFF'
+          BadgeText.TextSize = 10
+          BadgeText.TextStyle = 'bold'
+          BadgeText.BackgroundColor = '#D50000'
+          Caption = 'Limpar'
+          ParentFont = False
+          Font.Color = clWhite
+          Font.Height = -12
+          Font.Name = 'Yu Gothic UI'
+          Font.Style = [fsBold]
+          TabOrder = 2
+          LayoutConfig.Margin = '0 0 0 0'
+          OnClick = smLimparClick
+        end
+      end
+      object UniLabel2: TUniLabel
+        AlignWithMargins = True
+        Left = 3
+        Top = 8
+        Width = 78
+        Height = 24
+        Hint = ''
+        Margins.Top = 8
+        Caption = 'ATIVOS'
+        Align = alLeft
+        ParentFont = False
+        Font.Color = clBlack
+        Font.Height = -20
+        Font.Style = [fsBold]
+        TabOrder = 3
       end
     end
   end

@@ -68,6 +68,12 @@ type
     FDMembrosAusenteDATASTATUS_ATIVO: TDateField;
     FDMembrosExcluidoDATASTATUS_ATIVO: TDateField;
     FDCadMembrosDATASTATUS_ATIVO: TDateField;
+    FDCadMembrosCLASSIFICACAO: TStringField;
+    FDCadMembrosTEL: TStringField;
+    FDMembrosAtivosDT_NASCIMENTO: TDateField;
+    FDMembrosObitoDT_NASCIMENTO: TDateField;
+    FDMembrosAusenteDT_NASCIMENTO: TDateField;
+    FDMembrosExcluidoDT_NASCIMENTO: TDateField;
     procedure FDMembrosAtivosSTATUSGetText(Sender: TField; var Text: string;
       DisplayText: Boolean);
     procedure FDMembrosObitoSTATUSGetText(Sender: TField; var Text: string;
@@ -110,41 +116,45 @@ end;
 procedure TdmDados.FDCadMembrosATIVOGetText(Sender: TField; var Text: string;
   DisplayText: Boolean);
 begin
-   Text :='<i title="Ativar Membro" class="x-fa4 fa-lg fas fa-check-square"; style="color: #282cb5;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
+   Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-success btn-sm"> Ativar Membro </button> </span>';
+//   Text :='<i title="Ativar Membro" class="x-fa4 fa-lg fas fa-plus"; style="color: #282cb5;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
 end;
 
 procedure TdmDados.FDCadMembrosAUSENTEGetText(Sender: TField; var Text: string;
   DisplayText: Boolean);
 begin
-    Text :='<i title="Ausentar Membro" class="x-fa4 fa-lg fas fa-check-square"; style="color: #282cb5;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
+    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-info btn-sm"> Ausentar Membro </button> </span>';
+//    Text :='<i title="Ausentar Membro" class="x-fa4 fa-lg fas fa-plus"; style="color: #282cb5;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
 end;
 
 procedure TdmDados.FDCadMembrosEXCLUIDOGetText(Sender: TField; var Text: string;
   DisplayText: Boolean);
 begin
-   Text :='<i title="Excluir Membro" class="x-fa4 fa-lg fas fa-check-square"; style="color: #282cb5;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
+   Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-warning btn-sm"> Excluir Membro </button> </span>';
+//   Text :='<i title="Excluir Membro" class="x-fa4 fa-lg fas fa-plus"; style="color: #282cb5;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
 end;
 
 procedure TdmDados.FDCadMembrosOBITOGetText(Sender: TField; var Text: string;
   DisplayText: Boolean);
 begin
-    Text :='<i title="”bito de Membro" class="x-fa4 fa-lg fas fa-check-square"; style="color: #282cb5;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
+    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-danger btn-sm"> ”bito de Membro </button> </span>';
+//    Text :='<i title="”bito de Membro" class="x-fa4 fa-lg fas fa-plus"; style="color: #282cb5;cursor:pointer;font-style: normal;"></i>';  //  direciona para o bitao no grid
 end;
 
 procedure TdmDados.FDCadMembrosSTATUSGetText(Sender: TField; var Text: string;
   DisplayText: Boolean);
 begin
   if FDCadMembrosSTATUS.Value = 'ativo' then
-    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-success btn-sm">&nbsp&nbsp&nbspATIVO&nbsp&nbsp&nbsp</button> </span>';
+    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-success btn-sm"disabled>&nbsp&nbsp&nbspATIVO&nbsp&nbsp&nbsp</button> </span>';
 
     if FDCadMembrosSTATUS.Value = 'ausente' then
-    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-info btn-sm"> AUSENTE </button> </span>';
+    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-info btn-sm"disabled> AUSENTE </button> </span>';
 
     if FDCadMembrosSTATUS.Value = 'excluido' then
-    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-danger btn-sm">EXCLUIDO</button> </span>';
+    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-danger btn-sm"disabled>EXCLUIDO</button> </span>';
 
     if FDCadMembrosSTATUS.Value = 'obito' then
-    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-dark btn-sm">&nbsp&nbsp&nbsp”BITO&nbsp&nbsp&nbsp</button> </span>';
+    Text :='<span style="cursor:pointer">  <button type="button" class="btn btn-dark btn-sm"disabled>&nbsp&nbsp&nbsp”BITO&nbsp&nbsp&nbsp</button> </span>';
 end;
 
 procedure TdmDados.FDMembrosAtivosSTATUSGetText(Sender: TField;

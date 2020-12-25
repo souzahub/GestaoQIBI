@@ -25,6 +25,7 @@ type
     edSenhaLogin: TUniEdit;
     PnlBottom: TUniPanel;
     sbConectar: TUniFSButton;
+    sbSair: TUniFSButton;
     procedure lbAClick(Sender: TObject);
     procedure lbFClick(Sender: TObject);
     procedure UniLoginFormScreenResize(Sender: TObject; AWidth,
@@ -32,6 +33,7 @@ type
     procedure edSenhaLoginKeyPress(Sender: TObject; var Key: Char);
     procedure UniLoginFormCreate(Sender: TObject);
     procedure UniFSButton1Click(Sender: TObject);
+    procedure sbSairClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -71,6 +73,11 @@ begin
   edSenhaLogin.PasswordChar :=  '*' ;
 end;
 
+procedure TformLogin.sbSairClick(Sender: TObject);
+begin
+  Close;
+end;
+
 procedure TformLogin.UniFSButton1Click(Sender: TObject);
 begin
    dmDados.FDUsuario.Open;
@@ -87,7 +94,7 @@ begin
       UniSweetAlert1.Width := 300;
       UniSweetAlert1.Title := 'ATENÇÃO';
       UniSweetAlert1.Show('Usuario / Senha Incorreta');
-      edUsuario.SetFocus;
+
       exit;
     end;
   end
@@ -101,7 +108,7 @@ begin
     UniSweetAlert1.Width := 300;
     UniSweetAlert1.Title := 'ATENÇÃO';
     UniSweetAlert1.Show('Usuario / Senha Incorreta');
-    edUsuario.SetFocus;
+
     exit;
   end;
   ModalResult := mrOk;

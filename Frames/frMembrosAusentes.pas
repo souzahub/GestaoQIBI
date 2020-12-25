@@ -72,6 +72,8 @@ end;
 procedure TframeMembrosAusentes.UniFrameCreate(Sender: TObject);
 begin
   dmDados.FDMembrosAusente.Open();
+  PageCadastro.Pages[0].TabVisible := True;
+  PageCadastro.Pages[1].TabVisible := False;
 end;
 
 end.

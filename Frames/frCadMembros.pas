@@ -8,7 +8,8 @@ uses
   uniGUIClasses, uniGUIFrame, uniDateTimePicker, uniPanel, uniSweetAlert,
   uniScreenMask, uniGUIBaseClasses, uniImageList, uniEdit, uniButton, uniBitBtn,
   UniFSButton, uniLabel, uniBasicGrid, uniDBGrid, uniPageControl, Data.DB,
-  uDados, UniFSToast, MainModule, formAniversarioDoMes;
+  uDados, UniFSToast, MainModule, formAniversarioDoMes, uniMultiItem,
+  uniComboBox;
 
 type
   TframeCadMembros = class(TUniFrame)
@@ -26,7 +27,6 @@ type
     BtExc: TUniFSButton;
     BtInc: TUniFSButton;
     BtAlt: TUniFSButton;
-    EdPesquisar: TUniEdit;
     UniNativeImageList1: TUniNativeImageList;
     UniScreenMask1: TUniScreenMask;
     UniSweetAlert1: TUniSweetAlert;
@@ -50,6 +50,15 @@ type
     edUf: TUniEdit;
     edNumero: TUniEdit;
     UniSweetAlertUpdate: TUniSweetAlert;
+    cbClassificacao: TUniComboBox;
+    UniLabel2: TUniLabel;
+    edTel: TUniEdit;
+    UniLabel3: TUniLabel;
+    cPanel1: TUniContainerPanel;
+    EdPesquisar: TUniEdit;
+    smLimpar: TUniFSButton;
+    UniLabel5: TUniLabel;
+    Toast: TUniFSToast;
     procedure UniFrameCreate(Sender: TObject);
     procedure BtIncClick(Sender: TObject);
     procedure BtExcClick(Sender: TObject);
@@ -64,6 +73,8 @@ type
     procedure UniSweetAlertUpdateConfirm(Sender: TObject);
     procedure UniSweetAlertUpdateDismiss(Sender: TObject;
       const Reason: TDismissType);
+    procedure Tab1BeforeActivate(Sender: TObject; var AllowActivate: Boolean);
+    procedure smLimparClick(Sender: TObject);
   private
      xIncluindo, xDeletando, xEditando, xSoAlerta : Boolean;
      xAtivo, xAusente, xExcluido, xObito : Boolean;
@@ -74,6 +85,8 @@ type
 implementation
 
 {$R *.dfm}
+
+uses Main;
 
 
 
@@ -94,7 +107,7 @@ begin
 
   end;
 
-  EdPesquisar.Visible := False;
+  cPanel1.Visible := False;
   xSoAlerta := False;
   xIncluindo := False;
   xEditando := True;
@@ -112,21 +125,24 @@ begin
   BtGrv.Enabled := True;
   BtCan.Enabled := True;
 
+  cbClassificacao.Text := dmDados.FDCadMembrosCLASSIFICACAO.Value;
   dtNascimento.Text := (dmDados.FDCadMembrosDT_NASCIMENTO.AsString);
   dtBatismo.Text := (dmDados.FDCadMembrosDT_BATISMO.AsString);
   edNome.Text := dmDados.FDCadMembrosNOME.Value;
   edEndereco.Text := dmDados.FDCadMembrosENDERECO.Value;
+  edTel.Text := dmDados.FDCadMembrosTEL.Value;
   edBairro.Text := dmDados.FDCadMembrosBAIRRO.Value;
   edNumero.Text := dmDados.FDCadMembrosNUMERO.Value;
   edEmail.Text := dmDados.FDCadMembrosEMAIL.Value;
   edCidade.Text := dmDados.FDCadMembrosCIDADE.Value;
   edUf.Text := dmDados.FDCadMembrosUF.Value;
+
 end;
 
 procedure TframeCadMembros.BtCanClick(Sender: TObject);
 begin
 
-  EdPesquisar.Visible := True;
+   cPanel1.Visible := True;
   dmDados.FDCadMembros.Cancel;
   PageCadastro.ActivePage := Tab1; // Volta para a Tela de Consulta
   PageCadastro.Pages[0].TabVisible := True;
@@ -181,6 +197,34 @@ end;
 
 procedure TframeCadMembros.BtGrvClick(Sender: TObject);
 begin
+
+//     if dmDados.FDCadMembros.Locate('NOME', edNome.Text, []) then
+//    begin
+//      UniSweetAlert1.Width := 450;
+//      UniSweetAlert1.Title := ('ATENÇÃO !');
+//      UniSweetAlert1.AlertType := atInfo;
+//      UniSweetAlert1.ShowConfirmButton := False;
+//      UniSweetAlert1.ShowCancelButton := True;
+//      UniSweetAlert1.CancelButtonText := 'Ok';
+//      UniSweetAlert1.Show('Membro ja Cadastrado');
+//      exit;
+////
+//    end;
+
+  if cbClassificacao.Text = '' then
+  begin
+
+    UniSweetAlert1.Width := 450;
+    UniSweetAlert1.Title := ('ATENÇÃO !');
+    UniSweetAlert1.AlertType := atInfo;
+    UniSweetAlert1.ShowConfirmButton := False;
+    UniSweetAlert1.ShowCancelButton := True;
+    UniSweetAlert1.CancelButtonText := 'Ok';
+    UniSweetAlert1.Show('Classificação deve ser preenchido ');
+    exit;
+
+  end;
+
     if dmDados.FDCadMembrosSTATUS.Value = 'obito' then
   begin
 
@@ -195,7 +239,7 @@ begin
 
   end;
 
-   EdPesquisar.Visible := False;
+    cPanel1.Visible := False;
     //  usando  SweetAlert1
   if edNome.Text = '' then
   begin
@@ -234,7 +278,7 @@ end;
 
 procedure TframeCadMembros.BtIncClick(Sender: TObject);
 begin
-  EdPesquisar.Visible := False;
+  cPanel1.Visible := False;
   xSoAlerta := False;
   xIncluindo := True;
   xEditando := False;
@@ -257,21 +301,36 @@ begin
   edEndereco.Text := '';
   edBairro.Text := '';
   edNumero.Text := '';
+  edTel.Text := '';
   edEmail.Text := '';
   edCidade.Text := '';
   edUf.Text := '';
+  cbClassificacao.ItemIndex := -1;
+
 
 end;
 
 procedure TframeCadMembros.EdPesquisarChange(Sender: TObject);
 begin
-    // pesquisa dinamica na tabela Usuario
+    // pesquisa dinamica
   dmDados.FDCadMembros.SQL.Clear;
   dmDados.FDCadMembros.SQL.Add('select * from CAD_MEMBROS where');
   dmDados.FDCadMembros.SQL.Add('(NOME LIKE  '+QuotedStr('%'+EdPesquisar.Text+'%') );
   dmDados.FDCadMembros.SQL.Add('or CIDADE LIKE  '+QuotedStr('%'+EdPesquisar.Text+'%') );
   dmDados.FDCadMembros.SQL.Add(')order by NOME');
   dmDados.FDCadMembros.Open;
+end;
+
+procedure TframeCadMembros.smLimparClick(Sender: TObject);
+begin
+  EdPesquisar.Clear;
+  EdPesquisarChange(Sender);
+end;
+
+procedure TframeCadMembros.Tab1BeforeActivate(Sender: TObject;
+  var AllowActivate: Boolean);
+begin
+   cPanel1.Visible := True;
 end;
 
 procedure TframeCadMembros.UniDBGrid1CellClick(Column: TUniDBGridColumn);
@@ -438,7 +497,8 @@ begin
 
     dmDados.FDQueryAuxiliar.Close;
     dmDados.FDQueryAuxiliar.SQL.Clear;
-    dmDados.FDQueryAuxiliar.SQL.Add('INSERT into CAD_MEMBROS values (NULL, :vDT_NASCIMENTO, :vDT_BATISMO, :vNOME, :vENDERECO, :vNUMERO, :vBAIRRO, :vCIDADE, :vEMAIL, :vUF, :vDATA_CADASTRO, :vSTATUS, :vDATASTATUS_ATIVO )');
+    dmDados.FDQueryAuxiliar.SQL.Add('INSERT into CAD_MEMBROS values (NULL, :vDT_NASCIMENTO, :vDT_BATISMO, :vNOME, :vENDERECO, :vNUMERO, ' );
+    dmDados.FDQueryAuxiliar.SQL.Add(':vBAIRRO, :vCIDADE, :vEMAIL, :vUF, :vDATA_CADASTRO, :vSTATUS, :vDATASTATUS_ATIVO, :vCLASSIFICACAO, :vTEL )');
     dmDados.FDQueryAuxiliar.Params[0].DataType := ftDate;
     dmDados.FDQueryAuxiliar.Params[0].Value := dtNascimento.Text;
     dmDados.FDQueryAuxiliar.Params[1].DataType := ftDate;
@@ -463,13 +523,17 @@ begin
     dmDados.FDQueryAuxiliar.Params[10].Value := 'ativo';
     dmDados.FDQueryAuxiliar.Params[11].DataType := ftDate;
     dmDados.FDQueryAuxiliar.Params[11].Value := Now;
+    dmDados.FDQueryAuxiliar.Params[12].DataType := ftString;
+    dmDados.FDQueryAuxiliar.Params[12].Value := cbClassificacao.Text;
+    dmDados.FDQueryAuxiliar.Params[13].DataType := ftString;
+    dmDados.FDQueryAuxiliar.Params[13].Value := edTel.Text;
     // null
 
 
     dmDados.FDQueryAuxiliar.ExecSQL(xErro);
 
-    dmDados.FDCadMembros.Close;
-    dmDados.FDCadMembros.Open;
+//    dmDados.FDCadMembros.Close;
+//    dmDados.FDCadMembros.Open;
 
     dmDados.FDMembrosAtivos.Close;
     dmDados.FDMembrosAtivos.Open;
@@ -483,8 +547,12 @@ begin
     dmDados.FDMembrosObito.Close;
     dmDados.FDMembrosObito.Open;
 
+    smLimparClick(Sender);
+    MainForm.TotalMembros;  //função de atualizar Total de MEMBROS
+
     xIncluindo := False;
-//    Toast.Success('Sucesso', 'Membro Cadastrado ', topCenter);
+    Toast.Success('Sucesso', '', topCenter);
+
     // MainForm.RegistraLog('INCLUSÃO', 'INCLUSÃO DO USUÁRIO: '+UniNome.Text);    log
 
   end;
@@ -496,7 +564,7 @@ begin
     dmDados.FDQueryAuxiliar.Close;
     dmDados.FDQueryAuxiliar.SQL.Clear;
     dmDados.FDQueryAuxiliar.SQL.Add('update CAD_MEMBROS set DT_NASCIMENTO=:vDT_NASCIMENTO, DT_BATISMO=:vDT_BATISMO, NOME=:vNOME, ENDERECO=:vENDERECO, NUMERO=:vNUMERO, BAIRRO=:vBAIRRO,');
-    dmDados.FDQueryAuxiliar.SQL.Add('CIDADE=:vCIDADE, EMAIL=:vEMAIL, UF=:vUF, DATA_CADASTRO=:vDATA_CADASTRO, STATUS=:vSTATUS, DATASTATUS_ATIVO=:vDATASTATUS_ATIVO where ID=:vID');
+    dmDados.FDQueryAuxiliar.SQL.Add('CIDADE=:vCIDADE, EMAIL=:vEMAIL, UF=:vUF, DATA_CADASTRO=:vDATA_CADASTRO, STATUS=:vSTATUS, DATASTATUS_ATIVO=:vDATASTATUS_ATIVO, CLASSIFICACAO=:vCLASSIFICACAO, TEL=:vTEL  where ID=:vID');
     dmDados.FDQueryAuxiliar.Params[0].DataType := ftDate;
     dmDados.FDQueryAuxiliar.Params[0].Value := dtNascimento.Text;
     dmDados.FDQueryAuxiliar.Params[1].DataType := ftDate;
@@ -521,13 +589,16 @@ begin
     dmDados.FDQueryAuxiliar.Params[10].Value := 'ativo';
     dmDados.FDQueryAuxiliar.Params[11].DataType := ftDate;
     dmDados.FDQueryAuxiliar.Params[11].Value := Now;
-    // null  data Saida
-    dmDados.FDQueryAuxiliar.Params[12].DataType := ftInteger;
-    dmDados.FDQueryAuxiliar.Params[12].Value := dmDados.FDCadMembrosID.Value;
+    dmDados.FDQueryAuxiliar.Params[12].DataType := ftString;
+    dmDados.FDQueryAuxiliar.Params[12].Value := cbClassificacao.Text;
+    dmDados.FDQueryAuxiliar.Params[13].DataType := ftString;
+    dmDados.FDQueryAuxiliar.Params[13].Value := edTel.Text;
+    dmDados.FDQueryAuxiliar.Params[14].DataType := ftInteger;
+    dmDados.FDQueryAuxiliar.Params[14].Value := dmDados.FDCadMembrosID.Value;
 
     dmDados.FDQueryAuxiliar.ExecSQL(xErro);
-    dmDados.FDCadMembros.Close;
-    dmDados.FDCadMembros.Open;
+//    dmDados.FDCadMembros.Close;
+//    dmDados.FDCadMembros.Open;
 
     dmDados.FDMembrosAtivos.Close;
     dmDados.FDMembrosAtivos.Open;
@@ -541,8 +612,12 @@ begin
     dmDados.FDMembrosObito.Close;
     dmDados.FDMembrosObito.Open;
 
-//    Toast.Success('Sucesso', 'Membro Alterado ', topCenter);
+    smLimparClick(Sender);
+    MainForm.TotalMembros;  //função de atualizar Total de MEMBROS
+
     xEditando := False;
+
+    Toast.Success('Sucesso', ' ', topCenter);
   end;
 
   if xDeletando then
@@ -556,8 +631,8 @@ begin
 
     dmDados.FDQueryAuxiliar.ExecSQL(xErro);
 
-    dmDados.FDCadMembros.Close;
-    dmDados.FDCadMembros.Open;
+//    dmDados.FDCadMembros.Close;
+//    dmDados.FDCadMembros.Open;
 
     dmDados.FDMembrosAtivos.Close;
     dmDados.FDMembrosAtivos.Open;
@@ -570,9 +645,13 @@ begin
 
     dmDados.FDMembrosObito.Close;
     dmDados.FDMembrosObito.Open;
-//    Toast.Error('Sucesso', 'Membro Excluido com sucesso ', topCenter);
+    EdPesquisar.Visible := True;
+
+    smLimparClick(Sender);
+    MainForm.TotalMembros;  //função de atualizar Total de MEMBROS
     xDeletando := False;
 
+    Toast.Error('Sucesso', ' ', topCenter);
     // MainForm.RegistraLog('EXCLUSÃO', 'EXCLUÍDO DO USUÁRIO: '+vexUsuario);   log
   end;
 
@@ -586,6 +665,8 @@ begin
   xIncluindo := False;
   xEditando := False;
   xDeletando := False;
+
+
 
 end;
 
@@ -611,8 +692,8 @@ begin
     dmDados.FDQueryAuxiliar.Params[2].Value := dmDados.FDCadMembrosID.Value;
 
     dmDados.FDQueryAuxiliar.ExecSQL(xErro);
-    dmDados.FDCadMembros.Close;
-    dmDados.FDCadMembros.Open;
+//    dmDados.FDCadMembros.Close;
+//    dmDados.FDCadMembros.Open;
 
     dmDados.FDMembrosAtivos.Close;
     dmDados.FDMembrosAtivos.Open;
@@ -626,7 +707,10 @@ begin
     dmDados.FDMembrosObito.Close;
     dmDados.FDMembrosObito.Open;
 
-//    Toast.Success('Sucesso', 'Membro Alterado ', topCenter);
+    smLimparClick(Sender);
+    MainForm.TotalMembros;  //função de atualizar Total de MEMBROS
+
+    Toast.Success('Sucesso', ' ', topCenter);
     xAtivo := False;
 
   end;
@@ -648,8 +732,8 @@ begin
     dmDados.FDQueryAuxiliar.Params[2].Value := dmDados.FDCadMembrosID.Value;
 
     dmDados.FDQueryAuxiliar.ExecSQL(xErro);
-    dmDados.FDCadMembros.Close;
-    dmDados.FDCadMembros.Open;
+//    dmDados.FDCadMembros.Close;
+//    dmDados.FDCadMembros.Open;
 
     dmDados.FDMembrosAtivos.Close;
     dmDados.FDMembrosAtivos.Open;
@@ -663,7 +747,10 @@ begin
     dmDados.FDMembrosObito.Close;
     dmDados.FDMembrosObito.Open;
 
-//    Toast.Success('Sucesso', 'Membro Alterado ', topCenter);
+     smLimparClick(Sender);
+    MainForm.TotalMembros;  //função de atualizar Total de MEMBROS
+
+    Toast.Success('Sucesso', ' ', topCenter);
     xAusente := False;
   end;
 
@@ -685,8 +772,8 @@ begin
     dmDados.FDQueryAuxiliar.Params[2].Value := dmDados.FDCadMembrosID.Value;
 
     dmDados.FDQueryAuxiliar.ExecSQL(xErro);
-    dmDados.FDCadMembros.Close;
-    dmDados.FDCadMembros.Open;
+//    dmDados.FDCadMembros.Close;
+//    dmDados.FDCadMembros.Open;
 
     dmDados.FDMembrosAtivos.Close;
     dmDados.FDMembrosAtivos.Open;
@@ -700,7 +787,10 @@ begin
     dmDados.FDMembrosObito.Close;
     dmDados.FDMembrosObito.Open;
 
-//    Toast.Success('Sucesso', 'Membro Alterado ', topCenter);
+    smLimparClick(Sender);
+    MainForm.TotalMembros;  //função de atualizar Total de MEMBROS
+
+    Toast.Success('Sucesso', '', topCenter);
     xExcluido := False;
 
   end;
@@ -723,8 +813,8 @@ begin
     dmDados.FDQueryAuxiliar.Params[2].Value := dmDados.FDCadMembrosID.Value;
 
     dmDados.FDQueryAuxiliar.ExecSQL(xErro);
-    dmDados.FDCadMembros.Close;
-    dmDados.FDCadMembros.Open;
+//    dmDados.FDCadMembros.Close;
+//    dmDados.FDCadMembros.Open;
 
     dmDados.FDMembrosAtivos.Close;
     dmDados.FDMembrosAtivos.Open;
@@ -738,7 +828,10 @@ begin
     dmDados.FDMembrosObito.Close;
     dmDados.FDMembrosObito.Open;
 
-//    Toast.Success('Sucesso', 'Membro Alterado ', topCenter);
+    smLimparClick(Sender);
+    MainForm.TotalMembros;  //função de atualizar Total de MEMBROS
+
+    Toast.Success('Sucesso', ' ', topCenter);
     xObito := False;
 
   end;

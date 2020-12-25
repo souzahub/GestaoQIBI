@@ -20,7 +20,7 @@ object frameCadUsuario: TframeCadUsuario
       Width = 1143
       Height = 616
       Hint = ''
-      ActivePage = Tab2
+      ActivePage = Tab1
       Align = alClient
       TabOrder = 1
       object Tab1: TUniTabSheet
@@ -116,8 +116,10 @@ object frameCadUsuario: TframeCadUsuario
                 Hint = ''
                 Caption = 'Perfil'
                 ParentFont = False
-                Font.Color = clMenu
+                Font.Color = clBlack
                 Font.Style = [fsBold]
+                ParentColor = False
+                Color = clBlack
                 TabOrder = 5
               end
               object UniLabel4: TUniLabel
@@ -128,8 +130,10 @@ object frameCadUsuario: TframeCadUsuario
                 Hint = ''
                 Caption = 'Senha'
                 ParentFont = False
-                Font.Color = clMenu
+                Font.Color = clBlack
                 Font.Style = [fsBold]
+                ParentColor = False
+                Color = clBlack
                 TabOrder = 6
               end
               object UniLabel6: TUniLabel
@@ -140,8 +144,10 @@ object frameCadUsuario: TframeCadUsuario
                 Hint = ''
                 Caption = 'Nome'
                 ParentFont = False
-                Font.Color = clMenu
+                Font.Color = clBlack
                 Font.Style = [fsBold]
+                ParentColor = False
+                Color = clBlack
                 TabOrder = 7
               end
               object UniLabel3: TUniLabel
@@ -152,8 +158,10 @@ object frameCadUsuario: TframeCadUsuario
                 Hint = ''
                 Caption = 'Login'
                 ParentFont = False
-                Font.Color = clMenu
+                Font.Color = clBlack
                 Font.Style = [fsBold]
+                ParentColor = False
+                Color = clBlack
                 TabOrder = 8
               end
               object edNome: TUniEdit
@@ -233,7 +241,7 @@ object frameCadUsuario: TframeCadUsuario
       Font.Style = [fsBold]
       TabOrder = 2
       BorderStyle = ubsNone
-      Caption = 'Cadastro de Usu'#225'rios'
+      Caption = ''
       Color = clNone
       object UniLabel1: TUniLabel
         Left = 784
@@ -382,6 +390,22 @@ object frameCadUsuario: TframeCadUsuario
         FieldLabelFont.Height = -19
         FieldLabelFont.Style = [fsBold]
         OnChange = EdPesquisarChange
+      end
+      object UniLabel5: TUniLabel
+        AlignWithMargins = True
+        Left = 213
+        Top = 8
+        Width = 213
+        Height = 24
+        Hint = ''
+        Margins.Top = 8
+        Caption = 'Cadastro de Usu'#225'rios'
+        Align = alLeft
+        ParentFont = False
+        Font.Color = clBlack
+        Font.Height = -20
+        Font.Style = [fsBold]
+        TabOrder = 8
       end
     end
   end
