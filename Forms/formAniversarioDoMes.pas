@@ -25,6 +25,13 @@ type
     FDQueryAniver: TFDQuery;
     UniPanel2: TUniPanel;
     ComboBox1: TUniComboBox;
+    FDQueryAniverDT_NASCIMENTO: TDateField;
+    FDQueryAniverDIA: TSmallintField;
+    FDQueryAniverMES: TSmallintField;
+    FDQueryAniverANO: TSmallintField;
+    FDQueryAniverNOME: TStringField;
+    FDQueryAniverSTATUS: TStringField;
+    FDQueryAniverCLASSIFICACAO: TStringField;
     procedure UniFormCreate(Sender: TObject);
     procedure FDQueryAniverFilterRecord(DataSet: TDataSet; var Accept: Boolean);
     procedure ComboBox1CloseUp(Sender: TObject);

@@ -1,0 +1,23 @@
+GestaoQIBI.exe: 000016D8: 15:17:16 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 000016D8: 15:17:16 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 000016D8: 15:17:16 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 000016D8: 15:17:16 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 0000133C: 15:17:32 [HandleFileRequest[192.168.0.109]]:File not found: F:\DEV\PROJETO DELPHI\Projeo Unigui\Desktop\GestaoQIBI\GestaoQIBI\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 000015A0: 15:19:40 [192.168.0.109]:UniErrorException : Event:Toast, Object: O7CF not found in session list. It could be timed out, refresh page and try again : Addr: $00000000
+GestaoQIBI.exe: 00002550: 15:21:55 [HandleFileRequest[192.168.0.109]]:File not found: F:\DEV\PROJETO DELPHI\Projeo Unigui\Desktop\GestaoQIBI\GestaoQIBI\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 0000199C: 15:26:45 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000199C: 15:26:45 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000199C: 15:26:45 [TUniServerModule]:Global Cache Folder Erased. <154> Files deleted.
+GestaoQIBI.exe: 0000199C: 15:26:45 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000199C: 15:26:45 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 0000199C: 15:26:49 [TUniServerModule]:Shutting Down Server.
+GestaoQIBI.exe: 0000199C: 15:26:49 [TUniServerModule]:Stopping HTTP Server.
+GestaoQIBI.exe: 0000199C: 15:26:49 [TUniServerModule]:HTTP Server Stopped.
+GestaoQIBI.exe: 0000199C: 15:26:49 [TUniGUISessionManager]:Terminating Session manager.
+GestaoQIBI.exe: 0000199C: 15:26:49 [TUniGUISessionManager]:Stopping Cache Eraser...
+GestaoQIBI.exe: 0000199C: 15:26:49 [TUniGUISessionManager]:Cache Eraser Stopped.
+GestaoQIBI.exe: 0000199C: 15:26:49 [TUniGUISessionManager]:Destroying Worker Threads.
+GestaoQIBI.exe: 0000199C: 15:26:49 [TUniGUISessionManager]:Session manager terminated.
+GestaoQIBI.exe: 0000199C: 15:26:49 [TUniServerModule]:Server Shutdown Completed.
+GestaoQIBI.exe: 0000199C: 15:26:49 []:<-------------------------------------------------------------->
+GestaoQIBI.exe: 0000199C: 15:26:49 [Terminated]:Exit Code: 0

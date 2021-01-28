@@ -187,10 +187,55 @@ object forAnivMEs: TforAnivMEs
     OnFilterRecord = FDQueryAniverFilterRecord
     Connection = UniMainModule.FDConnection1
     SQL.Strings = (
+      'SELECT DT_NASCIMENTO,'
+      '  EXTRACT (DAY FROM DT_NASCIMENTO) as DIA,'
+      '  EXTRACT (MONTH FROM DT_NASCIMENTO) as MES,'
+      '  EXTRACT (YEAR FROM DT_NASCIMENTO) as ANO,'
       
-        'SELECT DT_NASCIMENTO, NOME ,STATUS, CLASSIFICACAO   FROM CAD_MEM' +
-        'BROS Where STATUS = '#39'ativo'#39' order by NOME  ;')
+        '  NOME ,STATUS, CLASSIFICACAO   FROM CAD_MEMBROS Where STATUS = ' +
+        #39'ativo'#39' or STATUS = '#39'ausente'#39' order by DIA;')
     Left = 128
     Top = 40
+    object FDQueryAniverDT_NASCIMENTO: TDateField
+      FieldName = 'DT_NASCIMENTO'
+      Origin = 'DT_NASCIMENTO'
+      DisplayFormat = 'dd/mm'
+    end
+    object FDQueryAniverDIA: TSmallintField
+      AutoGenerateValue = arDefault
+      FieldName = 'DIA'
+      Origin = 'DIA'
+      ProviderFlags = []
+      ReadOnly = True
+    end
+    object FDQueryAniverMES: TSmallintField
+      AutoGenerateValue = arDefault
+      FieldName = 'MES'
+      Origin = 'MES'
+      ProviderFlags = []
+      ReadOnly = True
+    end
+    object FDQueryAniverANO: TSmallintField
+      AutoGenerateValue = arDefault
+      FieldName = 'ANO'
+      Origin = 'ANO'
+      ProviderFlags = []
+      ReadOnly = True
+    end
+    object FDQueryAniverNOME: TStringField
+      FieldName = 'NOME'
+      Origin = 'NOME'
+      Size = 50
+    end
+    object FDQueryAniverSTATUS: TStringField
+      FieldName = 'STATUS'
+      Origin = 'STATUS'
+      Size = 10
+    end
+    object FDQueryAniverCLASSIFICACAO: TStringField
+      FieldName = 'CLASSIFICACAO'
+      Origin = 'CLASSIFICACAO'
+      Size = 15
+    end
   end
 end
