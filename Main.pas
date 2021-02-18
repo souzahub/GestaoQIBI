@@ -184,9 +184,11 @@ var vTOTAL, vQuantidadeMembro : Integer;
 begin
   // conta total de de membros
   dmDados.FDQueryAuxiliar.SQL.Clear;
-  dmDados.FDQueryAuxiliar.SQL.Add('select COUNT( ID ) as TOTAL from CAD_MEMBROS Where STATUS=:vSTATUS');
+  dmDados.FDQueryAuxiliar.SQL.Add('select COUNT( ID ) as TOTAL from CAD_MEMBROS Where STATUS=:vSTATUS or STATUS=:vSTATUS1 ');
   dmDados.FDQueryAuxiliar.Params[0].DataType := ftString;
   dmDados.FDQueryAuxiliar.Params[0].Value :='ativo'; // membros ativos
+  dmDados.FDQueryAuxiliar.Params[1].DataType := ftString;
+  dmDados.FDQueryAuxiliar.Params[1].Value :='ausente'; // membros ausentes
   dmDados.FDQueryAuxiliar.Open;
   lbTotalMembro.Caption := FormatFloat('#0', dmDados.FDQueryAuxiliar.FieldByName('TOTAL').AsCurrency );
   dmDados.FDQueryAuxiliar.Close;
@@ -335,6 +337,7 @@ end;
 
 procedure TMainForm.Log2Click(Sender: TObject);
 begin
+exit;
   if (not MainModule.UniMainModule.vADMIN) then
   begin
    Toast.Error('Atenção!', 'Usuário não autorizado ', topCenter);

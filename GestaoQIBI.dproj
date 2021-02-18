@@ -137,6 +137,9 @@
 $(PreBuildEvent)]]></PreBuildEvent>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
+        <UWP_DelphiLogo44>Win32\Debug\files\img\loQIbiM.png</UWP_DelphiLogo44>
+        <Icon_MainIcon>icons8_cathedral.ico</Icon_MainIcon>
+        <UWP_DelphiLogo150>Win32\Debug\files\img\loQIbiM.png</UWP_DelphiLogo150>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
         <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
@@ -261,16 +264,22 @@ $(PreBuildEvent)]]></PreBuildEvent>
             <Delphi.Personality>
                 <Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\DataExplorerDBXPluginEnt260.bpl">DBExpress Enterprise Data Explorer Integration</Excluded_Packages>
-                    <Excluded_Packages Name="$(BDSBIN)\bcboffice2k260.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>
-                    <Excluded_Packages Name="$(BDSBIN)\bcbofficexp260.bpl">Embarcadero C++Builder Office XP Servers Package</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dcloffice2k260.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dclofficexp260.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Users\luan\Downloads\Compressed\MIDA_Converter_Basic_patched_for_RAD_Studio_10.3.2_Rio_Downloadly.ir\MIDA Converter Basic patched for RAD Studio 10.3.2 Rio\MidaBasicDesign260.bpl">File C:\Users\luan\Downloads\Compressed\MIDA_Converter_Basic_patched_for_RAD_Studio_10.3.2_Rio_Downloadly.ir\MIDA Converter Basic patched for RAD Studio 10.3.2 Rio\MidaBasicDesign260.bpl not found</Excluded_Packages>
                 </Excluded_Packages>
                 <Source>
                     <Source Name="MainSource">GestaoQIBI.dpr</Source>
                 </Source>
             </Delphi.Personality>
             <Deployment Version="3">
+                <DeployFile LocalName="Win32\Debug\files\img\loQIbiM.png" Configuration="Debug" Class="UWP_DelphiLogo44">
+                    <Platform Name="Win32">
+                        <RemoteDir>Assets\</RemoteDir>
+                        <RemoteName>Logo44x44.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Win32\Debug\GestaoQIBI.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>GestaoQIBI.exe</RemoteName>

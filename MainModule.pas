@@ -19,6 +19,7 @@ type
   public
     xUsuario,xResponsavel: string; // usuario global
     vADMIN : Boolean; // variavei para perfil
+    xAusente : string;
 
 
   end;

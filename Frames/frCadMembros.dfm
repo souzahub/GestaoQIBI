@@ -20,7 +20,7 @@ object frameCadMembros: TframeCadMembros
       Width = 1123
       Height = 648
       Hint = ''
-      ActivePage = Tab2
+      ActivePage = Tab1
       Align = alClient
       TabOrder = 1
       object Tab1: TUniTabSheet
@@ -599,6 +599,22 @@ object frameCadMembros: TframeCadMembros
         Font.Height = -20
         Font.Style = [fsBold]
         TabOrder = 8
+      end
+      object lbAusente: TUniLabel
+        AlignWithMargins = True
+        Left = 472
+        Top = 10
+        Width = 287
+        Height = 29
+        Hint = ''
+        Margins.Top = 10
+        AutoSize = False
+        Caption = 'lbAusente'
+        Align = alRight
+        ParentColor = False
+        Color = clWhite
+        TabOrder = 9
+        ExplicitHeight = 24
       end
     end
   end

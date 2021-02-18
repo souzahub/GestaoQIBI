@@ -59,6 +59,7 @@ type
     smLimpar: TUniFSButton;
     UniLabel5: TUniLabel;
     Toast: TUniFSToast;
+    lbAusente: TUniLabel;
     procedure UniFrameCreate(Sender: TObject);
     procedure BtIncClick(Sender: TObject);
     procedure BtExcClick(Sender: TObject);
@@ -338,7 +339,21 @@ begin
 
    if Column.Field = dmDados.FDCadMembrosATIVO then
    begin
-       if dmDados.FDCadMembrosSTATUS.Value = 'obito' then
+       if dmDados.FDCadMembrosSTATUS.Value = 'ativo' then
+    begin
+
+      UniSweetAlert1.Width := 300;
+      UniSweetAlert1.Title := ('ATENÇÃO !!!');
+      UniSweetAlert1.AlertType := atInfo;
+      UniSweetAlert1.ShowConfirmButton := False;
+      UniSweetAlert1.ShowCancelButton := True;
+      UniSweetAlert1.CancelButtonText := 'Ok';
+      UniSweetAlert1.Show('Membro Ativo');
+      exit;
+
+    end;
+
+    if dmDados.FDCadMembrosSTATUS.Value = 'obito' then
     begin
 
       UniSweetAlert1.Width := 300;
@@ -372,6 +387,19 @@ begin
 
      if Column.Field = dmDados.FDCadMembrosAUSENTE then
    begin
+       if dmDados.FDCadMembrosSTATUS.Value = 'ausente' then
+    begin
+
+      UniSweetAlert1.Width := 300;
+      UniSweetAlert1.Title := ('ATENÇÃO !!!');
+      UniSweetAlert1.AlertType := atInfo;
+      UniSweetAlert1.ShowConfirmButton := False;
+      UniSweetAlert1.ShowCancelButton := True;
+      UniSweetAlert1.CancelButtonText := 'Ok';
+      UniSweetAlert1.Show('Membro em Ausente');
+      exit;
+
+    end;
        if dmDados.FDCadMembrosSTATUS.Value = 'obito' then
     begin
 
@@ -404,6 +432,19 @@ begin
 
      if Column.Field = dmDados.FDCadMembrosEXCLUIDO then
    begin
+       if dmDados.FDCadMembrosSTATUS.Value = 'excluido' then
+    begin
+
+      UniSweetAlert1.Width := 300;
+      UniSweetAlert1.Title := ('ATENÇÃO !!!');
+      UniSweetAlert1.AlertType := atInfo;
+      UniSweetAlert1.ShowConfirmButton := False;
+      UniSweetAlert1.ShowCancelButton := True;
+      UniSweetAlert1.CancelButtonText := 'Ok';
+      UniSweetAlert1.Show('Membro ja Excluido');
+      exit;
+
+    end;
 
        if dmDados.FDCadMembrosSTATUS.Value = 'obito' then
     begin
@@ -747,8 +788,9 @@ begin
     dmDados.FDMembrosObito.Close;
     dmDados.FDMembrosObito.Open;
 
-     smLimparClick(Sender);
+    smLimparClick(Sender);
     MainForm.TotalMembros;  //função de atualizar Total de MEMBROS
+
 
     Toast.Success('Sucesso', ' ', topCenter);
     xAusente := False;

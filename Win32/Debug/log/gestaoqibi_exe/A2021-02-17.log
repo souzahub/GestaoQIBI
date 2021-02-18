@@ -1,0 +1,25 @@
+GestaoQIBI.exe: 0000308C: 23:27:59 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 0000308C: 23:27:59 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 0000308C: 23:27:59 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 0000308C: 23:27:59 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 000032F4: 23:28:15 [HandleFileRequest[127.0.0.1]]:File not found: F:\DEV\PROJETO DELPHI\Projeo Unigui\Desktop\GestaoQIBI\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002F08: 23:29:01 []:>--------------------------------------------------------------<
+GestaoQIBI.exe: 00002F08: 23:29:01 [TUniServerModule]:Server First Init.
+GestaoQIBI.exe: 00002F08: 23:29:01 [TUniServerModule]:Global Cache Folder Erased. <147> Files deleted.
+GestaoQIBI.exe: 00002F08: 23:29:01 [TUniServerModule]:Starting HTTP Server on Port: 8084...
+GestaoQIBI.exe: 00002F08: 23:29:01 [TUniServerModule]:HTTP Server Started on Port: 8084
+GestaoQIBI.exe: 00001C50: 23:31:43 [127.0.0.1]:EUniSessionException : Sessão inválida ou tempo limite de sessão. (Session not found: jzO5SNi3iK107B879A6 ) : Addr: $008069E2
+GestaoQIBI.exe: 00002740: 23:31:44 [HandleFileRequest[127.0.0.1]]:File not found: F:\DEV\PROJETO DELPHI\Projeo Unigui\Desktop\GestaoQIBI\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00001AF8: 23:33:51 [HandleFileRequest[127.0.0.1]]:File not found: F:\DEV\PROJETO DELPHI\Projeo Unigui\Desktop\GestaoQIBI\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00003150: 23:47:55 [HandleFileRequest[127.0.0.1]]:File not found: F:\DEV\PROJETO DELPHI\Projeo Unigui\Desktop\GestaoQIBI\Win32\Debug\files\files\font\yugothib.ttf
+GestaoQIBI.exe: 00002F08: 23:50:20 [TUniServerModule]:Shutting Down Server.
+GestaoQIBI.exe: 00002F08: 23:50:20 [TUniServerModule]:Stopping HTTP Server.
+GestaoQIBI.exe: 00002F08: 23:50:21 [TUniServerModule]:HTTP Server Stopped.
+GestaoQIBI.exe: 00002F08: 23:50:21 [TUniGUISessionManager]:Terminating Session manager.
+GestaoQIBI.exe: 00002F08: 23:50:21 [TUniGUISessionManager]:Stopping Cache Eraser...
+GestaoQIBI.exe: 00002F08: 23:50:21 [TUniGUISessionManager]:Cache Eraser Stopped.
+GestaoQIBI.exe: 00002F08: 23:50:21 [TUniGUISessionManager]:Destroying Worker Threads.
+GestaoQIBI.exe: 00002F08: 23:50:21 [TUniGUISessionManager]:Session manager terminated.
+GestaoQIBI.exe: 00002F08: 23:50:21 [TUniServerModule]:Server Shutdown Completed.
+GestaoQIBI.exe: 00002F08: 23:50:21 []:<-------------------------------------------------------------->
+GestaoQIBI.exe: 00002F08: 23:50:21 [Terminated]:Exit Code: 0

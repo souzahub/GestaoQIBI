@@ -7462,10 +7462,11 @@ object UniMainModule: TUniMainModule
   end
   object FDConnection1: TFDConnection
     Params.Strings = (
-      'Database=C:\BD\BD-QIBI\BD.FDB'
+      'Database=C:\app1\BD-QIBI\BD.FDB'
       'User_Name=SYSDBA'
       'Password=199122'
       'DriverID=FB')
+    Connected = True
     LoginPrompt = False
     Left = 32
     Top = 32
